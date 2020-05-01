@@ -1,0 +1,113 @@
+-- 加载全局模块
+require "Framework/Common/BaseClass"
+require "Framework/Common/DataClass"
+require "Framework/Common/ConstClass"
+
+-- 创建全局模块
+--Config = require "Global.Config"
+Singleton = require "Framework/Common/Singleton"
+Updatable = require "Framework.Common.Updatable"
+UpdatableSingleton = require "Framework.Common.UpdatableSingleton"
+--SortingLayerNames = require "Global.SortingLayerNames"
+Logger = require "Framework.Logger.Logger"
+require "Framework.Updater.Coroutine"
+
+-- ui base
+UIUtil = require "Framework.UI.Util.UIUtil"
+--UIBaseModel = require "Framework.UI.Base.UIBaseModel"
+--UIBaseCtrl = require "Framework.UI.Base.UIBaseCtrl"
+--UIBaseComponent = require "Framework.UI.Base.UIBaseComponent"
+--UIBaseContainer = require "Framework.UI.Base.UIBaseContainer"
+--UIBaseView = require "Framework.UI.Base.UIBaseView"
+
+-- update & time
+Timer = require "Framework.Updater.Timer"
+TimerManager = require "Framework.Updater.TimerManager"
+UpdateManager = require "Framework.Updater.UpdateManager"
+--LogicUpdater = require "GameLogic.Main.LogicUpdater"
+
+
+-- 单例类初始化
+--UIManager:GetInstance()
+UpdateManager:GetInstance()
+
+
+-- 辅助记录全局变量的名称是否被使用过
+--local _GlobalNames = { }
+--
+--local function __innerDeclare(name, defaultValue)
+--    if not rawget(_G, name) then
+--        rawset(_G, name, defaultValue or false)
+--    else
+--        Log.Error("[Warning] The global variable " .. name .. " is already declared!")
+--    end
+--    _GlobalNames[name] = true
+--    return _G[name]
+--end
+--
+--local function __innerDeclareIndex(tbl, key)
+--    if not _GlobalNames[key] then
+--        Log.Error("Attempt to access an undeclared global variable : " .. key, 2)
+--    end
+--
+--    return nil
+--end
+--
+--local function __innerDeclareNewindex(tbl, key, value)
+--    if not _GlobalNames[key] then
+--        Log.Error("Attempt to write an undeclared global variable : " .. key, 2)
+--    else
+--        rawset(tbl, key, value)
+--    end
+--end
+--
+--local function __GLDeclare(name, defaultValue)
+--    local ok, ret = pcall(__innerDeclare, name, defaultValue)
+--    if not ok then
+--        Log.Error(debug.traceback(res, 2))
+--        return nil
+--    else
+--        return ret
+--    end
+--end
+--
+--local function __isGLDeclared(name)
+--    if _GlobalNames[name] or rawget(_G, name) then
+--        return true
+--    else
+--        return false
+--    end
+--end
+--
+---- Set "GLDeclare" into global.
+--if (not __isGLDeclared("GLDeclare")) or (not GLDeclare) then
+--    __GLDeclare("GLDeclare", __GLDeclare)
+--end
+--
+---- Set "IsGLDeclared" into global.
+--if (not __isGLDeclared("IsGLDeclared")) or(not IsGLDeclared) then
+--    __GLDeclare("IsGLDeclared", __isGLDeclared)
+--end
+--
+--setmetatable(_G,
+--{
+--    __index = function(tbl, key)
+--        local ok, res = pcall(__innerDeclareIndex, tbl, key)
+--        if not ok then
+--            Log.Error(debug.traceback(res, 2))
+--        end
+--
+--        return nil
+--    end,
+--
+--    __newindex = function(tbl, key, value)
+--        local ok, res = pcall(__innerDeclareNewindex, tbl, key, value)
+--        if not ok then
+--            Log.Error(debug.traceback(res, 2))
+--        end
+--    end
+--} )
+--
+--return __GLDeclare
+
+

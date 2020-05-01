@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <item ID="1001">
+    <mName>铁甲战士</mName>
+    <entityId>20000</entityId>
+    <mType>1</mType>
+    <isStop>1</isStop>
+    <resPath>PrefabNPC/MonsterSoldier_1</resPath>
+    <skillID>201</skillID>
+    <atkDis>2</atkDis>
+    <hp>800</hp>
+    <ad>100</ad>
+    <ap>80</ap>
+    <addef>5</addef>
+    <apdef>10</apdef>
+    <dodge>10</dodge>
+    <pierce>5</pierce>
+    <critical>35</critical>
+  </item>
+  <item ID="2001">
+    <mName>地狱魔卫</mName>
+    <mType>2</mType>
+    <entityId>20001</entityId>
+    <isStop>0</isStop>
+    <resPath>PrefabNPC/MonsterBoss_1</resPath>
+    <skillID>301</skillID>
+    <atkDis>4.5</atkDis>
+    <hp>3800</hp>
+    <ad>250</ad>
+    <ap>180</ap>
+    <addef>55</addef>
+    <apdef>60</apdef>
+    <dodge>5</dodge>
+    <pierce>10</pierce>
+    <critical>20</critical>
+  </item>
+</root>

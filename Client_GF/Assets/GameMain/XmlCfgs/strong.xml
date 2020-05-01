@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item ID="1">
+		<pos>0</pos>
+		<starlv>1</starlv>
+		<addhp>20</addhp>
+		<addhurt>25</addhurt>
+		<adddef>18</adddef>
+		<minlv>1</minlv>
+		<coin>150</coin>
+		<crystal>5</crystal>
+	</item>
+	<item ID="2">
+		<pos>0</pos>
+		<starlv>2</starlv>
+		<addhp>21</addhp>
+		<addhurt>26</addhurt>
+		<adddef>19</adddef>
+		<minlv>5</minlv>
+		<coin>200</coin>
+		<crystal>8</crystal>
+	</item>
+	<item ID="3">
+		<pos>0</pos>
+		<starlv>3</starlv>
+		<addhp>22</addhp>
+		<addhurt>27</addhurt>
+		<adddef>20</adddef>
+		<minlv>10</minlv>
+		<coin>250</coin>
+		<crystal>11</crystal>
+	</item>
+	<item ID="4">
+		<pos>0</pos>
+		<starlv>4</starlv>
+		<addhp>23</addhp>
+		<addhurt>28</addhurt>
+		<adddef>21</adddef>
+		<minlv>15</minlv>
+		<coin>300</coin>
+		<crystal>14</crystal>
+	</item>
+	<item ID="5">
+		<pos>0</pos>
+		<starlv>5</starlv>
+		<addhp>24</addhp>
+		<addhurt>29</addhurt>
+		<adddef>22</adddef>
+		<minlv>20</minlv>
+		<coin>350</coin>
+		<crystal>17</crystal>
+	</item>
+	<item ID="6">
+		<pos>0</pos>
+		<starlv>6</starlv>
+		<addhp>25</addhp>
+		<addhurt>30</addhurt>
+		<adddef>23</adddef>
+		<minlv>25</minlv>
+		<coin>400</coin>
+		<crystal>20</crystal>
+	</item>
+	<item ID="7">
+		<pos>0</pos>
+		<starlv>7</starlv>
+		<addhp>26</addhp>
+		<addhurt>31</addhurt>
+		<adddef>24</adddef>
+		<minlv>30</minlv>
+		<coin>450</coin>
+		<crystal>23</crystal>
+	</item>
+	<item ID="8">
+		<pos>0</pos>
+		<starlv>8</starlv>
+		<addhp>27</addhp>
+		<addhurt>32</addhurt>
+		<adddef>25</adddef>
+		<minlv>35</minlv>
+		<coin>500</coin>
+		<crystal>26</crystal>
+	</item>
+	<item ID="9">
+		<pos>0</pos>
+		<starlv>9</starlv>
+		<addhp>28</addhp>
+		<addhurt>33</addhurt>
+		<adddef>26</adddef>
+		<minlv>40</minlv>
+		<coin>550</coin>
+		<crystal>29</crystal>
+	</item>
+	<item ID="10">
+		<pos>0</pos>
+		<starlv>10</starlv>
+		<addhp>29</addhp>
+		<addhurt>34</addhurt>
+		<adddef>27</adddef>
+		<minlv>45</minlv>
+		<coin>650</coin>
+		<crystal>32</crystal>
+	</item>
+	<item ID="11">
+		<pos>1</pos>
+		<starlv>1</starlv>
+		<addhp>25</addhp>
+		<addhurt>27</addhurt>
+		<adddef>20</adddef>
+		<minlv>1</minlv>
+		<coin>140</coin>
+		<crystal>5</crystal>
+	</item>
+	<item ID="12">
+		<pos>1</pos>
+		<starlv>2</starlv>
+		<addhp>26</addhp>
+		<addhurt>28</addhurt>
+		<adddef>22</adddef>
+		<minlv>2</minlv>
+		<coin>150</coin>
+		<crystal>8</crystal>
+	</item>
+	<item ID="13">
+		<pos>1</pos>
+		<starlv>3</starlv>
+		<addhp>27</addhp>
+		<addhurt>29</addhurt>
+		<adddef>24</adddef>
+		<minlv>3</minlv>
+		<coin>160</coin>
+		<crystal>11</crystal>
+	</item>
+	<item ID="14">
+		<pos>1</pos>
+		<starlv>4</starlv>
+		<addhp>28</addhp>
+		<addhurt>30</addhurt>
+		<adddef>26</adddef>
+		<minlv>4</minlv>
+		<coin>170</coin>
+		<crystal>14</crystal>
+	</item>
+	<item ID="15">
+		<pos>1</pos>
+		<starlv>5</starlv>
+		<addhp>29</addhp>
+		<addhurt>31</addhurt>
+		<adddef>28</adddef>
+		<minlv>5</minlv>
+		<coin>180</coin>
+		<crystal>17</crystal>
+	</item>
+	<item ID="16">
+		<pos>1</pos>
+		<starlv>6</starlv>
+		<addhp>30</addhp>
+		<addhurt>32</addhurt>
+		<adddef>30</adddef>
+		<minlv>6</minlv>
+		<coin>190</coin>
+		<crystal>20</crystal>
+	</item>
+	<item ID="17">
+		<pos>1</pos>
+		<starlv>7</starlv>
+		<addhp>31</addhp>
+		<addhurt>33</addhurt>
+		<adddef>32</adddef>
+		<minlv>7</minlv>
+		<coin>200</coin>
+		<crystal>23</crystal>
+	</item>
+	<item ID="18">
+		<pos>1</pos>
+		<starlv>8</starlv>
+		<addhp>32</addhp>
+		<addhurt>34</addhurt>
+		<adddef>34</adddef>
+		<minlv>8</minlv>
+		<coin>210</coin>
+		<crystal>26</crystal>
+	</item>
+	<item ID="19">
+		<pos>1</pos>
+		<starlv>9</starlv>
+		<addhp>33</addhp>
+		<addhurt>35</addhurt>
+		<adddef>36</adddef>
+		<minlv>9</minlv>
+		<coin>220</coin>
+		<crystal>29</crystal>
+	</item>
+	<item ID="20">
+		<pos>1</pos>
+		<starlv>10</starlv>
+		<addhp>34</addhp>
+		<addhurt>36</addhurt>
+		<adddef>38</adddef>
+		<minlv>10</minlv>
+		<coin>230</coin>
+		<crystal>32</crystal>
+	</item>
+	<item ID="21">
+		<pos>2</pos>
+		<starlv>1</starlv>
+		<addhp>20</addhp>
+		<addhurt>25</addhurt>
+		<adddef>18</adddef>
+		<minlv>1</minlv>
+		<coin>150</coin>
+		<crystal>5</crystal>
+	</item>
+	<item ID="22">
+		<pos>2</pos>
+		<starlv>2</starlv>
+		<addhp>21</addhp>
+		<addhurt>26</addhurt>
+		<adddef>19</adddef>
+		<minlv>5</minlv>
+		<coin>200</coin>
+		<crystal>8</crystal>
+	</item>
+	<item ID="23">
+		<pos>2</pos>
+		<starlv>3</starlv>
+		<addhp>22</addhp>
+		<addhurt>27</addhurt>
+		<adddef>20</adddef>
+		<minlv>10</minlv>
+		<coin>250</coin>
+		<crystal>11</crystal>
+	</item>
+	<item ID="24">
+		<pos>2</pos>
+		<starlv>4</starlv>
+		<addhp>23</addhp>
+		<addhurt>28</addhurt>
+		<adddef>21</adddef>
+		<minlv>15</minlv>
+		<coin>300</coin>
+		<crystal>14</crystal>
+	</item>
+	<item ID="25">
+		<pos>2</pos>
+		<starlv>5</starlv>
+		<addhp>24</addhp>
+		<addhurt>29</addhurt>
+		<adddef>22</adddef>
+		<minlv>20</minlv>
+		<coin>350</coin>
+		<crystal>17</crystal>
+	</item>
+	<item ID="26">
+		<pos>2</pos>
+		<starlv>6</starlv>
+		<addhp>25</addhp>
+		<addhurt>30</addhurt>
+		<adddef>23</adddef>
+		<minlv>25</minlv>
+		<coin>400</coin>
+		<crystal>20</crystal>
+	</item>
+	<item ID="27">
+		<pos>2</pos>
+		<starlv>7</starlv>
+		<addhp>26</addhp>
+		<addhurt>31</addhurt>
+		<adddef>24</adddef>
+		<minlv>30</minlv>
+		<coin>450</coin>
+		<crystal>23</crystal>
+	</item>
+	<item ID="28">
+		<pos>2</pos>
+		<starlv>8</starlv>
+		<addhp>27</addhp>
+		<addhurt>32</addhurt>
+		<adddef>25</adddef>
+		<minlv>35</minlv>
+		<coin>500</coin>
+		<crystal>26</crystal>
+	</item>
+	<item ID="29">
+		<pos>2</pos>
+		<starlv>9</starlv>
+		<addhp>28</addhp>
+		<addhurt>33</addhurt>
+		<adddef>26</adddef>
+		<minlv>40</minlv>
+		<coin>550</coin>
+		<crystal>29</crystal>
+	</item>
+	<item ID="30">
+		<pos>2</pos>
+		<starlv>10</starlv>
+		<addhp>29</addhp>
+		<addhurt>34</addhurt>
+		<adddef>27</adddef>
+		<minlv>45</minlv>
+		<coin>650</coin>
+		<crystal>32</crystal>
+	</item>
+	<item ID="31">
+		<pos>3</pos>
+		<starlv>1</starlv>
+		<addhp>20</addhp>
+		<addhurt>25</addhurt>
+		<adddef>18</adddef>
+		<minlv>1</minlv>
+		<coin>150</coin>
+		<crystal>5</crystal>
+	</item>
+	<item ID="32">
+		<pos>3</pos>
+		<starlv>2</starlv>
+		<addhp>21</addhp>
+		<addhurt>26</addhurt>
+		<adddef>19</adddef>
+		<minlv>5</minlv>
+		<coin>200</coin>
+		<crystal>8</crystal>
+	</item>
+	<item ID="33">
+		<pos>3</pos>
+		<starlv>3</starlv>
+		<addhp>22</addhp>
+		<addhurt>27</addhurt>
+		<adddef>20</adddef>
+		<minlv>10</minlv>
+		<coin>250</coin>
+		<crystal>11</crystal>
+	</item>
+	<item ID="34">
+		<pos>3</pos>
+		<starlv>4</starlv>
+		<addhp>23</addhp>
+		<addhurt>28</addhurt>
+		<adddef>21</adddef>
+		<minlv>15</minlv>
+		<coin>300</coin>
+		<crystal>14</crystal>
+	</item>
+	<item ID="35">
+		<pos>3</pos>
+		<starlv>5</starlv>
+		<addhp>24</addhp>
+		<addhurt>29</addhurt>
+		<adddef>22</adddef>
+		<minlv>20</minlv>
+		<coin>350</coin>
+		<crystal>17</crystal>
+	</item>
+	<item ID="36">
+		<pos>3</pos>
+		<starlv>6</starlv>
+		<addhp>25</addhp>
+		<addhurt>30</addhurt>
+		<adddef>23</adddef>
+		<minlv>25</minlv>
+		<coin>400</coin>
+		<crystal>20</crystal>
+	</item>
+	<item ID="37">
+		<pos>3</pos>
+		<starlv>7</starlv>
+		<addhp>26</addhp>
+		<addhurt>31</addhurt>
+		<adddef>24</adddef>
+		<minlv>30</minlv>
+		<coin>450</coin>
+		<crystal>23</crystal>
+	</item>
+	<item ID="38">
+		<pos>3</pos>
+		<starlv>8</starlv>
+		<addhp>27</addhp>
+		<addhurt>32</addhurt>
+		<adddef>25</adddef>
+		<minlv>35</minlv>
+		<coin>500</coin>
+		<crystal>26</crystal>
+	</item>
+	<item ID="39">
+		<pos>3</pos>
+		<starlv>9</starlv>
+		<addhp>28</addhp>
+		<addhurt>33</addhurt>
+		<adddef>26</adddef>
+		<minlv>40</minlv>
+		<coin>550</coin>
+		<crystal>29</crystal>
+	</item>
+	<item ID="40">
+		<pos>3</pos>
+		<starlv>10</starlv>
+		<addhp>29</addhp>
+		<addhurt>34</addhurt>
+		<adddef>27</adddef>
+		<minlv>45</minlv>
+		<coin>650</coin>
+		<crystal>32</crystal>
+	</item>
+	<item ID="41">
+		<pos>4</pos>
+		<starlv>1</starlv>
+		<addhp>20</addhp>
+		<addhurt>25</addhurt>
+		<adddef>18</adddef>
+		<minlv>1</minlv>
+		<coin>150</coin>
+		<crystal>5</crystal>
+	</item>
+	<item ID="42">
+		<pos>4</pos>
+		<starlv>2</starlv>
+		<addhp>21</addhp>
+		<addhurt>26</addhurt>
+		<adddef>19</adddef>
+		<minlv>5</minlv>
+		<coin>200</coin>
+		<crystal>8</crystal>
+	</item>
+	<item ID="43">
+		<pos>4</pos>
+		<starlv>3</starlv>
+		<addhp>22</addhp>
+		<addhurt>27</addhurt>
+		<adddef>20</adddef>
+		<minlv>10</minlv>
+		<coin>250</coin>
+		<crystal>11</crystal>
+	</item>
+	<item ID="44">
+		<pos>4</pos>
+		<starlv>4</starlv>
+		<addhp>23</addhp>
+		<addhurt>28</addhurt>
+		<adddef>21</adddef>
+		<minlv>15</minlv>
+		<coin>300</coin>
+		<crystal>14</crystal>
+	</item>
+	<item ID="45">
+		<pos>4</pos>
+		<starlv>5</starlv>
+		<addhp>24</addhp>
+		<addhurt>29</addhurt>
+		<adddef>22</adddef>
+		<minlv>20</minlv>
+		<coin>350</coin>
+		<crystal>17</crystal>
+	</item>
+	<item ID="46">
+		<pos>4</pos>
+		<starlv>6</starlv>
+		<addhp>25</addhp>
+		<addhurt>30</addhurt>
+		<adddef>23</adddef>
+		<minlv>25</minlv>
+		<coin>400</coin>
+		<crystal>20</crystal>
+	</item>
+	<item ID="47">
+		<pos>4</pos>
+		<starlv>7</starlv>
+		<addhp>26</addhp>
+		<addhurt>31</addhurt>
+		<adddef>24</adddef>
+		<minlv>30</minlv>
+		<coin>450</coin>
+		<crystal>23</crystal>
+	</item>
+	<item ID="48">
+		<pos>4</pos>
+		<starlv>8</starlv>
+		<addhp>27</addhp>
+		<addhurt>32</addhurt>
+		<adddef>25</adddef>
+		<minlv>35</minlv>
+		<coin>500</coin>
+		<crystal>26</crystal>
+	</item>
+	<item ID="49">
+		<pos>4</pos>
+		<starlv>9</starlv>
+		<addhp>28</addhp>
+		<addhurt>33</addhurt>
+		<adddef>26</adddef>
+		<minlv>40</minlv>
+		<coin>550</coin>
+		<crystal>29</crystal>
+	</item>
+	<item ID="50">
+		<pos>4</pos>
+		<starlv>10</starlv>
+		<addhp>29</addhp>
+		<addhurt>34</addhurt>
+		<adddef>27</adddef>
+		<minlv>45</minlv>
+		<coin>650</coin>
+		<crystal>32</crystal>
+	</item>
+	<item ID="51">
+		<pos>5</pos>
+		<starlv>1</starlv>
+		<addhp>20</addhp>
+		<addhurt>25</addhurt>
+		<adddef>18</adddef>
+		<minlv>1</minlv>
+		<coin>150</coin>
+		<crystal>5</crystal>
+	</item>
+	<item ID="52">
+		<pos>5</pos>
+		<starlv>2</starlv>
+		<addhp>21</addhp>
+		<addhurt>26</addhurt>
+		<adddef>19</adddef>
+		<minlv>5</minlv>
+		<coin>200</coin>
+		<crystal>8</crystal>
+	</item>
+	<item ID="53">
+		<pos>5</pos>
+		<starlv>3</starlv>
+		<addhp>22</addhp>
+		<addhurt>27</addhurt>
+		<adddef>20</adddef>
+		<minlv>10</minlv>
+		<coin>250</coin>
+		<crystal>11</crystal>
+	</item>
+	<item ID="54">
+		<pos>5</pos>
+		<starlv>4</starlv>
+		<addhp>23</addhp>
+		<addhurt>28</addhurt>
+		<adddef>21</adddef>
+		<minlv>15</minlv>
+		<coin>300</coin>
+		<crystal>14</crystal>
+	</item>
+	<item ID="55">
+		<pos>5</pos>
+		<starlv>5</starlv>
+		<addhp>24</addhp>
+		<addhurt>29</addhurt>
+		<adddef>22</adddef>
+		<minlv>20</minlv>
+		<coin>350</coin>
+		<crystal>17</crystal>
+	</item>
+	<item ID="56">
+		<pos>5</pos>
+		<starlv>6</starlv>
+		<addhp>25</addhp>
+		<addhurt>30</addhurt>
+		<adddef>23</adddef>
+		<minlv>25</minlv>
+		<coin>400</coin>
+		<crystal>20</crystal>
+	</item>
+	<item ID="57">
+		<pos>5</pos>
+		<starlv>7</starlv>
+		<addhp>26</addhp>
+		<addhurt>31</addhurt>
+		<adddef>24</adddef>
+		<minlv>30</minlv>
+		<coin>450</coin>
+		<crystal>23</crystal>
+	</item>
+	<item ID="58">
+		<pos>5</pos>
+		<starlv>8</starlv>
+		<addhp>27</addhp>
+		<addhurt>32</addhurt>
+		<adddef>25</adddef>
+		<minlv>35</minlv>
+		<coin>500</coin>
+		<crystal>26</crystal>
+	</item>
+	<item ID="59">
+		<pos>5</pos>
+		<starlv>9</starlv>
+		<addhp>28</addhp>
+		<addhurt>33</addhurt>
+		<adddef>26</adddef>
+		<minlv>40</minlv>
+		<coin>550</coin>
+		<crystal>29</crystal>
+	</item>
+	<item ID="60">
+		<pos>5</pos>
+		<starlv>10</starlv>
+		<addhp>29</addhp>
+		<addhurt>34</addhurt>
+		<adddef>27</adddef>
+		<minlv>45</minlv>
+		<coin>650</coin>
+		<crystal>32</crystal>
+	</item>
+</root>

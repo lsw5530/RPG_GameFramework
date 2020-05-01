@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item ID="1011">
+		<delayTime>0</delayTime>
+		<moveTime>80</moveTime>
+		<moveDis>5.5</moveDis>
+	</item>
+	<item ID="1021">
+		<delayTime>100</delayTime>
+		<moveTime>40</moveTime>
+		<moveDis>1</moveDis>
+	</item>
+	<item ID="1022">
+		<delayTime>800</delayTime>
+		<moveTime>40</moveTime>
+		<moveDis>2.5</moveDis>
+	</item>
+	<item ID="1031">
+		<delayTime>0</delayTime>
+		<moveTime>800</moveTime>
+		<moveDis>3</moveDis>
+	</item>
+	<item ID="1032">
+		<delayTime>200</delayTime>
+		<moveTime>200</moveTime>
+		<moveDis>-5</moveDis>
+	</item>
+	<item ID="1111">
+		<delayTime>0</delayTime>
+		<moveTime>200</moveTime>
+		<moveDis>1</moveDis>
+	</item>
+</root>

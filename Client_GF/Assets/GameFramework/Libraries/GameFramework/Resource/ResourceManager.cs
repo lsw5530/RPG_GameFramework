@@ -11,13 +11,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace GameFramework.Resource
-{
+namespace GameFramework.Resource {
     /// <summary>
     /// 资源管理器。
     /// </summary>
-    internal sealed partial class ResourceManager : GameFrameworkModule, IResourceManager
-    {
+    internal sealed partial class ResourceManager : GameFrameworkModule, IResourceManager {
         private const string RemoteVersionListFileName = "GameFrameworkVersion.dat";
         private const string LocalVersionListFileName = "GameFrameworkList.dat";
         private const string DefaultExtension = "dat";
@@ -62,8 +60,7 @@ namespace GameFramework.Resource
         /// <summary>
         /// 初始化资源管理器的新实例。
         /// </summary>
-        public ResourceManager()
-        {
+        public ResourceManager() {
             m_AssetInfos = null;
             m_ResourceInfos = null;
             m_ResourceGroups = new Dictionary<string, ResourceGroup>();
@@ -106,10 +103,8 @@ namespace GameFramework.Resource
         /// 获取游戏框架模块优先级。
         /// </summary>
         /// <remarks>优先级较高的模块会优先轮询，并且关闭操作会后进行。</remarks>
-        internal override int Priority
-        {
-            get
-            {
+        internal override int Priority {
+            get {
                 return 70;
             }
         }
@@ -117,10 +112,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取资源只读区路径。
         /// </summary>
-        public string ReadOnlyPath
-        {
-            get
-            {
+        public string ReadOnlyPath {
+            get {
                 return m_ReadOnlyPath;
             }
         }
@@ -128,10 +121,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取资源读写区路径。
         /// </summary>
-        public string ReadWritePath
-        {
-            get
-            {
+        public string ReadWritePath {
+            get {
                 return m_ReadWritePath;
             }
         }
@@ -139,10 +130,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取资源模式。
         /// </summary>
-        public ResourceMode ResourceMode
-        {
-            get
-            {
+        public ResourceMode ResourceMode {
+            get {
                 return m_ResourceMode;
             }
         }
@@ -150,10 +139,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取当前变体。
         /// </summary>
-        public string CurrentVariant
-        {
-            get
-            {
+        public string CurrentVariant {
+            get {
                 return m_CurrentVariant;
             }
         }
@@ -161,10 +148,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取单机模式版本资源列表序列化器。
         /// </summary>
-        public PackageVersionListSerializer PackageVersionListSerializer
-        {
-            get
-            {
+        public PackageVersionListSerializer PackageVersionListSerializer {
+            get {
                 return m_PackageVersionListSerializer;
             }
         }
@@ -172,10 +157,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取可更新模式版本资源列表序列化器。
         /// </summary>
-        public UpdatableVersionListSerializer UpdatableVersionListSerializer
-        {
-            get
-            {
+        public UpdatableVersionListSerializer UpdatableVersionListSerializer {
+            get {
                 return m_UpdatableVersionListSerializer;
             }
         }
@@ -183,10 +166,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取本地只读区版本资源列表序列化器。
         /// </summary>
-        public ReadOnlyVersionListSerializer ReadOnlyVersionListSerializer
-        {
-            get
-            {
+        public ReadOnlyVersionListSerializer ReadOnlyVersionListSerializer {
+            get {
                 return m_ReadOnlyVersionListSerializer;
             }
         }
@@ -194,10 +175,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取本地读写区版本资源列表序列化器。
         /// </summary>
-        public ReadWriteVersionListSerializer ReadWriteVersionListSerializer
-        {
-            get
-            {
+        public ReadWriteVersionListSerializer ReadWriteVersionListSerializer {
+            get {
                 return m_ReadWriteVersionListSerializer;
             }
         }
@@ -205,10 +184,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取当前资源适用的游戏版本号。
         /// </summary>
-        public string ApplicableGameVersion
-        {
-            get
-            {
+        public string ApplicableGameVersion {
+            get {
                 return m_ApplicableGameVersion;
             }
         }
@@ -216,10 +193,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取当前内部资源版本号。
         /// </summary>
-        public int InternalResourceVersion
-        {
-            get
-            {
+        public int InternalResourceVersion {
+            get {
                 return m_InternalResourceVersion;
             }
         }
@@ -227,10 +202,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取已准备完毕资源数量。
         /// </summary>
-        public int AssetCount
-        {
-            get
-            {
+        public int AssetCount {
+            get {
                 return m_AssetInfos != null ? m_AssetInfos.Count : 0;
             }
         }
@@ -238,10 +211,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取已准备完毕资源数量。
         /// </summary>
-        public int ResourceCount
-        {
-            get
-            {
+        public int ResourceCount {
+            get {
                 return m_ResourceInfos != null ? m_ResourceInfos.Count : 0;
             }
         }
@@ -249,10 +220,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取资源组数量。
         /// </summary>
-        public int ResourceGroupCount
-        {
-            get
-            {
+        public int ResourceGroupCount {
+            get {
                 return m_ResourceGroups.Count;
             }
         }
@@ -260,14 +229,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置资源更新下载地址前缀。
         /// </summary>
-        public string UpdatePrefixUri
-        {
-            get
-            {
+        public string UpdatePrefixUri {
+            get {
                 return m_UpdatePrefixUri;
             }
-            set
-            {
+            set {
                 m_UpdatePrefixUri = value;
             }
         }
@@ -275,16 +241,12 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置每下载多少字节的资源，重新生成一次版本资源列表。
         /// </summary>
-        public int GenerateReadWriteVersionListLength
-        {
-            get
-            {
+        public int GenerateReadWriteVersionListLength {
+            get {
                 return m_ResourceUpdater != null ? m_ResourceUpdater.GenerateReadWriteVersionListLength : 0;
             }
-            set
-            {
-                if (m_ResourceUpdater == null)
-                {
+            set {
+                if (m_ResourceUpdater == null) {
                     throw new GameFrameworkException("You can not use GenerateReadWriteVersionListLength at this time.");
                 }
 
@@ -295,16 +257,12 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置资源更新重试次数。
         /// </summary>
-        public int UpdateRetryCount
-        {
-            get
-            {
+        public int UpdateRetryCount {
+            get {
                 return m_ResourceUpdater != null ? m_ResourceUpdater.UpdateRetryCount : 0;
             }
-            set
-            {
-                if (m_ResourceUpdater == null)
-                {
+            set {
+                if (m_ResourceUpdater == null) {
                     throw new GameFrameworkException("You can not use UpdateRetryCount at this time.");
                 }
 
@@ -315,10 +273,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取正在更新的资源组。
         /// </summary>
-        public IResourceGroup UpdatingResourceGroup
-        {
-            get
-            {
+        public IResourceGroup UpdatingResourceGroup {
+            get {
                 return m_ResourceUpdater != null ? m_ResourceUpdater.UpdatingResourceGroup : null;
             }
         }
@@ -326,10 +282,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取等待更新资源数量。
         /// </summary>
-        public int UpdateWaitingCount
-        {
-            get
-            {
+        public int UpdateWaitingCount {
+            get {
                 return m_ResourceUpdater != null ? m_ResourceUpdater.UpdateWaitingCount : 0;
             }
         }
@@ -337,10 +291,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取候选更新资源数量。
         /// </summary>
-        public int UpdateCandidateCount
-        {
-            get
-            {
+        public int UpdateCandidateCount {
+            get {
                 return m_ResourceUpdater != null ? m_ResourceUpdater.UpdateCandidateCount : 0;
             }
         }
@@ -348,10 +300,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取正在更新资源数量。
         /// </summary>
-        public int UpdatingCount
-        {
-            get
-            {
+        public int UpdatingCount {
+            get {
                 return m_ResourceUpdater != null ? m_ResourceUpdater.UpdatingCount : 0;
             }
         }
@@ -359,10 +309,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取加载资源代理总数量。
         /// </summary>
-        public int LoadTotalAgentCount
-        {
-            get
-            {
+        public int LoadTotalAgentCount {
+            get {
                 return m_ResourceLoader.TotalAgentCount;
             }
         }
@@ -370,10 +318,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取可用加载资源代理数量。
         /// </summary>
-        public int LoadFreeAgentCount
-        {
-            get
-            {
+        public int LoadFreeAgentCount {
+            get {
                 return m_ResourceLoader.FreeAgentCount;
             }
         }
@@ -381,10 +327,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取工作中加载资源代理数量。
         /// </summary>
-        public int LoadWorkingAgentCount
-        {
-            get
-            {
+        public int LoadWorkingAgentCount {
+            get {
                 return m_ResourceLoader.WorkingAgentCount;
             }
         }
@@ -392,10 +336,8 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取等待加载资源任务数量。
         /// </summary>
-        public int LoadWaitingTaskCount
-        {
-            get
-            {
+        public int LoadWaitingTaskCount {
+            get {
                 return m_ResourceLoader.WaitingTaskCount;
             }
         }
@@ -403,14 +345,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置资源对象池自动释放可释放对象的间隔秒数。
         /// </summary>
-        public float AssetAutoReleaseInterval
-        {
-            get
-            {
+        public float AssetAutoReleaseInterval {
+            get {
                 return m_ResourceLoader.AssetAutoReleaseInterval;
             }
-            set
-            {
+            set {
                 m_ResourceLoader.AssetAutoReleaseInterval = value;
             }
         }
@@ -418,14 +357,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置资源对象池的容量。
         /// </summary>
-        public int AssetCapacity
-        {
-            get
-            {
+        public int AssetCapacity {
+            get {
                 return m_ResourceLoader.AssetCapacity;
             }
-            set
-            {
+            set {
                 m_ResourceLoader.AssetCapacity = value;
             }
         }
@@ -433,14 +369,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置资源对象池对象过期秒数。
         /// </summary>
-        public float AssetExpireTime
-        {
-            get
-            {
+        public float AssetExpireTime {
+            get {
                 return m_ResourceLoader.AssetExpireTime;
             }
-            set
-            {
+            set {
                 m_ResourceLoader.AssetExpireTime = value;
             }
         }
@@ -448,14 +381,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置资源对象池的优先级。
         /// </summary>
-        public int AssetPriority
-        {
-            get
-            {
+        public int AssetPriority {
+            get {
                 return m_ResourceLoader.AssetPriority;
             }
-            set
-            {
+            set {
                 m_ResourceLoader.AssetPriority = value;
             }
         }
@@ -463,14 +393,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置资源对象池自动释放可释放对象的间隔秒数。
         /// </summary>
-        public float ResourceAutoReleaseInterval
-        {
-            get
-            {
+        public float ResourceAutoReleaseInterval {
+            get {
                 return m_ResourceLoader.ResourceAutoReleaseInterval;
             }
-            set
-            {
+            set {
                 m_ResourceLoader.ResourceAutoReleaseInterval = value;
             }
         }
@@ -478,14 +405,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置资源对象池的容量。
         /// </summary>
-        public int ResourceCapacity
-        {
-            get
-            {
+        public int ResourceCapacity {
+            get {
                 return m_ResourceLoader.ResourceCapacity;
             }
-            set
-            {
+            set {
                 m_ResourceLoader.ResourceCapacity = value;
             }
         }
@@ -493,14 +417,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置资源对象池对象过期秒数。
         /// </summary>
-        public float ResourceExpireTime
-        {
-            get
-            {
+        public float ResourceExpireTime {
+            get {
                 return m_ResourceLoader.ResourceExpireTime;
             }
-            set
-            {
+            set {
                 m_ResourceLoader.ResourceExpireTime = value;
             }
         }
@@ -508,14 +429,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 获取或设置资源对象池的优先级。
         /// </summary>
-        public int ResourcePriority
-        {
-            get
-            {
+        public int ResourcePriority {
+            get {
                 return m_ResourceLoader.ResourcePriority;
             }
-            set
-            {
+            set {
                 m_ResourceLoader.ResourcePriority = value;
             }
         }
@@ -523,14 +441,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 资源更新开始事件。
         /// </summary>
-        public event EventHandler<ResourceUpdateStartEventArgs> ResourceUpdateStart
-        {
-            add
-            {
+        public event EventHandler<ResourceUpdateStartEventArgs> ResourceUpdateStart {
+            add {
                 m_ResourceUpdateStartEventHandler += value;
             }
-            remove
-            {
+            remove {
                 m_ResourceUpdateStartEventHandler -= value;
             }
         }
@@ -538,14 +453,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 资源更新改变事件。
         /// </summary>
-        public event EventHandler<ResourceUpdateChangedEventArgs> ResourceUpdateChanged
-        {
-            add
-            {
+        public event EventHandler<ResourceUpdateChangedEventArgs> ResourceUpdateChanged {
+            add {
                 m_ResourceUpdateChangedEventHandler += value;
             }
-            remove
-            {
+            remove {
                 m_ResourceUpdateChangedEventHandler -= value;
             }
         }
@@ -553,14 +465,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 资源更新成功事件。
         /// </summary>
-        public event EventHandler<ResourceUpdateSuccessEventArgs> ResourceUpdateSuccess
-        {
-            add
-            {
+        public event EventHandler<ResourceUpdateSuccessEventArgs> ResourceUpdateSuccess {
+            add {
                 m_ResourceUpdateSuccessEventHandler += value;
             }
-            remove
-            {
+            remove {
                 m_ResourceUpdateSuccessEventHandler -= value;
             }
         }
@@ -568,14 +477,11 @@ namespace GameFramework.Resource
         /// <summary>
         /// 资源更新失败事件。
         /// </summary>
-        public event EventHandler<ResourceUpdateFailureEventArgs> ResourceUpdateFailure
-        {
-            add
-            {
+        public event EventHandler<ResourceUpdateFailureEventArgs> ResourceUpdateFailure {
+            add {
                 m_ResourceUpdateFailureEventHandler += value;
             }
-            remove
-            {
+            remove {
                 m_ResourceUpdateFailureEventHandler -= value;
             }
         }
@@ -585,10 +491,8 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="elapseSeconds">逻辑流逝时间，以秒为单位。</param>
         /// <param name="realElapseSeconds">真实流逝时间，以秒为单位。</param>
-        internal override void Update(float elapseSeconds, float realElapseSeconds)
-        {
-            if (m_ResourceUpdater != null)
-            {
+        internal override void Update(float elapseSeconds, float realElapseSeconds) {
+            if (m_ResourceUpdater != null) {
                 m_ResourceUpdater.Update(elapseSeconds, realElapseSeconds);
             }
 
@@ -598,32 +502,27 @@ namespace GameFramework.Resource
         /// <summary>
         /// 关闭并清理资源管理器。
         /// </summary>
-        internal override void Shutdown()
-        {
-            if (m_ResourceIniter != null)
-            {
+        internal override void Shutdown() {
+            if (m_ResourceIniter != null) {
                 m_ResourceIniter.Shutdown();
                 m_ResourceIniter = null;
             }
 
-            if (m_VersionListProcessor != null)
-            {
+            if (m_VersionListProcessor != null) {
                 m_VersionListProcessor.VersionListUpdateSuccess -= OnVersionListProcessorUpdateSuccess;
                 m_VersionListProcessor.VersionListUpdateFailure -= OnVersionListProcessorUpdateFailure;
                 m_VersionListProcessor.Shutdown();
                 m_VersionListProcessor = null;
             }
 
-            if (m_ResourceChecker != null)
-            {
+            if (m_ResourceChecker != null) {
                 m_ResourceChecker.ResourceNeedUpdate -= OnCheckerResourceNeedUpdate;
                 m_ResourceChecker.ResourceCheckComplete -= OnCheckerResourceCheckComplete;
                 m_ResourceChecker.Shutdown();
                 m_ResourceChecker = null;
             }
 
-            if (m_ResourceUpdater != null)
-            {
+            if (m_ResourceUpdater != null) {
                 m_ResourceUpdater.ResourceUpdateStart -= OnUpdaterResourceUpdateStart;
                 m_ResourceUpdater.ResourceUpdateChanged -= OnUpdaterResourceUpdateChanged;
                 m_ResourceUpdater.ResourceUpdateSuccess -= OnUpdaterResourceUpdateSuccess;
@@ -631,27 +530,23 @@ namespace GameFramework.Resource
                 m_ResourceUpdater.ResourceUpdateAllComplete -= OnUpdaterResourceUpdateAllComplete;
                 m_ResourceUpdater.Shutdown();
                 m_ResourceUpdater = null;
-                if (m_DecompressCachedStream != null)
-                {
+                if (m_DecompressCachedStream != null) {
                     m_DecompressCachedStream.Dispose();
                     m_DecompressCachedStream = null;
                 }
             }
 
-            if (m_ResourceLoader != null)
-            {
+            if (m_ResourceLoader != null) {
                 m_ResourceLoader.Shutdown();
                 m_ResourceLoader = null;
             }
 
-            if (m_AssetInfos != null)
-            {
+            if (m_AssetInfos != null) {
                 m_AssetInfos.Clear();
                 m_AssetInfos = null;
             }
 
-            if (m_ResourceInfos != null)
-            {
+            if (m_ResourceInfos != null) {
                 m_ResourceInfos.Clear();
                 m_ResourceInfos = null;
             }
@@ -664,15 +559,12 @@ namespace GameFramework.Resource
         /// 设置资源只读区路径。
         /// </summary>
         /// <param name="readOnlyPath">资源只读区路径。</param>
-        public void SetReadOnlyPath(string readOnlyPath)
-        {
-            if (string.IsNullOrEmpty(readOnlyPath))
-            {
+        public void SetReadOnlyPath(string readOnlyPath) {
+            if (string.IsNullOrEmpty(readOnlyPath)) {
                 throw new GameFrameworkException("Readonly path is invalid.");
             }
 
-            if (m_ResourceLoader.TotalAgentCount > 0)
-            {
+            if (m_ResourceLoader.TotalAgentCount > 0) {
                 throw new GameFrameworkException("You must set readonly path before add load resource agent helper.");
             }
 
@@ -683,15 +575,12 @@ namespace GameFramework.Resource
         /// 设置资源读写区路径。
         /// </summary>
         /// <param name="readWritePath">资源读写区路径。</param>
-        public void SetReadWritePath(string readWritePath)
-        {
-            if (string.IsNullOrEmpty(readWritePath))
-            {
+        public void SetReadWritePath(string readWritePath) {
+            if (string.IsNullOrEmpty(readWritePath)) {
                 throw new GameFrameworkException("Read-write path is invalid.");
             }
 
-            if (m_ResourceLoader.TotalAgentCount > 0)
-            {
+            if (m_ResourceLoader.TotalAgentCount > 0) {
                 throw new GameFrameworkException("You must set read-write path before add load resource agent helper.");
             }
 
@@ -702,26 +591,21 @@ namespace GameFramework.Resource
         /// 设置资源模式。
         /// </summary>
         /// <param name="resourceMode">资源模式。</param>
-        public void SetResourceMode(ResourceMode resourceMode)
-        {
-            if (resourceMode == ResourceMode.Unspecified)
-            {
+        public void SetResourceMode(ResourceMode resourceMode) {
+            if (resourceMode == ResourceMode.Unspecified) {
                 throw new GameFrameworkException("Resource mode is invalid.");
             }
 
-            if (m_ResourceMode == ResourceMode.Unspecified)
-            {
+            if (m_ResourceMode == ResourceMode.Unspecified) {
                 m_ResourceMode = resourceMode;
 
-                if (m_ResourceMode == ResourceMode.Package)
-                {
+                if (m_ResourceMode == ResourceMode.Package) {
                     m_PackageVersionListSerializer = new PackageVersionListSerializer();
 
                     m_ResourceIniter = new ResourceIniter(this);
                     m_ResourceIniter.ResourceInitComplete += OnIniterResourceInitComplete;
                 }
-                else if (m_ResourceMode == ResourceMode.Updatable)
-                {
+                else if (m_ResourceMode == ResourceMode.Updatable) {
                     m_UpdatableVersionListSerializer = new UpdatableVersionListSerializer();
                     m_ReadOnlyVersionListSerializer = new ReadOnlyVersionListSerializer();
                     m_ReadWriteVersionListSerializer = new ReadWriteVersionListSerializer();
@@ -742,8 +626,7 @@ namespace GameFramework.Resource
                     m_ResourceUpdater.ResourceUpdateAllComplete += OnUpdaterResourceUpdateAllComplete;
                 }
             }
-            else if (m_ResourceMode != resourceMode)
-            {
+            else if (m_ResourceMode != resourceMode) {
                 throw new GameFrameworkException("You can not change resource mode at this time.");
             }
         }
@@ -752,10 +635,8 @@ namespace GameFramework.Resource
         /// 设置当前变体。
         /// </summary>
         /// <param name="currentVariant">当前变体。</param>
-        public void SetCurrentVariant(string currentVariant)
-        {
-            if (m_RefuseSetCurrentVariant)
-            {
+        public void SetCurrentVariant(string currentVariant) {
+            if (m_RefuseSetCurrentVariant) {
                 throw new GameFrameworkException("You can net set current variant at this time.");
             }
 
@@ -766,10 +647,8 @@ namespace GameFramework.Resource
         /// 设置对象池管理器。
         /// </summary>
         /// <param name="objectPoolManager">对象池管理器。</param>
-        public void SetObjectPoolManager(IObjectPoolManager objectPoolManager)
-        {
-            if (objectPoolManager == null)
-            {
+        public void SetObjectPoolManager(IObjectPoolManager objectPoolManager) {
+            if (objectPoolManager == null) {
                 throw new GameFrameworkException("Object pool manager is invalid.");
             }
 
@@ -780,20 +659,16 @@ namespace GameFramework.Resource
         /// 设置下载管理器。
         /// </summary>
         /// <param name="downloadManager">下载管理器。</param>
-        public void SetDownloadManager(IDownloadManager downloadManager)
-        {
-            if (downloadManager == null)
-            {
+        public void SetDownloadManager(IDownloadManager downloadManager) {
+            if (downloadManager == null) {
                 throw new GameFrameworkException("Download manager is invalid.");
             }
 
-            if (m_VersionListProcessor != null)
-            {
+            if (m_VersionListProcessor != null) {
                 m_VersionListProcessor.SetDownloadManager(downloadManager);
             }
 
-            if (m_ResourceUpdater != null)
-            {
+            if (m_ResourceUpdater != null) {
                 m_ResourceUpdater.SetDownloadManager(downloadManager);
             }
         }
@@ -803,10 +678,8 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="decryptResourceCallback">要设置的解密资源回调函数。</param>
         /// <remarks>如果不设置，将使用默认的解密资源回调函数。</remarks>
-        public void SetDecryptResourceCallback(DecryptResourceCallback decryptResourceCallback)
-        {
-            if (m_ResourceLoader.TotalAgentCount > 0)
-            {
+        public void SetDecryptResourceCallback(DecryptResourceCallback decryptResourceCallback) {
+            if (m_ResourceLoader.TotalAgentCount > 0) {
                 throw new GameFrameworkException("You must set decrypt resource callback before add load resource agent helper.");
             }
 
@@ -817,15 +690,12 @@ namespace GameFramework.Resource
         /// 设置资源辅助器。
         /// </summary>
         /// <param name="resourceHelper">资源辅助器。</param>
-        public void SetResourceHelper(IResourceHelper resourceHelper)
-        {
-            if (resourceHelper == null)
-            {
+        public void SetResourceHelper(IResourceHelper resourceHelper) {
+            if (resourceHelper == null) {
                 throw new GameFrameworkException("Resource helper is invalid.");
             }
 
-            if (m_ResourceLoader.TotalAgentCount > 0)
-            {
+            if (m_ResourceLoader.TotalAgentCount > 0) {
                 throw new GameFrameworkException("You must set resource helper before add load resource agent helper.");
             }
 
@@ -836,20 +706,16 @@ namespace GameFramework.Resource
         /// 增加加载资源代理辅助器。
         /// </summary>
         /// <param name="loadResourceAgentHelper">要增加的加载资源代理辅助器。</param>
-        public void AddLoadResourceAgentHelper(ILoadResourceAgentHelper loadResourceAgentHelper)
-        {
-            if (m_ResourceHelper == null)
-            {
+        public void AddLoadResourceAgentHelper(ILoadResourceAgentHelper loadResourceAgentHelper) {
+            if (m_ResourceHelper == null) {
                 throw new GameFrameworkException("Resource helper is invalid.");
             }
 
-            if (string.IsNullOrEmpty(m_ReadOnlyPath))
-            {
+            if (string.IsNullOrEmpty(m_ReadOnlyPath)) {
                 throw new GameFrameworkException("Readonly path is invalid.");
             }
 
-            if (string.IsNullOrEmpty(m_ReadWritePath))
-            {
+            if (string.IsNullOrEmpty(m_ReadWritePath)) {
                 throw new GameFrameworkException("Read-write path is invalid.");
             }
 
@@ -860,25 +726,20 @@ namespace GameFramework.Resource
         /// 使用单机模式并初始化资源。
         /// </summary>
         /// <param name="initResourcesCompleteCallback">使用单机模式并初始化资源完成时的回调函数。</param>
-        public void InitResources(InitResourcesCompleteCallback initResourcesCompleteCallback)
-        {
-            if (initResourcesCompleteCallback == null)
-            {
+        public void InitResources(InitResourcesCompleteCallback initResourcesCompleteCallback) {
+            if (initResourcesCompleteCallback == null) {
                 throw new GameFrameworkException("Init resources complete callback is invalid.");
             }
 
-            if (m_ResourceMode == ResourceMode.Unspecified)
-            {
+            if (m_ResourceMode == ResourceMode.Unspecified) {
                 throw new GameFrameworkException("You must set resource mode first.");
             }
 
-            if (m_ResourceMode != ResourceMode.Package)
-            {
+            if (m_ResourceMode != ResourceMode.Package) {
                 throw new GameFrameworkException("You can not use InitResources without package resource mode.");
             }
 
-            if (m_ResourceIniter == null)
-            {
+            if (m_ResourceIniter == null) {
                 throw new GameFrameworkException("You can not use InitResources at this time.");
             }
 
@@ -892,20 +753,16 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="latestInternalResourceVersion">最新的内部资源版本号。</param>
         /// <returns>检查版本资源列表结果。</returns>
-        public CheckVersionListResult CheckVersionList(int latestInternalResourceVersion)
-        {
-            if (m_ResourceMode == ResourceMode.Unspecified)
-            {
+        public CheckVersionListResult CheckVersionList(int latestInternalResourceVersion) {
+            if (m_ResourceMode == ResourceMode.Unspecified) {
                 throw new GameFrameworkException("You must set resource mode first.");
             }
 
-            if (m_ResourceMode != ResourceMode.Updatable)
-            {
+            if (m_ResourceMode != ResourceMode.Updatable) {
                 throw new GameFrameworkException("You can not use CheckVersionList without updatable resource mode.");
             }
 
-            if (m_VersionListProcessor == null)
-            {
+            if (m_VersionListProcessor == null) {
                 throw new GameFrameworkException("You can not use CheckVersionList at this time.");
             }
 
@@ -920,25 +777,20 @@ namespace GameFramework.Resource
         /// <param name="versionListZipLength">版本资源列表压缩后大小。</param>
         /// <param name="versionListZipHashCode">版本资源列表压缩后哈希值。</param>
         /// <param name="updateVersionListCallbacks">版本资源列表更新回调函数集。</param>
-        public void UpdateVersionList(int versionListLength, int versionListHashCode, int versionListZipLength, int versionListZipHashCode, UpdateVersionListCallbacks updateVersionListCallbacks)
-        {
-            if (updateVersionListCallbacks == null)
-            {
+        public void UpdateVersionList(int versionListLength, int versionListHashCode, int versionListZipLength, int versionListZipHashCode, UpdateVersionListCallbacks updateVersionListCallbacks) {
+            if (updateVersionListCallbacks == null) {
                 throw new GameFrameworkException("Update version list callbacks is invalid.");
             }
 
-            if (m_ResourceMode == ResourceMode.Unspecified)
-            {
+            if (m_ResourceMode == ResourceMode.Unspecified) {
                 throw new GameFrameworkException("You must set resource mode first.");
             }
 
-            if (m_ResourceMode != ResourceMode.Updatable)
-            {
+            if (m_ResourceMode != ResourceMode.Updatable) {
                 throw new GameFrameworkException("You can not use UpdateVersionList without updatable resource mode.");
             }
 
-            if (m_VersionListProcessor == null)
-            {
+            if (m_VersionListProcessor == null) {
                 throw new GameFrameworkException("You can not use UpdateVersionList at this time.");
             }
 
@@ -950,25 +802,20 @@ namespace GameFramework.Resource
         /// 使用可更新模式并检查资源。
         /// </summary>
         /// <param name="checkResourcesCompleteCallback">使用可更新模式并检查资源完成时的回调函数。</param>
-        public void CheckResources(CheckResourcesCompleteCallback checkResourcesCompleteCallback)
-        {
-            if (checkResourcesCompleteCallback == null)
-            {
+        public void CheckResources(CheckResourcesCompleteCallback checkResourcesCompleteCallback) {
+            if (checkResourcesCompleteCallback == null) {
                 throw new GameFrameworkException("Check resources complete callback is invalid.");
             }
 
-            if (m_ResourceMode == ResourceMode.Unspecified)
-            {
+            if (m_ResourceMode == ResourceMode.Unspecified) {
                 throw new GameFrameworkException("You must set resource mode first.");
             }
 
-            if (m_ResourceMode != ResourceMode.Updatable)
-            {
+            if (m_ResourceMode != ResourceMode.Updatable) {
                 throw new GameFrameworkException("You can not use CheckResources without updatable resource mode.");
             }
 
-            if (m_ResourceChecker == null)
-            {
+            if (m_ResourceChecker == null) {
                 throw new GameFrameworkException("You can not use CheckResources at this time.");
             }
 
@@ -981,8 +828,7 @@ namespace GameFramework.Resource
         /// 使用可更新模式并更新全部资源。
         /// </summary>
         /// <param name="updateResourcesCompleteCallback">使用可更新模式并更新默认资源组完成时的回调函数。</param>
-        public void UpdateResources(UpdateResourcesCompleteCallback updateResourcesCompleteCallback)
-        {
+        public void UpdateResources(UpdateResourcesCompleteCallback updateResourcesCompleteCallback) {
             UpdateResources(string.Empty, updateResourcesCompleteCallback);
         }
 
@@ -991,31 +837,25 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="resourceGroupName">要更新的资源组名称。</param>
         /// <param name="updateResourcesCompleteCallback">使用可更新模式并更新指定资源组完成时的回调函数。</param>
-        public void UpdateResources(string resourceGroupName, UpdateResourcesCompleteCallback updateResourcesCompleteCallback)
-        {
-            if (updateResourcesCompleteCallback == null)
-            {
+        public void UpdateResources(string resourceGroupName, UpdateResourcesCompleteCallback updateResourcesCompleteCallback) {
+            if (updateResourcesCompleteCallback == null) {
                 throw new GameFrameworkException("Update resources complete callback is invalid.");
             }
 
-            if (m_ResourceMode == ResourceMode.Unspecified)
-            {
+            if (m_ResourceMode == ResourceMode.Unspecified) {
                 throw new GameFrameworkException("You must set resource mode first.");
             }
 
-            if (m_ResourceMode != ResourceMode.Updatable)
-            {
+            if (m_ResourceMode != ResourceMode.Updatable) {
                 throw new GameFrameworkException("You can not use UpdateResources without updatable resource mode.");
             }
 
-            if (m_ResourceUpdater == null)
-            {
+            if (m_ResourceUpdater == null) {
                 throw new GameFrameworkException("You can not use UpdateResources at this time.");
             }
 
             ResourceGroup resourceGroup = (ResourceGroup)GetResourceGroup(resourceGroupName);
-            if (resourceGroup == null)
-            {
+            if (resourceGroup == null) {
                 throw new GameFrameworkException(Utility.Text.Format("Can not find resource group '{0}'.", resourceGroupName));
             }
 
@@ -1028,10 +868,8 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="assetName">要检查资源的名称。</param>
         /// <returns>检查资源是否存在的结果。</returns>
-        public HasAssetResult HasAsset(string assetName)
-        {
-            if (string.IsNullOrEmpty(assetName))
-            {
+        public HasAssetResult HasAsset(string assetName) {
+            if (string.IsNullOrEmpty(assetName)) {
                 throw new GameFrameworkException("Asset name is invalid.");
             }
 
@@ -1043,15 +881,12 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="assetName">要加载资源的名称。</param>
         /// <param name="loadAssetCallbacks">加载资源回调函数集。</param>
-        public void LoadAsset(string assetName, LoadAssetCallbacks loadAssetCallbacks)
-        {
-            if (string.IsNullOrEmpty(assetName))
-            {
+        public void LoadAsset(string assetName, LoadAssetCallbacks loadAssetCallbacks) {
+            if (string.IsNullOrEmpty(assetName)) {
                 throw new GameFrameworkException("Asset name is invalid.");
             }
 
-            if (loadAssetCallbacks == null)
-            {
+            if (loadAssetCallbacks == null) {
                 throw new GameFrameworkException("Load asset callbacks is invalid.");
             }
 
@@ -1064,15 +899,12 @@ namespace GameFramework.Resource
         /// <param name="assetName">要加载资源的名称。</param>
         /// <param name="assetType">要加载资源的类型。</param>
         /// <param name="loadAssetCallbacks">加载资源回调函数集。</param>
-        public void LoadAsset(string assetName, Type assetType, LoadAssetCallbacks loadAssetCallbacks)
-        {
-            if (string.IsNullOrEmpty(assetName))
-            {
+        public void LoadAsset(string assetName, Type assetType, LoadAssetCallbacks loadAssetCallbacks) {
+            if (string.IsNullOrEmpty(assetName)) {
                 throw new GameFrameworkException("Asset name is invalid.");
             }
 
-            if (loadAssetCallbacks == null)
-            {
+            if (loadAssetCallbacks == null) {
                 throw new GameFrameworkException("Load asset callbacks is invalid.");
             }
 
@@ -1085,15 +917,12 @@ namespace GameFramework.Resource
         /// <param name="assetName">要加载资源的名称。</param>
         /// <param name="priority">加载资源的优先级。</param>
         /// <param name="loadAssetCallbacks">加载资源回调函数集。</param>
-        public void LoadAsset(string assetName, int priority, LoadAssetCallbacks loadAssetCallbacks)
-        {
-            if (string.IsNullOrEmpty(assetName))
-            {
+        public void LoadAsset(string assetName, int priority, LoadAssetCallbacks loadAssetCallbacks) {
+            if (string.IsNullOrEmpty(assetName)) {
                 throw new GameFrameworkException("Asset name is invalid.");
             }
 
-            if (loadAssetCallbacks == null)
-            {
+            if (loadAssetCallbacks == null) {
                 throw new GameFrameworkException("Load asset callbacks is invalid.");
             }
 
@@ -1106,15 +935,12 @@ namespace GameFramework.Resource
         /// <param name="assetName">要加载资源的名称。</param>
         /// <param name="loadAssetCallbacks">加载资源回调函数集。</param>
         /// <param name="userData">用户自定义数据。</param>
-        public void LoadAsset(string assetName, LoadAssetCallbacks loadAssetCallbacks, object userData)
-        {
-            if (string.IsNullOrEmpty(assetName))
-            {
+        public void LoadAsset(string assetName, LoadAssetCallbacks loadAssetCallbacks, object userData) {
+            if (string.IsNullOrEmpty(assetName)) {
                 throw new GameFrameworkException("Asset name is invalid.");
             }
 
-            if (loadAssetCallbacks == null)
-            {
+            if (loadAssetCallbacks == null) {
                 throw new GameFrameworkException("Load asset callbacks is invalid.");
             }
 
@@ -1128,15 +954,12 @@ namespace GameFramework.Resource
         /// <param name="assetType">要加载资源的类型。</param>
         /// <param name="priority">加载资源的优先级。</param>
         /// <param name="loadAssetCallbacks">加载资源回调函数集。</param>
-        public void LoadAsset(string assetName, Type assetType, int priority, LoadAssetCallbacks loadAssetCallbacks)
-        {
-            if (string.IsNullOrEmpty(assetName))
-            {
+        public void LoadAsset(string assetName, Type assetType, int priority, LoadAssetCallbacks loadAssetCallbacks) {
+            if (string.IsNullOrEmpty(assetName)) {
                 throw new GameFrameworkException("Asset name is invalid.");
             }
 
-            if (loadAssetCallbacks == null)
-            {
+            if (loadAssetCallbacks == null) {
                 throw new GameFrameworkException("Load asset callbacks is invalid.");
             }
 
@@ -1150,15 +973,12 @@ namespace GameFramework.Resource
         /// <param name="assetType">要加载资源的类型。</param>
         /// <param name="loadAssetCallbacks">加载资源回调函数集。</param>
         /// <param name="userData">用户自定义数据。</param>
-        public void LoadAsset(string assetName, Type assetType, LoadAssetCallbacks loadAssetCallbacks, object userData)
-        {
-            if (string.IsNullOrEmpty(assetName))
-            {
+        public void LoadAsset(string assetName, Type assetType, LoadAssetCallbacks loadAssetCallbacks, object userData) {
+            if (string.IsNullOrEmpty(assetName)) {
                 throw new GameFrameworkException("Asset name is invalid.");
             }
 
-            if (loadAssetCallbacks == null)
-            {
+            if (loadAssetCallbacks == null) {
                 throw new GameFrameworkException("Load asset callbacks is invalid.");
             }
 
@@ -1172,15 +992,12 @@ namespace GameFramework.Resource
         /// <param name="priority">加载资源的优先级。</param>
         /// <param name="loadAssetCallbacks">加载资源回调函数集。</param>
         /// <param name="userData">用户自定义数据。</param>
-        public void LoadAsset(string assetName, int priority, LoadAssetCallbacks loadAssetCallbacks, object userData)
-        {
-            if (string.IsNullOrEmpty(assetName))
-            {
+        public void LoadAsset(string assetName, int priority, LoadAssetCallbacks loadAssetCallbacks, object userData) {
+            if (string.IsNullOrEmpty(assetName)) {
                 throw new GameFrameworkException("Asset name is invalid.");
             }
 
-            if (loadAssetCallbacks == null)
-            {
+            if (loadAssetCallbacks == null) {
                 throw new GameFrameworkException("Load asset callbacks is invalid.");
             }
 
@@ -1195,15 +1012,12 @@ namespace GameFramework.Resource
         /// <param name="priority">加载资源的优先级。</param>
         /// <param name="loadAssetCallbacks">加载资源回调函数集。</param>
         /// <param name="userData">用户自定义数据。</param>
-        public void LoadAsset(string assetName, Type assetType, int priority, LoadAssetCallbacks loadAssetCallbacks, object userData)
-        {
-            if (string.IsNullOrEmpty(assetName))
-            {
+        public void LoadAsset(string assetName, Type assetType, int priority, LoadAssetCallbacks loadAssetCallbacks, object userData) {
+            if (string.IsNullOrEmpty(assetName)) {
                 throw new GameFrameworkException("Asset name is invalid.");
             }
 
-            if (loadAssetCallbacks == null)
-            {
+            if (loadAssetCallbacks == null) {
                 throw new GameFrameworkException("Load asset callbacks is invalid.");
             }
 
@@ -1214,15 +1028,12 @@ namespace GameFramework.Resource
         /// 卸载资源。
         /// </summary>
         /// <param name="asset">要卸载的资源。</param>
-        public void UnloadAsset(object asset)
-        {
-            if (asset == null)
-            {
+        public void UnloadAsset(object asset) {
+            if (asset == null) {
                 throw new GameFrameworkException("Asset is invalid.");
             }
 
-            if (m_ResourceLoader == null)
-            {
+            if (m_ResourceLoader == null) {
                 return;
             }
 
@@ -1234,15 +1045,12 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="sceneAssetName">要加载场景资源的名称。</param>
         /// <param name="loadSceneCallbacks">加载场景回调函数集。</param>
-        public void LoadScene(string sceneAssetName, LoadSceneCallbacks loadSceneCallbacks)
-        {
-            if (string.IsNullOrEmpty(sceneAssetName))
-            {
+        public void LoadScene(string sceneAssetName, LoadSceneCallbacks loadSceneCallbacks) {
+            if (string.IsNullOrEmpty(sceneAssetName)) {
                 throw new GameFrameworkException("Scene asset name is invalid.");
             }
 
-            if (loadSceneCallbacks == null)
-            {
+            if (loadSceneCallbacks == null) {
                 throw new GameFrameworkException("Load scene callbacks is invalid.");
             }
 
@@ -1255,15 +1063,12 @@ namespace GameFramework.Resource
         /// <param name="sceneAssetName">要加载场景资源的名称。</param>
         /// <param name="priority">加载场景资源的优先级。</param>
         /// <param name="loadSceneCallbacks">加载场景回调函数集。</param>
-        public void LoadScene(string sceneAssetName, int priority, LoadSceneCallbacks loadSceneCallbacks)
-        {
-            if (string.IsNullOrEmpty(sceneAssetName))
-            {
+        public void LoadScene(string sceneAssetName, int priority, LoadSceneCallbacks loadSceneCallbacks) {
+            if (string.IsNullOrEmpty(sceneAssetName)) {
                 throw new GameFrameworkException("Scene asset name is invalid.");
             }
 
-            if (loadSceneCallbacks == null)
-            {
+            if (loadSceneCallbacks == null) {
                 throw new GameFrameworkException("Load scene callbacks is invalid.");
             }
 
@@ -1276,15 +1081,12 @@ namespace GameFramework.Resource
         /// <param name="sceneAssetName">要加载场景资源的名称。</param>
         /// <param name="loadSceneCallbacks">加载场景回调函数集。</param>
         /// <param name="userData">用户自定义数据。</param>
-        public void LoadScene(string sceneAssetName, LoadSceneCallbacks loadSceneCallbacks, object userData)
-        {
-            if (string.IsNullOrEmpty(sceneAssetName))
-            {
+        public void LoadScene(string sceneAssetName, LoadSceneCallbacks loadSceneCallbacks, object userData) {
+            if (string.IsNullOrEmpty(sceneAssetName)) {
                 throw new GameFrameworkException("Scene asset name is invalid.");
             }
 
-            if (loadSceneCallbacks == null)
-            {
+            if (loadSceneCallbacks == null) {
                 throw new GameFrameworkException("Load scene callbacks is invalid.");
             }
 
@@ -1298,15 +1100,12 @@ namespace GameFramework.Resource
         /// <param name="priority">加载场景资源的优先级。</param>
         /// <param name="loadSceneCallbacks">加载场景回调函数集。</param>
         /// <param name="userData">用户自定义数据。</param>
-        public void LoadScene(string sceneAssetName, int priority, LoadSceneCallbacks loadSceneCallbacks, object userData)
-        {
-            if (string.IsNullOrEmpty(sceneAssetName))
-            {
+        public void LoadScene(string sceneAssetName, int priority, LoadSceneCallbacks loadSceneCallbacks, object userData) {
+            if (string.IsNullOrEmpty(sceneAssetName)) {
                 throw new GameFrameworkException("Scene asset name is invalid.");
             }
 
-            if (loadSceneCallbacks == null)
-            {
+            if (loadSceneCallbacks == null) {
                 throw new GameFrameworkException("Load scene callbacks is invalid.");
             }
 
@@ -1318,15 +1117,12 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="sceneAssetName">要卸载场景资源的名称。</param>
         /// <param name="unloadSceneCallbacks">卸载场景回调函数集。</param>
-        public void UnloadScene(string sceneAssetName, UnloadSceneCallbacks unloadSceneCallbacks)
-        {
-            if (string.IsNullOrEmpty(sceneAssetName))
-            {
+        public void UnloadScene(string sceneAssetName, UnloadSceneCallbacks unloadSceneCallbacks) {
+            if (string.IsNullOrEmpty(sceneAssetName)) {
                 throw new GameFrameworkException("Scene asset name is invalid.");
             }
 
-            if (unloadSceneCallbacks == null)
-            {
+            if (unloadSceneCallbacks == null) {
                 throw new GameFrameworkException("Unload scene callbacks is invalid.");
             }
 
@@ -1339,15 +1135,12 @@ namespace GameFramework.Resource
         /// <param name="sceneAssetName">要卸载场景资源的名称。</param>
         /// <param name="unloadSceneCallbacks">卸载场景回调函数集。</param>
         /// <param name="userData">用户自定义数据。</param>
-        public void UnloadScene(string sceneAssetName, UnloadSceneCallbacks unloadSceneCallbacks, object userData)
-        {
-            if (string.IsNullOrEmpty(sceneAssetName))
-            {
+        public void UnloadScene(string sceneAssetName, UnloadSceneCallbacks unloadSceneCallbacks, object userData) {
+            if (string.IsNullOrEmpty(sceneAssetName)) {
                 throw new GameFrameworkException("Scene asset name is invalid.");
             }
 
-            if (unloadSceneCallbacks == null)
-            {
+            if (unloadSceneCallbacks == null) {
                 throw new GameFrameworkException("Unload scene callbacks is invalid.");
             }
 
@@ -1359,10 +1152,8 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="binaryAssetName">要获取实际路径的二进制资源的名称。</param>
         /// <returns>二进制资源的实际路径。</returns>
-        public string GetBinaryPath(string binaryAssetName)
-        {
-            if (string.IsNullOrEmpty(binaryAssetName))
-            {
+        public string GetBinaryPath(string binaryAssetName) {
+            if (string.IsNullOrEmpty(binaryAssetName)) {
                 throw new GameFrameworkException("Binary asset name is invalid.");
             }
 
@@ -1376,8 +1167,7 @@ namespace GameFramework.Resource
         /// <param name="storageInReadOnly">资源是否在只读区。</param>
         /// <param name="relativePath">二进制资源相对于只读区或者读写区的相对路径。</param>
         /// <returns>获取二进制资源的实际路径是否成功。</returns>
-        public bool GetBinaryPath(string binaryAssetName, out bool storageInReadOnly, out string relativePath)
-        {
+        public bool GetBinaryPath(string binaryAssetName, out bool storageInReadOnly, out string relativePath) {
             return m_ResourceLoader.GetBinaryPath(binaryAssetName, out storageInReadOnly, out relativePath);
         }
 
@@ -1386,15 +1176,12 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="binaryAssetName">要加载二进制资源的名称。</param>
         /// <param name="loadBinaryCallbacks">加载二进制资源回调函数集。</param>
-        public void LoadBinary(string binaryAssetName, LoadBinaryCallbacks loadBinaryCallbacks)
-        {
-            if (string.IsNullOrEmpty(binaryAssetName))
-            {
+        public void LoadBinary(string binaryAssetName, LoadBinaryCallbacks loadBinaryCallbacks) {
+            if (string.IsNullOrEmpty(binaryAssetName)) {
                 throw new GameFrameworkException("Binary asset name is invalid.");
             }
 
-            if (loadBinaryCallbacks == null)
-            {
+            if (loadBinaryCallbacks == null) {
                 throw new GameFrameworkException("Load binary callbacks is invalid.");
             }
 
@@ -1407,15 +1194,12 @@ namespace GameFramework.Resource
         /// <param name="binaryAssetName">要加载二进制资源的名称。</param>
         /// <param name="loadBinaryCallbacks">加载二进制资源回调函数集。</param>
         /// <param name="userData">用户自定义数据。</param>
-        public void LoadBinary(string binaryAssetName, LoadBinaryCallbacks loadBinaryCallbacks, object userData)
-        {
-            if (string.IsNullOrEmpty(binaryAssetName))
-            {
+        public void LoadBinary(string binaryAssetName, LoadBinaryCallbacks loadBinaryCallbacks, object userData) {
+            if (string.IsNullOrEmpty(binaryAssetName)) {
                 throw new GameFrameworkException("Binary asset name is invalid.");
             }
 
-            if (loadBinaryCallbacks == null)
-            {
+            if (loadBinaryCallbacks == null) {
                 throw new GameFrameworkException("Load binary callbacks is invalid.");
             }
 
@@ -1427,8 +1211,7 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="resourceGroupName">要检查资源组的名称。</param>
         /// <returns>资源组是否存在。</returns>
-        public bool HasResourceGroup(string resourceGroupName)
-        {
+        public bool HasResourceGroup(string resourceGroupName) {
             return m_ResourceGroups.ContainsKey(resourceGroupName ?? string.Empty);
         }
 
@@ -1436,8 +1219,7 @@ namespace GameFramework.Resource
         /// 获取默认资源组。
         /// </summary>
         /// <returns>默认资源组。</returns>
-        public IResourceGroup GetResourceGroup()
-        {
+        public IResourceGroup GetResourceGroup() {
             return GetResourceGroup(string.Empty);
         }
 
@@ -1446,11 +1228,9 @@ namespace GameFramework.Resource
         /// </summary>
         /// <param name="resourceGroupName">要获取的资源组名称。</param>
         /// <returns>要获取的资源组。</returns>
-        public IResourceGroup GetResourceGroup(string resourceGroupName)
-        {
+        public IResourceGroup GetResourceGroup(string resourceGroupName) {
             ResourceGroup resourceGroup = null;
-            if (m_ResourceGroups.TryGetValue(resourceGroupName ?? string.Empty, out resourceGroup))
-            {
+            if (m_ResourceGroups.TryGetValue(resourceGroupName ?? string.Empty, out resourceGroup)) {
                 return resourceGroup;
             }
 
@@ -1461,21 +1241,17 @@ namespace GameFramework.Resource
         /// 获取所有加载资源任务的信息。
         /// </summary>
         /// <returns>所有加载资源任务的信息。</returns>
-        public TaskInfo[] GetAllLoadAssetInfos()
-        {
+        public TaskInfo[] GetAllLoadAssetInfos() {
             return m_ResourceLoader.GetAllLoadAssetInfos();
         }
 
-        private ResourceGroup GetOrAddResourceGroup(string resourceGroupName)
-        {
-            if (resourceGroupName == null)
-            {
+        private ResourceGroup GetOrAddResourceGroup(string resourceGroupName) {
+            if (resourceGroupName == null) {
                 resourceGroupName = string.Empty;
             }
 
             ResourceGroup resourceGroup = null;
-            if (!m_ResourceGroups.TryGetValue(resourceGroupName, out resourceGroup))
-            {
+            if (!m_ResourceGroups.TryGetValue(resourceGroupName, out resourceGroup)) {
                 resourceGroup = new ResourceGroup(resourceGroupName, m_ResourceInfos);
                 m_ResourceGroups.Add(resourceGroupName, resourceGroup);
             }
@@ -1483,45 +1259,37 @@ namespace GameFramework.Resource
             return resourceGroup;
         }
 
-        private AssetInfo? GetAssetInfo(string assetName)
-        {
-            if (string.IsNullOrEmpty(assetName))
-            {
+        private AssetInfo? GetAssetInfo(string assetName) {
+            if (string.IsNullOrEmpty(assetName)) {
                 throw new GameFrameworkException("Asset name is invalid.");
             }
 
-            if (m_AssetInfos == null)
-            {
+            if (m_AssetInfos == null) {
                 return null;
             }
 
             AssetInfo assetInfo = default(AssetInfo);
-            if (m_AssetInfos.TryGetValue(assetName, out assetInfo))
-            {
+            if (m_AssetInfos.TryGetValue(assetName, out assetInfo)) {
                 return assetInfo;
             }
 
             return null;
         }
 
-        private ResourceInfo? GetResourceInfo(ResourceName resourceName)
-        {
-            if (m_ResourceInfos == null)
-            {
+        private ResourceInfo? GetResourceInfo(ResourceName resourceName) {
+            if (m_ResourceInfos == null) {
                 return null;
             }
 
             ResourceInfo resourceInfo = default(ResourceInfo);
-            if (m_ResourceInfos.TryGetValue(resourceName, out resourceInfo))
-            {
+            if (m_ResourceInfos.TryGetValue(resourceName, out resourceInfo)) {
                 return resourceInfo;
             }
 
             return null;
         }
 
-        private void OnIniterResourceInitComplete()
-        {
+        private void OnIniterResourceInitComplete() {
             m_ResourceIniter.ResourceInitComplete -= OnIniterResourceInitComplete;
             m_ResourceIniter.Shutdown();
             m_ResourceIniter = null;
@@ -1530,26 +1298,21 @@ namespace GameFramework.Resource
             m_InitResourcesCompleteCallback = null;
         }
 
-        private void OnVersionListProcessorUpdateSuccess(string downloadPath, string downloadUri)
-        {
+        private void OnVersionListProcessorUpdateSuccess(string downloadPath, string downloadUri) {
             m_UpdateVersionListCallbacks.UpdateVersionListSuccessCallback(downloadPath, downloadUri);
         }
 
-        private void OnVersionListProcessorUpdateFailure(string downloadUri, string errorMessage)
-        {
-            if (m_UpdateVersionListCallbacks.UpdateVersionListFailureCallback != null)
-            {
+        private void OnVersionListProcessorUpdateFailure(string downloadUri, string errorMessage) {
+            if (m_UpdateVersionListCallbacks.UpdateVersionListFailureCallback != null) {
                 m_UpdateVersionListCallbacks.UpdateVersionListFailureCallback(downloadUri, errorMessage);
             }
         }
 
-        private void OnCheckerResourceNeedUpdate(ResourceName resourceName, LoadType loadType, int length, int hashCode, int zipLength, int zipHashCode)
-        {
+        private void OnCheckerResourceNeedUpdate(ResourceName resourceName, LoadType loadType, int length, int hashCode, int zipLength, int zipHashCode) {
             m_ResourceUpdater.AddResourceUpdate(resourceName, loadType, length, hashCode, zipLength, zipHashCode, Utility.Path.GetRegularPath(Path.Combine(m_ReadWritePath, resourceName.FullName)));
         }
 
-        private void OnCheckerResourceCheckComplete(int removedCount, int updateCount, long updateTotalLength, long updateTotalZipLength)
-        {
+        private void OnCheckerResourceCheckComplete(int removedCount, int updateCount, long updateTotalLength, long updateTotalZipLength) {
             m_VersionListProcessor.VersionListUpdateSuccess -= OnVersionListProcessorUpdateSuccess;
             m_VersionListProcessor.VersionListUpdateFailure -= OnVersionListProcessorUpdateFailure;
             m_VersionListProcessor.Shutdown();
@@ -1563,8 +1326,7 @@ namespace GameFramework.Resource
 
             m_ResourceUpdater.CheckResourceComplete(removedCount > 0);
 
-            if (updateCount <= 0)
-            {
+            if (updateCount <= 0) {
                 m_ResourceUpdater.ResourceUpdateStart -= OnUpdaterResourceUpdateStart;
                 m_ResourceUpdater.ResourceUpdateChanged -= OnUpdaterResourceUpdateChanged;
                 m_ResourceUpdater.ResourceUpdateSuccess -= OnUpdaterResourceUpdateSuccess;
@@ -1572,8 +1334,7 @@ namespace GameFramework.Resource
                 m_ResourceUpdater.ResourceUpdateAllComplete -= OnUpdaterResourceUpdateAllComplete;
                 m_ResourceUpdater.Shutdown();
                 m_ResourceUpdater = null;
-                if (m_DecompressCachedStream != null)
-                {
+                if (m_DecompressCachedStream != null) {
                     m_DecompressCachedStream.Dispose();
                     m_DecompressCachedStream = null;
                 }
@@ -1583,52 +1344,42 @@ namespace GameFramework.Resource
             m_CheckResourcesCompleteCallback = null;
         }
 
-        private void OnUpdaterResourceUpdateStart(ResourceName resourceName, string downloadPath, string downloadUri, int currentLength, int zipLength, int retryCount)
-        {
-            if (m_ResourceUpdateStartEventHandler != null)
-            {
+        private void OnUpdaterResourceUpdateStart(ResourceName resourceName, string downloadPath, string downloadUri, int currentLength, int zipLength, int retryCount) {
+            if (m_ResourceUpdateStartEventHandler != null) {
                 ResourceUpdateStartEventArgs resourceUpdateStartEventArgs = ResourceUpdateStartEventArgs.Create(resourceName.FullName, downloadPath, downloadUri, currentLength, zipLength, retryCount);
                 m_ResourceUpdateStartEventHandler(this, resourceUpdateStartEventArgs);
                 ReferencePool.Release(resourceUpdateStartEventArgs);
             }
         }
 
-        private void OnUpdaterResourceUpdateChanged(ResourceName resourceName, string downloadPath, string downloadUri, int currentLength, int zipLength)
-        {
-            if (m_ResourceUpdateChangedEventHandler != null)
-            {
+        private void OnUpdaterResourceUpdateChanged(ResourceName resourceName, string downloadPath, string downloadUri, int currentLength, int zipLength) {
+            if (m_ResourceUpdateChangedEventHandler != null) {
                 ResourceUpdateChangedEventArgs resourceUpdateChangedEventArgs = ResourceUpdateChangedEventArgs.Create(resourceName.FullName, downloadPath, downloadUri, currentLength, zipLength);
                 m_ResourceUpdateChangedEventHandler(this, resourceUpdateChangedEventArgs);
                 ReferencePool.Release(resourceUpdateChangedEventArgs);
             }
         }
 
-        private void OnUpdaterResourceUpdateSuccess(ResourceName resourceName, string downloadPath, string downloadUri, int length, int zipLength)
-        {
-            if (m_ResourceUpdateSuccessEventHandler != null)
-            {
+        private void OnUpdaterResourceUpdateSuccess(ResourceName resourceName, string downloadPath, string downloadUri, int length, int zipLength) {
+            if (m_ResourceUpdateSuccessEventHandler != null) {
                 ResourceUpdateSuccessEventArgs resourceUpdateSuccessEventArgs = ResourceUpdateSuccessEventArgs.Create(resourceName.FullName, downloadPath, downloadUri, length, zipLength);
                 m_ResourceUpdateSuccessEventHandler(this, resourceUpdateSuccessEventArgs);
                 ReferencePool.Release(resourceUpdateSuccessEventArgs);
             }
         }
 
-        private void OnUpdaterResourceUpdateFailure(ResourceName resourceName, string downloadUri, int retryCount, int totalRetryCount, string errorMessage)
-        {
-            if (m_ResourceUpdateFailureEventHandler != null)
-            {
+        private void OnUpdaterResourceUpdateFailure(ResourceName resourceName, string downloadUri, int retryCount, int totalRetryCount, string errorMessage) {
+            if (m_ResourceUpdateFailureEventHandler != null) {
                 ResourceUpdateFailureEventArgs resourceUpdateFailureEventArgs = ResourceUpdateFailureEventArgs.Create(resourceName.FullName, downloadUri, retryCount, totalRetryCount, errorMessage);
                 m_ResourceUpdateFailureEventHandler(this, resourceUpdateFailureEventArgs);
                 ReferencePool.Release(resourceUpdateFailureEventArgs);
             }
         }
 
-        private void OnUpdaterResourceUpdateAllComplete(ResourceGroup resourceGroup, bool result, bool isAllDone)
-        {
+        private void OnUpdaterResourceUpdateAllComplete(ResourceGroup resourceGroup, bool result, bool isAllDone) {
             m_UpdateResourcesCompleteCallback(resourceGroup, result);
 
-            if (isAllDone)
-            {
+            if (isAllDone) {
                 m_ResourceUpdater.ResourceUpdateStart -= OnUpdaterResourceUpdateStart;
                 m_ResourceUpdater.ResourceUpdateChanged -= OnUpdaterResourceUpdateChanged;
                 m_ResourceUpdater.ResourceUpdateSuccess -= OnUpdaterResourceUpdateSuccess;
@@ -1636,8 +1387,7 @@ namespace GameFramework.Resource
                 m_ResourceUpdater.ResourceUpdateAllComplete -= OnUpdaterResourceUpdateAllComplete;
                 m_ResourceUpdater.Shutdown();
                 m_ResourceUpdater = null;
-                if (m_DecompressCachedStream != null)
-                {
+                if (m_DecompressCachedStream != null) {
                     m_DecompressCachedStream.Dispose();
                     m_DecompressCachedStream = null;
                 }
@@ -1646,7 +1396,12 @@ namespace GameFramework.Resource
             }
         }
         public void LoadBytes(string abName, LoadBytesCallbacks callback, object userdata) {
-            m_ResourceHelper.LoadBytes(Utility.Path.GetRemotePath(Path.Combine(m_ReadWritePath, abName+".dat")), callback, userdata);
+            if (ResourceMode == ResourceMode.Updatable) {
+                m_ResourceHelper.LoadBytes(Utility.Path.GetRemotePath(Path.Combine(m_ReadWritePath, abName + ".dat")), callback, userdata);
+            }
+            else if (ResourceMode == ResourceMode.Package) {
+                m_ResourceHelper.LoadBytes(Utility.Path.GetRemotePath(Path.Combine(m_ReadOnlyPath, abName + ".dat")), callback, userdata);
+            }
         }
         public object GetABFromPool(string resourceName) {
             return m_ResourceLoader.GetABFromPool(resourceName);

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item ID="10000">
+		<mapName>圣光主城</mapName>
+		<sceneName>SceneMainCity</sceneName>
+		<power>0</power>
+		<mainCamPos>17.4,7,50</mainCamPos>
+		<mainCamRote>45,135,0</mainCamRote>
+		<playerBornPos>22,-1.1,45</playerBornPos>
+		<playerBornRote>0,0,0</playerBornRote>
+		<exp>0</exp>
+		<coin>0</coin>
+		<crystal>0</crystal>
+	</item>
+	<item ID="10001">
+		<mapName>荒野遗迹</mapName>
+		<sceneName>SceneOrge</sceneName>
+		<power>5</power>
+		<mainCamPos>-13.19,18.87,14.69</mainCamPos>
+		<mainCamRote>45,135,0</mainCamRote>
+		<playerBornPos>-10,13.2,11.5</playerBornPos>
+		<playerBornRote>0,145,0</playerBornRote>
+		<monsterLst>#|1001,-4.39,13.3,3.79,-50,1
+      |1001,-7.55,13.3, 3,0,1
+      #|1001,18.86,13.6,3.7,-107.3,2
+      |1001,14.35,13.35,5.95,-117.4,2
+      |1001,15.11,13.35,1.63,-66.1,2
+      #|1001,18.16,8.8,32,188,3
+      |1001,11.8,8.8,30.8,145.5,3
+      |1001,15.38,8.8,40.7,173.3,3
+      |1001,9,8.9,38.6,145.5,3
+      |2001,11.4,8.85,41,142,1</monsterLst>
+		<exp>1250</exp>
+		<coin>980</coin>
+		<crystal>48</crystal>
+	</item>
+	<item ID="10002">
+		<mapName>荒野遗迹</mapName>
+		<sceneName>SceneOrge</sceneName>
+		<power>5</power>
+		<mainCamPos>-13.19,18.87,14.69</mainCamPos>
+		<mainCamRote>45,135,0</mainCamRote>
+		<playerBornPos>-10,13.2,11.5</playerBornPos>
+		<playerBornRote>0,145,0</playerBornRote>
+		<monsterLst>#|1001,-4.39,13.14,3.79,-50,1
+      |1001,-7.55,13.1, 3,0,1
+      #|1001,18.86,13.6,3.7,-107.3,2
+      |1001,14.35,13.35,5.95,-117.4,2
+      |1001,15.11,13.35,1.63,-66.1,2
+      #|1001,18.16,8.8,32,188,3
+      |1001,11.8,8.8,30.8,145.5,3
+      |1001,15.38,8.8,40.7,173.3,3
+      |1001,9,8.9,38.6,145.5,3
+      |2001,11.4,8.85,41,142,1</monsterLst>
+		<exp>1350</exp>
+		<coin>1080</coin>
+		<crystal>58</crystal>
+	</item>
+	<item ID="10003">
+		<mapName>荒野遗迹</mapName>
+		<sceneName>SceneOrge</sceneName>
+		<power>5</power>
+		<mainCamPos>-13.19,18.87,14.69</mainCamPos>
+		<mainCamRote>45,135,0</mainCamRote>
+		<playerBornPos>-10,13.2,11.5</playerBornPos>
+		<playerBornRote>0,145,0</playerBornRote>
+		<monsterLst>#|1001,-4.39,13.14,3.79,-50,1
+      |1001,-7.55,13.1, 3,0,1
+      #|1001,18.86,13.6,3.7,-107.3,2
+      |1001,14.35,13.35,5.95,-117.4,2
+      |1001,15.11,13.35,1.63,-66.1,2
+      #|1001,18.16,8.8,32,188,3
+      |1001,11.8,8.8,30.8,145.5,3
+      |1001,15.38,8.8,40.7,173.3,3
+      |1001,9,8.9,38.6,145.5,3
+      |2001,11.4,8.85,41,142,1</monsterLst>
+		<exp>1450</exp>
+		<coin>1180</coin>
+		<crystal>68</crystal>
+	</item>
+	<item ID="10004">
+		<mapName>荒野遗迹</mapName>
+		<sceneName>SceneOrge</sceneName>
+		<power>5</power>
+		<mainCamPos>-13.19,18.87,14.69</mainCamPos>
+		<mainCamRote>45,135,0</mainCamRote>
+		<playerBornPos>-10,13.2,11.5</playerBornPos>
+		<playerBornRote>0,145,0</playerBornRote>
+		<monsterLst>#|1001,-4.39,13.14,3.79,-50,1
+      |1001,-7.55,13.1, 3,0,1
+      #|1001,18.86,13.6,3.7,-107.3,2
+      |1001,14.35,13.35,5.95,-117.4,2
+      |1001,15.11,13.35,1.63,-66.1,2
+      #|1001,18.16,8.8,32,188,3
+      |1001,11.8,8.8,30.8,145.5,3
+      |1001,15.38,8.8,40.7,173.3,3
+      |1001,9,8.9,38.6,145.5,3
+      |2001,11.4,8.85,41,142,1</monsterLst>
+		<exp>1550</exp>
+		<coin>1280</coin>
+		<crystal>78</crystal>
+	</item>
+	<item ID="10005">
+		<mapName>荒野遗迹</mapName>
+		<sceneName>SceneOrge</sceneName>
+		<power>5</power>
+		<mainCamPos>-13.19,18.87,14.69</mainCamPos>
+		<mainCamRote>45,135,0</mainCamRote>
+		<playerBornPos>-10,13.2,11.5</playerBornPos>
+		<playerBornRote>0,145,0</playerBornRote>
+		<monsterLst>#|1001,-4.39,13.14,3.79,-50,1
+      |1001,-7.55,13.1, 3,0,1
+      #|1001,18.86,13.6,3.7,-107.3,2
+      |1001,14.35,13.35,5.95,-117.4,2
+      |1001,15.11,13.35,1.63,-66.1,2
+      #|1001,18.16,8.8,32,188,3
+      |1001,11.8,8.8,30.8,145.5,3
+      |1001,15.38,8.8,40.7,173.3,3
+      |1001,9,8.9,38.6,145.5,3
+      |2001,11.4,8.85,41,142,1</monsterLst>
+		<exp>1650</exp>
+		<coin>1380</coin>
+		<crystal>88</crystal>
+	</item>
+	<item ID="10006">
+		<mapName>荒野遗迹</mapName>
+		<sceneName>SceneOrge</sceneName>
+		<power>5</power>
+		<mainCamPos>-13.19,18.87,14.69</mainCamPos>
+		<mainCamRote>45,135,0</mainCamRote>
+		<playerBornPos>-10,13.2,11.5</playerBornPos>
+		<playerBornRote>0,145,0</playerBornRote>
+		<monsterLst>#|1001,-4.39,13.14,3.79,-50,1
+      |1001,-7.55,13.1, 3,0,1
+      #|1001,18.86,13.6,3.7,-107.3,2
+      |1001,14.35,13.35,5.95,-117.4,2
+      |1001,15.11,13.35,1.63,-66.1,2
+      #|1001,18.16,8.8,32,188,3
+      |1001,11.8,8.8,30.8,145.5,3
+      |1001,15.38,8.8,40.7,173.3,3
+      |1001,9,8.9,38.6,145.5,3
+      |2001,11.4,8.85,41,142,1</monsterLst>
+		<exp>1750</exp>
+		<coin>1480</coin>
+		<crystal>98</crystal>
+	</item>
+</root>

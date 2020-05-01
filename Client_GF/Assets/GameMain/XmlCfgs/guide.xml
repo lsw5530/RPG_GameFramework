@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item ID="1001">
+		<npcID>0</npcID>
+		<dilogArr>#0|智者您好，晚辈$name,前来拜会。
+#1|漫漫人生路，你我得以相遇也是一种缘分。我看你骨骼精奇，眉宇间正气凛然，将来定能成就一番事业。
+#0|智者过誉了，晚辈阅历尚浅，学识浅薄，空有满腔热血，还请前辈多多教导。
+#1|教导谈不上，但我现有一事可交付与你，若你能办妥，对你而言也是一种历练。你可有意为之？
+#0|能为智者办事，是晚辈的福分，定当竭尽所能，请您明示。
+#1|甚好，此事我已安排妥当，你去主城找凯伦将军，他会告诉你怎么做。
+#0|好的，晚辈即刻启程。</dilogArr>
+		<actID>0</actID>
+		<coin>65</coin>
+		<exp>80</exp>
+	</item>
+	<item ID="1002">
+		<npcID>1</npcID>
+		<dilogArr>#0|将军，晚辈$name,乃智者派遣前来，说有一事交付于我。
+#1|你终于来了，我已经在此地等候多时了。智者果然没有看错人。
+#0|全凭智者提携晚辈，才有机会谋得此事。定当竭尽所能，以尽绵薄之力。
+#1|距离此地10里荒原之处，常有兽匪出没，滋扰边境，现派你去侦察敌情，以便大军及时过境。
+#0|请将军放心，我即刻出发，尽快查实情况。</dilogArr>
+		<actID>1</actID>
+		<coin>75</coin>
+		<exp>90</exp>
+	</item>
+	<item ID="1003">
+		<npcID>2</npcID>
+		<dilogArr>#0|老板，你好，我需要对自己的装备进行修复更新。请问你能帮我吗？
+#1|少侠好眼力，我是全城最好的工匠，没有之一。你来找我算是来对地方了。
+#0|甚好甚好，那就麻烦你了。
+#1|不麻烦，你只要有钱就行了。谁也不会和钱过不去，对么？</dilogArr>
+		<actID>2</actID>
+		<coin>85</coin>
+		<exp>100</exp>
+	</item>
+	<item ID="1004">
+		<npcID>3</npcID>
+		<dilogArr>#1|江湖路漫漫，耗神又废力，你需要补充一些体力了。
+#0|休息是为了走更远的路，翻越更高的山，我需要补充一些体力了。</dilogArr>
+		<actID>3</actID>
+		<coin>95</coin>
+		<exp>110</exp>
+	</item>
+	<item ID="1005">
+		<npcID>-1</npcID>
+		<dilogArr>#1|钱不是万能的，但没钱是万万不能的。
+#0|是时候让自己的口袋充实一些了。</dilogArr>
+		<actID>4</actID>
+		<coin>105</coin>
+		<exp>120</exp>
+	</item>
+	<item ID="1006">
+		<npcID>-1</npcID>
+		<dilogArr>#1|沟通能接近彼此之间的距离。如果没能拉近，肯定是你没有说普通话。
+#0|是时候让世界听到我的声音了。</dilogArr>
+		<actID>5</actID>
+		<coin>115</coin>
+		<exp>130</exp>
+	</item>
+</root>

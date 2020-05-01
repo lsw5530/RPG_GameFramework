@@ -1,0 +1,9 @@
+{
+  "GameVersion": "0.1.0",
+  "InternalGameVersion": 0,
+  "CheckVersionUrl": "http://127.0.0.1:280/version",
+  "StandaloneAppUrl": "https://gameframework.cn",
+  "IosAppUrl": "https://gameframework.cn",
+  "AndroidAppUrl": "https://gameframework.cn",
+  "END_OF_JSON": ""
+}

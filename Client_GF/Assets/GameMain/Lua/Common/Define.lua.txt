@@ -1,0 +1,38 @@
+--Game main--
+Database      = CS.GameMain.GameEntry.Database
+DataTable     = CS.GameMain.GameEntry.DataTable
+Entity        = CS.GameMain.GameEntry.Entity
+Event         = CS.GameMain.GameEntry.Event
+FairyGui      = CS.GameMain.GameEntry.FairyGui
+Localization  = CS.GameMain.GameEntry.Localization
+Log           = CS.GameFramework.Log
+Procedure     = CS.GameMain.GameEntry.Procedure
+Scene         = CS.GameMain.GameEntry.Scene
+Setting       = CS.GameMain.GameEntry.Setting
+Sound         = CS.GameMain.GameEntry.Sound
+UI            = CS.GameMain.GameEntry.UI
+
+--Unity--
+Mathf		 = require "Common/Tools/UnityEngine/Mathf"
+Vector2		 = require "Common/Tools/UnityEngine/Vector2"
+Vector3 	 = require "Common/Tools/UnityEngine/Vector3"
+Vector4		 = require "Common/Tools/UnityEngine/Vector4"
+Quaternion	 = require "Common/Tools/UnityEngine/Quaternion"
+Color		 = require "Common/Tools/UnityEngine/Color"
+Ray			 = require "Common/Tools/UnityEngine/Ray"
+Bounds		 = require "Common/Tools/UnityEngine/Bounds"
+RaycastHit	 = require "Common/Tools/UnityEngine/RaycastHit"
+Touch		 = require "Common/Tools/UnityEngine/Touch"
+LayerMask	 = require "Common/Tools/UnityEngine/LayerMask"
+Plane		 = require "Common/Tools/UnityEngine/Plane"
+Time		 = require "Common/Tools/UnityEngine/Time"
+Object		 = require "Common/Tools/UnityEngine/Object"
+
+--Tools--
+Import      = require "Common/Tools/import"
+LuaUtil     = require "Common/LuaUtil"
+TableUtil   = require "Common/TableUtil"
+StringUtil  = require "Common/StringUtil"
+List	    = require "Common/Tools/list"
+LuaEvent    = require "Common/Tools/event"
+

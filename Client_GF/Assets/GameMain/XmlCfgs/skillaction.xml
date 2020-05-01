@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <item ID="1011">
+    <delayTime>100</delayTime>
+    <radius>2.5</radius>
+    <angle>360</angle>
+  </item>
+  <item ID="1021">
+    <delayTime>350</delayTime>
+    <radius>2.5</radius>
+    <angle>360</angle>
+  </item>
+  <item ID="1031">
+    <delayTime>300</delayTime>
+    <radius>4.5</radius>
+    <angle>360</angle>
+  </item>
+  <item ID="1111">
+    <delayTime>30</delayTime>
+    <radius>2.5</radius>
+    <angle>270</angle>
+  </item>
+  <item ID="1121">
+    <delayTime>30</delayTime>
+    <radius>5</radius>
+    <angle>60</angle>
+  </item>
+  <item ID="1131">
+    <delayTime>25</delayTime>
+    <radius>2.5</radius>
+    <angle>360</angle>
+  </item>
+  <item ID="1141">
+    <delayTime>0</delayTime>
+    <radius>5</radius>
+    <angle>360</angle>
+  </item>
+  <item ID="1151">
+    <delayTime>0</delayTime>
+    <radius>5</radius>
+    <angle>120</angle>
+  </item>
+  <item ID="2111">
+    <delayTime>600</delayTime>
+    <radius>2</radius>
+    <angle>60</angle>
+  </item>
+  <item ID="2211">
+    <delayTime>1000</delayTime>
+    <radius>4.5</radius>
+    <angle>60</angle>
+  </item>
+</root>
