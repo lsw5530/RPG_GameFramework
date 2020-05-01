@@ -1,0 +1,15 @@
+syntax = "proto3"; 
+package GameMessage;
+
+message SndChat
+{
+	 string chat=1;
+	
+}
+
+message PshChat
+{
+	 string name=1;
+     string chat=2;
+}
+

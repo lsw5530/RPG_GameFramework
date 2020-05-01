@@ -1,0 +1,66 @@
+ManifestFileVersion: 0
+CRC: 3566965674
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0c7fd22c890af65bced526c283de6d9c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Touch.lua.txt
+- Assets/GameMain/Lua/Framework/Common/Singleton.lua.txt
+- Assets/GameMain/Lua/Framework/Common/Updatable.lua.txt
+- Assets/GameMain/Lua/Common/Tools/socket/ftp.lua.txt
+- Assets/GameMain/Lua/Common/StringUtil.lua.txt
+- Assets/GameMain/Lua/Common/Tools/lpeg/re.lua.txt
+- Assets/GameMain/Lua/Framework/Updater/UpdateManager.lua.txt
+- Assets/GameMain/Lua/Hotfix/HotfixTest.lua.txt
+- Assets/GameMain/Lua/Common/Global.lua.txt
+- Assets/GameMain/Lua/Common/Define.lua.txt
+- Assets/GameMain/Lua/Common/Tools/socket/http.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Mathf.lua.txt
+- Assets/GameMain/Lua/Framework/UI/Util/UIUtil.lua.txt
+- Assets/GameMain/Lua/Common/Tools/list.lua.txt
+- Assets/GameMain/Lua/Framework/Updater/Timer.lua.txt
+- Assets/GameMain/Lua/Common/LuaUtil.lua.txt
+- Assets/GameMain/Lua/Framework/Common/UpdatableSingleton.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Ray.lua.txt
+- Assets/GameMain/Lua/Common/Tools/socket/mbox.lua.txt
+- Assets/GameMain/Lua/Common/TableUtil.lua.txt
+- Assets/GameMain/Lua/Common/Tools/import.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/LayerMask.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Object.lua.txt
+- Assets/GameMain/Lua/UIForm/LoginForm.lua.txt
+- Assets/GameMain/Lua/Framework/Updater/TimerManager.lua.txt
+- Assets/GameMain/Lua/Common/Tools/socket/headers.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Plane.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Quaternion.lua.txt
+- Assets/GameMain/Lua/Framework/Common/DataClass.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Vector4.lua.txt
+- Assets/GameMain/Lua/Common/Tools/socket.lua.txt
+- Assets/GameMain/Lua/Common/GameMain.lua.txt
+- Assets/GameMain/Lua/Common/Tools/socket/tp.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Time.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Color.lua.txt
+- Assets/GameMain/Lua/Common/Tools/mime.lua.txt
+- Assets/GameMain/Lua/Common/Tools/cjson/util.lua.txt
+- Assets/GameMain/Lua/Framework/Common/ConstClass.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Bounds.lua.txt
+- Assets/GameMain/Lua/Framework/Updater/Coroutine.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Vector3.lua.txt
+- Assets/GameMain/Lua/Framework/Common/BaseClass.lua.txt
+- Assets/GameMain/Lua/Framework/Logger/Logger.lua.txt
+- Assets/GameMain/Lua/Common/Tools/ltn12.lua.txt
+- Assets/GameMain/Lua/Framework/Common/Messenger.lua.txt
+- Assets/GameMain/Lua/Common/Tools/socket/smtp.lua.txt
+- Assets/GameMain/Lua/Common/Tools/socket/url.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/Vector2.lua.txt
+- Assets/GameMain/Lua/Common/Tools/UnityEngine/RaycastHit.lua.txt
+- Assets/GameMain/Lua/Common/Tools/event.lua.txt
+- Assets/GameMain/Lua/Common/Tools/utf8.lua.txt
+Dependencies: []

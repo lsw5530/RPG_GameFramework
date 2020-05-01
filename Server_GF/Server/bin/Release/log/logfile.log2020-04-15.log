@@ -1,0 +1,26 @@
+﻿2020-04-15 23:49:42,121 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-15 23:49:42,140 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-15 23:49:42,143 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-15 23:49:42,145 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-15 23:49:42,146 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-15 23:49:42,147 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-15 23:49:42,149 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-15 23:49:42,156 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-15 23:49:42,158 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-15 23:49:42,158 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-15 23:49:42,159 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-15 23:49:42,159 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-15 23:49:42,160 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-15 23:49:42,160 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-15 23:49:42,161 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-15 23:49:42,161 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-15 23:49:42,163 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-15 23:49:42,164 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-15 23:51:27,755 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-15 23:51:27,756 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-15 23:51:30,708 [1] ERROR Debug - 协议解密出错:System.Security.Cryptography.CryptographicException: 填充无效，无法被移除。
+   在 AES.AESDecrypt(Byte[] DecryptByte, String DecryptKey) 位置 E:\MindjetsManage\《暗黑战神》3D网游ARPG实战案例\SyncTuts\DarkGod\Server_GF\Server\Tool\AES.cs:行号 207
+   在 ProtoHelper.Decode(CMD protocol, Byte[] bytes, Int32 offset, Int32 count) 位置 E:\MindjetsManage\《暗黑战神》3D网游ARPG实战案例\SyncTuts\DarkGod\Server_GF\Server\Tool\ProtoHelper.cs:行号 98 Debug 
+2020-04-15 23:51:30,712 [1] ERROR Debug - <log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>{0}协议内容解析错误：ReqLogin</format><args>{}</args></log4net.Error> Debug 
+2020-04-15 23:51:30,724 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：0 Debug 
+2020-04-15 23:51:30,725 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 

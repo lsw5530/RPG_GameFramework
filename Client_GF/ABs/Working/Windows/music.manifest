@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 722580786
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ca53be44ddc822b0f14233f1b785609f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Music/music_about.mp3
+- Assets/GameMain/Music/bgHuangYe.mp3
+- Assets/GameMain/Music/bgLogin.mp3
+- Assets/GameMain/Music/music_menu.mp3
+- Assets/GameMain/Music/music_background.mp3
+- Assets/GameMain/Music/bgMainCity.mp3
+Dependencies: []

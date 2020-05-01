@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3935191265
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 71d7480498b10cc5b4bff1b059900c4c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Configs/DefaultConfig.txt
+- Assets/GameMain/Configs/AssetBundleCollection.xml
+- Assets/GameMain/Configs/ResourceCollection.xml
+- Assets/GameMain/Configs/DefaultConfig.bytes
+Dependencies: []

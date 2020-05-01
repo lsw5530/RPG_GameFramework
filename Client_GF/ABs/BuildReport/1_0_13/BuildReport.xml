@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>DarkGod</ProductName>
+      <CompanyName>lsw</CompanyName>
+      <GameIdentifier>com.lsw.DarkGod</GameIdentifier>
+      <ApplicableGameVersion>1.0</ApplicableGameVersion>
+      <InternalResourceVersion>13</InternalResourceVersion>
+      <UnityVersion>2019.3.4f1</UnityVersion>
+      <Platforms>Windows, Android</Platforms>
+      <ZipSelected>True</ZipSelected>
+      <BuildAssetBundleOptions>272</BuildAssetBundleOptions>
+    </Summary>
+    <AssetBundles Count="0" />
+  </BuildReport>
+</UnityGameFramework>

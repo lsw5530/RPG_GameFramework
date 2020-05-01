@@ -1,0 +1,13 @@
+syntax = "proto3"; 
+package GameMessage;
+
+message ReqRename
+{
+	string name=1; 
+}
+
+message RspRename
+{
+	string name=1;
+}
+

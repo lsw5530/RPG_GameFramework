@@ -1,0 +1,25 @@
+syntax = "proto3";
+package GameMessage;
+import 'PlayerData.proto';
+
+message ReqLogin
+{
+	string acct=1;
+	string pass=2;
+}
+
+message RspLogin
+{
+	PlayerData playerData=1;
+}
+
+message RspHeartBeat
+{
+	float LocalTime=1;
+}
+
+message ReqHeartbeat
+{
+	float LocalTime=1;
+	int64 ServerTime=2;
+}

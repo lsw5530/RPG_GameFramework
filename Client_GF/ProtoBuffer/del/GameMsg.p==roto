@@ -1,0 +1,52 @@
+syntax = "proto3"; 
+package GameMessage;
+
+
+import 'Login.proto'; 
+import 'Rename.proto'; 
+import 'Guide.proto'; 
+import 'Strong.proto'; 
+import 'Chat.proto'; 
+import 'Buy.proto';  
+import 'TaskReward.proto'; 
+import 'FBFight.proto';  
+
+message GameMsg
+{
+	int32 seq=1;
+    int32 cmd=2;
+    int32 err=3;
+
+	ReqLogin reqLogin=4;
+    RspLogin rspLogin=5;
+    ReqHeartbeatProto reqHeartbeatProto=6;
+    RspHeartbeatProto rspHeartbeatProto=7;
+
+    ReqRename reqRename=8;
+    RspRename rspRename=9;
+
+    ReqGuide reqGuide=10;
+    RspGuide rspGuide=11;
+
+	ReqStrong reqStrong=12;
+	RspStrong rspStrong=13;
+
+	SndChat sndChat=14;
+	PshChat pshChat=15;
+
+	ReqBuy reqBuy=16;
+	RspBuy rspBuy=17;
+
+	PshPower pshPower=18;
+
+	ReqTakeTaskReward reqTakeTaskReward=19;
+	RspTakeTaskReward rspTakeTaskReward=20;
+
+	PshTaskPrgs pshTaskPrgs=21;
+
+	ReqFBFight reqFBFight=22;
+	RspFBFight rspFBFight=23;
+
+	ReqFBFightEnd reqFBFightEnd=24;
+	RspFBFightEnd rspFBFightEnd=25;
+}

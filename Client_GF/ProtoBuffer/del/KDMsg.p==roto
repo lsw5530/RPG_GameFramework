@@ -1,0 +1,10 @@
+syntax = "proto3"; 
+package GameMessage;
+
+message SndChat
+{ 
+	int32 seq=1;
+    int32 cmd=2;
+    int32 err=3;
+}
+ 

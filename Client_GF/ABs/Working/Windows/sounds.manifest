@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2109683056
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b16311caad0906449c72cce66e53252c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Sounds/explosion_enemy.wav
+- Assets/GameMain/Sounds/explosion_asteroid.wav
+- Assets/GameMain/Sounds/weapon_player.wav
+- Assets/GameMain/Sounds/weapon_enemy.wav
+- Assets/GameMain/Sounds/explosion_player.wav
+- Assets/GameMain/Sounds/assassin_Hit.wav
+Dependencies: []

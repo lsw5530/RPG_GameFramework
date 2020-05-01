@@ -1,0 +1,371 @@
+fileFormatVersion: 2
+guid: 6a00e0c919cb0864a9dab7ee3946e660
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bip_master
+    100002: English DragonHead
+    100004: English DragonHeadBone001
+    100006: English DragonLArm1
+    100008: English DragonLArm2
+    100010: English DragonLArmCollarbone
+    100012: English DragonLArmDigit01
+    100014: English DragonLArmDigit02
+    100016: English DragonLArmDigit04
+    100018: English DragonLArmDigit11
+    100020: English DragonLArmDigit12
+    100022: English DragonLArmPalm
+    100024: English DragonLLeg1
+    100026: English DragonLLeg1 1
+    100028: English DragonLLeg2
+    100030: English DragonLLeg2 1
+    100032: English DragonLLeg3
+    100034: English DragonLLegCollarbone
+    100036: English DragonLLegDigit11
+    100038: English DragonLLegDigit21
+    100040: English DragonLLegPalm
+    100042: English DragonLLegPalm 1
+    100044: English DragonLLegPlatform
+    100046: English DragonLLegPlatform 1
+    100048: English DragonPelvis
+    100050: English DragonRArm1
+    100052: English DragonRArm2
+    100054: English DragonRArmCollarbone
+    100056: English DragonRArmDigit01
+    100058: English DragonRArmDigit02
+    100060: English DragonRArmDigit04
+    100062: English DragonRArmDigit11
+    100064: English DragonRArmDigit12
+    100066: English DragonRArmPalm
+    100068: English DragonRibcage
+    100070: English DragonRLeg1
+    100072: English DragonRLeg1 1
+    100074: English DragonRLeg2
+    100076: English DragonRLeg2 1
+    100078: English DragonRLeg3
+    100080: English DragonRLegCollarbone
+    100082: English DragonRLegDigit11
+    100084: English DragonRLegDigit21
+    100086: English DragonRLegPalm
+    100088: English DragonRLegPalm 1
+    100090: English DragonRLegPlatform
+    100092: English DragonRLegPlatform 1
+    100094: English DragonSpine1
+    100096: English DragonSpine1 1
+    100098: English DragonSpine2
+    100100: English DragonSpine2 1
+    100102: English DragonSpine3
+    100104: English DragonSpine3 1
+    100106: English DragonSpine4
+    100108: English DragonTail1
+    100110: English DragonTail2
+    100112: English DragonTail3
+    100114: English DragonTail4
+    100116: English DragonTail5
+    100118: English DragonTail6
+    100120: English DragonTail7
+    100122: long
+    100124: //RootNode
+    100126: fly_constraint
+    100128: Sphere
+    100130: Bip_master
+    100132: Bip_path
+    100134: bone_hand_L_01
+    100136: bone_hand_L_02
+    100138: bone_hand_L_03
+    100140: bone_hand_L_04
+    100142: bone_hand_L_05
+    100144: bone_hand_R_01
+    100146: bone_hand_R_02
+    100148: bone_hand_R_03
+    100150: bone_hand_R_04
+    100152: bone_hand_R_05
+    100154: bone_leg_L_01
+    100156: bone_leg_L_02
+    100158: bone_leg_L_03
+    100160: bone_leg_L_04
+    100162: bone_leg_R_01
+    100164: bone_leg_R_02
+    100166: bone_leg_R_03
+    100168: bone_leg_R_04
+    100170: Bone_mouth
+    100172: bone_neck_01
+    100174: bone_neck_02
+    100176: bone_neck_03
+    100178: bone_neck_04
+    100180: Bone_pelvis
+    100182: bone_spine_01
+    100184: bone_spine_02
+    100186: bone_tail_01
+    100188: bone_tail_02
+    100190: bone_tail_03
+    100192: bone_tail_04
+    100194: bone_tail_05
+    100196: bone_tail_06
+    100198: bone_wing_L_01
+    100200: bone_wing_L_02
+    100202: bone_wing_L_03
+    100204: bone_wing_L_04
+    100206: bone_wing_L_05
+    100208: bone_wing_L_06
+    100210: bone_wing_L_07
+    100212: bone_wing_R_01
+    100214: bone_wing_R_02
+    100216: bone_wing_R_03
+    100218: bone_wing_R_04
+    100220: bone_wing_R_05
+    100222: bone_wing_R_06
+    100224: bone_wing_R_07
+    100226: Bone001
+    100228: bone_hand_L_06
+    100230: bone_hand_R_06
+    100232: plane_L_hand
+    100234: plane_L_hand001
+    100236: plane_L_leg
+    100238: plane_R_leg
+    400000: bip_master
+    400002: English DragonHead
+    400004: English DragonHeadBone001
+    400006: English DragonLArm1
+    400008: English DragonLArm2
+    400010: English DragonLArmCollarbone
+    400012: English DragonLArmDigit01
+    400014: English DragonLArmDigit02
+    400016: English DragonLArmDigit04
+    400018: English DragonLArmDigit11
+    400020: English DragonLArmDigit12
+    400022: English DragonLArmPalm
+    400024: English DragonLLeg1
+    400026: English DragonLLeg1 1
+    400028: English DragonLLeg2
+    400030: English DragonLLeg2 1
+    400032: English DragonLLeg3
+    400034: English DragonLLegCollarbone
+    400036: English DragonLLegDigit11
+    400038: English DragonLLegDigit21
+    400040: English DragonLLegPalm
+    400042: English DragonLLegPalm 1
+    400044: English DragonLLegPlatform
+    400046: English DragonLLegPlatform 1
+    400048: English DragonPelvis
+    400050: English DragonRArm1
+    400052: English DragonRArm2
+    400054: English DragonRArmCollarbone
+    400056: English DragonRArmDigit01
+    400058: English DragonRArmDigit02
+    400060: English DragonRArmDigit04
+    400062: English DragonRArmDigit11
+    400064: English DragonRArmDigit12
+    400066: English DragonRArmPalm
+    400068: English DragonRibcage
+    400070: English DragonRLeg1
+    400072: English DragonRLeg1 1
+    400074: English DragonRLeg2
+    400076: English DragonRLeg2 1
+    400078: English DragonRLeg3
+    400080: English DragonRLegCollarbone
+    400082: English DragonRLegDigit11
+    400084: English DragonRLegDigit21
+    400086: English DragonRLegPalm
+    400088: English DragonRLegPalm 1
+    400090: English DragonRLegPlatform
+    400092: English DragonRLegPlatform 1
+    400094: English DragonSpine1
+    400096: English DragonSpine1 1
+    400098: English DragonSpine2
+    400100: English DragonSpine2 1
+    400102: English DragonSpine3
+    400104: English DragonSpine3 1
+    400106: English DragonSpine4
+    400108: English DragonTail1
+    400110: English DragonTail2
+    400112: English DragonTail3
+    400114: English DragonTail4
+    400116: English DragonTail5
+    400118: English DragonTail6
+    400120: English DragonTail7
+    400122: //RootNode
+    400124: long
+    400126: fly_constraint
+    400128: Sphere
+    400130: Bip_master
+    400132: Bip_path
+    400134: bone_hand_L_01
+    400136: bone_hand_L_02
+    400138: bone_hand_L_03
+    400140: bone_hand_L_04
+    400142: bone_hand_L_05
+    400144: bone_hand_R_01
+    400146: bone_hand_R_02
+    400148: bone_hand_R_03
+    400150: bone_hand_R_04
+    400152: bone_hand_R_05
+    400154: bone_leg_L_01
+    400156: bone_leg_L_02
+    400158: bone_leg_L_03
+    400160: bone_leg_L_04
+    400162: bone_leg_R_01
+    400164: bone_leg_R_02
+    400166: bone_leg_R_03
+    400168: bone_leg_R_04
+    400170: Bone_mouth
+    400172: bone_neck_01
+    400174: bone_neck_02
+    400176: bone_neck_03
+    400178: bone_neck_04
+    400180: Bone_pelvis
+    400182: bone_spine_01
+    400184: bone_spine_02
+    400186: bone_tail_01
+    400188: bone_tail_02
+    400190: bone_tail_03
+    400192: bone_tail_04
+    400194: bone_tail_05
+    400196: bone_tail_06
+    400198: bone_wing_L_01
+    400200: bone_wing_L_02
+    400202: bone_wing_L_03
+    400204: bone_wing_L_04
+    400206: bone_wing_L_05
+    400208: bone_wing_L_06
+    400210: bone_wing_L_07
+    400212: bone_wing_R_01
+    400214: bone_wing_R_02
+    400216: bone_wing_R_03
+    400218: bone_wing_R_04
+    400220: bone_wing_R_05
+    400222: bone_wing_R_06
+    400224: bone_wing_R_07
+    400226: Bone001
+    400228: bone_hand_L_06
+    400230: bone_hand_R_06
+    400232: plane_L_hand
+    400234: plane_L_hand001
+    400236: plane_L_leg
+    400238: plane_R_leg
+    2300000: fly_constraint
+    2300002: plane_L_hand
+    2300004: plane_L_hand001
+    2300006: plane_L_leg
+    3300000: fly_constraint
+    3300002: plane_L_hand
+    3300004: plane_L_hand001
+    3300006: plane_L_leg
+    4300000: long
+    4300002: fly_constraint
+    4300004: plane_L_hand
+    4300006: plane_L_hand001
+    4300008: plane_L_leg
+    7400000: long@long_fly_around
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: long
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: long@long_fly_around
+      takeName: long@long_fly_around
+      firstFrame: 0
+      lastFrame: 440
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

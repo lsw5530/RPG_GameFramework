@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3685748089
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d7c595880838e89118cbc4d9b75b98d8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/XmlCfgs/taskreward.xml
+- Assets/GameMain/XmlCfgs/rdname.xml
+- Assets/GameMain/XmlCfgs/monster.xml
+- Assets/GameMain/XmlCfgs/strong.xml
+- Assets/GameMain/XmlCfgs/guide.xml
+- Assets/GameMain/XmlCfgs/skillmove.xml
+- Assets/GameMain/XmlCfgs/skillaction.xml
+- Assets/GameMain/XmlCfgs/map.xml
+- Assets/GameMain/XmlCfgs/skill.xml
+Dependencies: []

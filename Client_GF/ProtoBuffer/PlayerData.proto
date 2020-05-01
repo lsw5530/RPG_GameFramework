@@ -1,0 +1,31 @@
+syntax = "proto3";
+package GameMessage;
+
+message PlayerData
+{
+	 int32 id=1;
+	 string name=2;
+	 int32 lv=3;
+	 int32 exp=4;
+	 int32 power=5;
+	 int32 coin=6;
+	 int32 diamond=7;
+	 int32 crystal=8;
+
+	 int32 hp=9;
+	 int32 ad=10;
+	 int32 ap=11;
+	 int32 addef=12;
+	 int32 apdef=13;
+	 int32 dodge=14;//闪避概率
+	 int32 pierce=15;//穿透比率
+	 int32 critical=16;//暴击概率
+
+	 int32 guideid=17;
+	 
+	repeated int32 strongArr=18;
+
+	 int64 time=19;
+	repeated string taskArr=20;
+	 int32 fuben=21;
+} 

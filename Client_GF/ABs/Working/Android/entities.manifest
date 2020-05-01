@@ -1,0 +1,63 @@
+ManifestFileVersion: 0
+CRC: 4257535230
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8ea2d418e62abb87f419d031e33b5f5a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a1a0a48620659cc9b12c4703d38478a3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4c118326ea4c5f9458f2384a82661c1f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Entities/MonsterSoldier_1.prefab
+- Assets/GameMain/Entities/AssassinCity.prefab
+- Assets/GameMain/Entities/AssassinBattle.prefab
+- Assets/GameMain/Entities/MonsterBoss_1.prefab
+Dependencies: []

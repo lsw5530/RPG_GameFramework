@@ -1,0 +1,160 @@
+﻿2020-04-10 16:25:26,661 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-10 16:25:26,684 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-10 16:25:26,686 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-10 16:25:26,687 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-10 16:25:26,689 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-10 16:25:26,689 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-10 16:25:26,691 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-10 16:25:26,703 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-10 16:25:26,705 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-10 16:25:26,705 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-10 16:25:26,706 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-10 16:25:26,706 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-10 16:25:26,707 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-10 16:25:26,707 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-10 16:25:26,708 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-10 16:25:26,708 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-10 16:25:26,710 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-10 16:25:26,711 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-10 16:25:26,875 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-10 16:25:26,876 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-10 16:25:27,006 [1] DEBUG Debug - SessionID: 1   RcvPack CMD:MsgSecret Debug 
+2020-04-10 16:25:33,188 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：0 Debug 
+2020-04-10 16:25:33,191 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-10 16:25:34,927 [1] DEBUG Debug - SessionID:2 Client Connect Debug 
+2020-04-10 16:25:34,928 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-10 16:25:34,949 [1] DEBUG Debug - SessionID: 2   RcvPack CMD:MsgSecret Debug 
+2020-04-10 16:25:37,197 [1] DEBUG Debug - SessionID: 2   RcvPack CMD:ReqLogin Debug 
+2020-04-10 16:26:05,532 [1] DEBUG Debug - SessionID: 2   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:26:05,534 [1] INFO  Debug - 心跳=1586507166 Debug 
+2020-04-10 16:26:21,386 [1] DEBUG Debug - SessionID:3 Client Connect Debug 
+2020-04-10 16:26:21,387 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前2个客户端在线！ Debug 
+2020-04-10 16:26:21,410 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:MsgSecret Debug 
+2020-04-10 16:26:25,316 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:26:25,317 [1] INFO  Debug - 心跳=1586507185 Debug 
+2020-04-10 16:26:26,436 [1] DEBUG Debug - SessionID:2 Client Offline，在线人数：1 Debug 
+2020-04-10 16:26:26,441 [1] DEBUG Debug - Offline Result: SessionID:2  True Debug 
+2020-04-10 16:26:26,441 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：1 Debug 
+2020-04-10 16:26:28,305 [1] DEBUG Debug - SessionID:4 Client Connect Debug 
+2020-04-10 16:26:28,306 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前2个客户端在线！ Debug 
+2020-04-10 16:26:28,332 [1] DEBUG Debug - SessionID: 4   RcvPack CMD:MsgSecret Debug 
+2020-04-10 16:26:29,313 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:26:29,314 [1] INFO  Debug - 心跳=1586507189 Debug 
+2020-04-10 16:26:30,480 [1] DEBUG Debug - SessionID: 4   RcvPack CMD:ReqLogin Debug 
+2020-04-10 16:26:33,315 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:26:33,316 [1] INFO  Debug - 心跳=1586507193 Debug 
+2020-04-10 16:26:37,361 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:26:37,375 [1] INFO  Debug - 心跳=1586507197 Debug 
+2020-04-10 16:26:41,306 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:26:41,307 [1] INFO  Debug - 心跳=1586507201 Debug 
+2020-04-10 16:26:45,317 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:26:45,318 [1] INFO  Debug - 心跳=1586507205 Debug 
+2020-04-10 16:26:49,319 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:26:49,320 [1] INFO  Debug - 心跳=1586507209 Debug 
+2020-04-10 16:26:53,320 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:26:53,321 [1] INFO  Debug - 心跳=1586507213 Debug 
+2020-04-10 16:26:57,298 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:26:57,299 [1] INFO  Debug - 心跳=1586507217 Debug 
+2020-04-10 16:27:01,306 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:27:01,307 [1] INFO  Debug - 心跳=1586507221 Debug 
+2020-04-10 16:27:05,327 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:27:05,328 [1] INFO  Debug - 心跳=1586507225 Debug 
+2020-04-10 16:27:09,303 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:27:09,304 [1] INFO  Debug - 心跳=1586507229 Debug 
+2020-04-10 16:27:13,305 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:27:13,306 [1] INFO  Debug - 心跳=1586507233 Debug 
+2020-04-10 16:27:13,535 [1] DEBUG Debug - SessionID:4 Client Offline，在线人数：1 Debug 
+2020-04-10 16:27:13,537 [1] DEBUG Debug - Offline Result: SessionID:4  True Debug 
+2020-04-10 16:27:13,537 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：1 Debug 
+2020-04-10 16:27:19,090 [1] DEBUG Debug - SessionID:3 Client Offline，在线人数：0 Debug 
+2020-04-10 16:27:19,092 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-10 16:27:54,244 [1] DEBUG Debug - SessionID:5 Client Connect Debug 
+2020-04-10 16:27:54,245 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-10 16:27:54,540 [1] DEBUG Debug - SessionID: 5   RcvPack CMD:MsgSecret Debug 
+2020-04-10 16:27:57,261 [1] DEBUG Debug - SessionID: 5   RcvPack CMD:ReqLogin Debug 
+2020-04-10 16:27:58,589 [1] DEBUG Debug - SessionID: 5   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:27:58,590 [1] INFO  Debug - 心跳=1586507279 Debug 
+2020-04-10 16:28:02,318 [1] DEBUG Debug - SessionID: 5   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:28:02,321 [1] INFO  Debug - 心跳=1586507282 Debug 
+2020-04-10 16:28:06,326 [1] DEBUG Debug - SessionID: 5   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:28:06,327 [1] INFO  Debug - 心跳=1586507286 Debug 
+2020-04-10 16:28:07,696 [1] DEBUG Debug - SessionID:6 Client Connect Debug 
+2020-04-10 16:28:07,697 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前2个客户端在线！ Debug 
+2020-04-10 16:28:07,719 [1] DEBUG Debug - SessionID: 6   RcvPack CMD:MsgSecret Debug 
+2020-04-10 16:28:10,324 [1] DEBUG Debug - SessionID: 5   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:28:10,325 [1] INFO  Debug - 心跳=1586507290 Debug 
+2020-04-10 16:28:10,510 [1] DEBUG Debug - SessionID: 6   RcvPack CMD:ReqLogin Debug 
+2020-04-10 16:28:14,331 [1] DEBUG Debug - SessionID: 5   RcvPack CMD:ReqHeartbeat Debug 
+2020-04-10 16:28:14,335 [1] INFO  Debug - 心跳=1586507294 Debug 
+2020-04-10 16:28:44,143 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-10 16:28:44,162 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-10 16:28:44,164 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-10 16:28:44,165 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-10 16:28:44,166 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-10 16:28:44,166 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-10 16:28:44,169 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-10 16:28:44,172 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-10 16:28:44,173 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-10 16:28:44,173 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-10 16:28:44,174 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-10 16:28:44,174 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-10 16:28:44,174 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-10 16:28:44,175 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-10 16:28:44,175 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-10 16:28:44,176 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-10 16:28:44,177 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-10 16:28:44,177 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-10 16:43:56,265 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-10 16:43:56,284 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-10 16:43:56,287 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-10 16:43:56,289 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-10 16:43:56,290 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-10 16:43:56,291 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-10 16:43:56,293 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-10 16:43:56,298 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-10 16:43:56,299 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-10 16:43:56,300 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-10 16:43:56,300 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-10 16:43:56,301 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-10 16:43:56,302 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-10 16:43:56,302 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-10 16:43:56,303 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-10 16:43:56,303 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-10 16:43:56,305 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-10 16:43:56,306 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-10 16:50:48,471 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-10 16:50:48,488 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-10 16:50:48,491 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-10 16:50:48,492 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-10 16:50:48,494 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-10 16:50:48,494 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-10 16:50:48,495 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-10 16:50:48,501 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-10 16:50:48,503 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-10 16:50:48,503 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-10 16:50:48,503 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-10 16:50:48,504 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-10 16:50:48,504 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-10 16:50:48,505 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-10 16:50:48,505 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-10 16:50:48,506 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-10 16:50:48,508 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-10 16:50:48,508 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-10 16:52:57,051 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-10 16:52:57,070 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-10 16:52:57,073 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-10 16:52:57,074 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-10 16:52:57,076 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-10 16:52:57,076 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-10 16:52:57,078 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-10 16:52:57,083 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-10 16:52:57,084 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-10 16:52:57,084 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-10 16:52:57,085 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-10 16:52:57,085 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-10 16:52:57,086 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-10 16:52:57,086 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-10 16:52:57,087 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-10 16:52:57,087 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-10 16:52:57,089 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-10 16:52:57,090 [1] DEBUG Debug - NetSvc Init Done. Debug 

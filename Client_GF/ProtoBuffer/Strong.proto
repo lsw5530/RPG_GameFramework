@@ -1,0 +1,20 @@
+syntax = "proto3";
+package GameMessage;
+
+message ReqStrong
+{
+	int32 pos=1;
+}
+
+message RspStrong
+{
+	 int32 coin=1;
+	 int32 crystal=2;
+	 int32 hp=3;
+	 int32 ad=4;
+	 int32 ap=5;
+	 int32 addef=6;
+	 int32 apdef=7;
+	repeated int32 strongArr=8;
+}
+

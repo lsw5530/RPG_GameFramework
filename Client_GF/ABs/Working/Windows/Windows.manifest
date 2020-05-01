@@ -1,0 +1,72 @@
+ManifestFileVersion: 0
+CRC: 1936946813
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: entities
+      Dependencies: {}
+    Info_1:
+      Name: ui/uisounds
+      Dependencies: {}
+    Info_2:
+      Name: ui/uisprites/common
+      Dependencies: {}
+    Info_3:
+      Name: ui/uiforms
+      Dependencies:
+        Dependency_0: ui/uisprites/common
+        Dependency_1: ui/uisprites/logos
+        Dependency_2: ui/uisprites/icons
+        Dependency_3: fonts
+        Dependency_4: ui/uisprites/sprites
+    Info_4:
+      Name: ui/uisprites/logos
+      Dependencies: {}
+    Info_5:
+      Name: ui/uisprites/icons
+      Dependencies: {}
+    Info_6:
+      Name: localization/dictionaries.en-us
+      Dependencies: {}
+    Info_7:
+      Name: localization/dictionaries.zh-cn
+      Dependencies: {}
+    Info_8:
+      Name: localization/dictionaries.ko-kr
+      Dependencies: {}
+    Info_9:
+      Name: localization/dictionaries.zh-tw
+      Dependencies: {}
+    Info_10:
+      Name: fonts
+      Dependencies: {}
+    Info_11:
+      Name: datatables
+      Dependencies: {}
+    Info_12:
+      Name: sounds
+      Dependencies: {}
+    Info_13:
+      Name: music
+      Dependencies: {}
+    Info_14:
+      Name: scenes
+      Dependencies:
+        Dependency_0: ui/uisprites/sprites
+    Info_15:
+      Name: ui/uiitems
+      Dependencies:
+        Dependency_0: fonts
+        Dependency_1: ui/uisprites/sprites
+    Info_16:
+      Name: configs
+      Dependencies: {}
+    Info_17:
+      Name: hotfix
+      Dependencies: {}
+    Info_18:
+      Name: ui/uisprites/sprites
+      Dependencies: {}
+    Info_19:
+      Name: xxmlcfgs
+      Dependencies: {}

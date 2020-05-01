@@ -1,0 +1,79 @@
+ManifestFileVersion: 0
+CRC: 148166611
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 469340e4c4319cd87c51c6e89ee95498
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c732189a751b76198309aafcde6231fd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe56e5a3cbd9a564bb69c8eb42b2024c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ce49ca67454f366408d36afc482b04ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39d9c3a8073b2ce43964c03078b1c45f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ff545e9da0e7f8e41812ca43ff1399cb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 238
+  Script: {instanceID: 0}
+- Class: 258
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Scenes/SceneMainCity.unity
+- Assets/GameMain/Scenes/SceneOrge.unity
+- Assets/GameMain/Scenes/Login.unity
+Dependencies:
+- E:/MindjetsManage/AnHeiZhanShen/SyncTuts/DarkGod/Client_GF/ABs/Working/Android/ui/uisprites/sprites

@@ -1,0 +1,216 @@
+﻿2020-04-09 22:53:33,582 [1] DEBUG Debug - fff Debug 
+2020-04-09 22:53:33,775 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 22:53:33,777 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 22:53:33,779 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 22:53:33,780 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 22:53:33,781 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 22:53:33,781 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 22:53:33,782 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 22:53:33,783 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 22:53:33,786 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 22:56:44,459 [1] DEBUG Debug - fff Debug 
+2020-04-09 22:56:44,651 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 22:56:44,653 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 22:56:44,655 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 22:56:44,655 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 22:56:44,656 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 22:56:44,656 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 22:56:44,658 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 22:56:44,659 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 22:56:44,661 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 22:58:41,262 [1] DEBUG Debug - fff Debug 
+2020-04-09 22:58:41,449 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 22:58:41,450 [1] DEBUG Debug - fffffffffffffff. Debug 
+2020-04-09 22:58:41,453 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 22:58:41,454 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 22:58:41,455 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 22:58:41,456 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 22:58:41,456 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 22:58:41,458 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 22:58:41,459 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 22:58:41,461 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 22:59:22,378 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 22:59:22,390 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 22:59:22,392 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 22:59:22,392 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 22:59:22,393 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 22:59:22,393 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 22:59:22,394 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 22:59:22,395 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 22:59:22,398 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:02:56,233 [1] ERROR Debug - kkkk Debug 
+2020-04-09 23:02:56,423 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:02:56,425 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:02:56,427 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:02:56,428 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:02:56,429 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:02:56,429 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:02:56,431 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:02:56,432 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:02:56,434 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:05:08,301 [1] ERROR Debug - kkkk Debug 
+2020-04-09 23:05:08,491 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:05:08,493 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:05:08,494 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:05:08,495 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:05:08,497 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:05:08,497 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:05:08,498 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:05:08,504 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:05:08,507 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:06:28,988 [1] ERROR Debug - kkkk Debug 
+2020-04-09 23:06:29,197 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:06:29,199 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:06:29,200 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:06:29,201 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:06:29,202 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:06:29,202 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:06:29,203 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:06:29,209 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:06:29,211 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:08:16,301 [1] ERROR Debug - kkkk Debug 
+2020-04-09 23:08:16,491 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:08:16,493 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:08:16,494 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:08:16,495 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:08:16,496 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:08:16,496 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:08:16,498 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:08:16,503 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:08:16,504 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-09 23:08:16,505 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-09 23:08:16,505 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-09 23:08:16,505 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-09 23:08:16,506 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-09 23:08:16,506 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-09 23:08:16,507 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-09 23:08:16,507 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-09 23:08:16,510 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:14:30,251 [1] ERROR Debug - kkkk Debug 
+2020-04-09 23:14:30,447 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:14:30,449 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:14:30,450 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:14:30,451 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:14:30,452 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:14:30,453 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:14:30,454 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:14:30,460 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:14:30,461 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-09 23:14:30,461 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-09 23:14:30,461 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-09 23:14:30,462 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-09 23:14:30,462 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-09 23:14:30,463 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-09 23:14:30,463 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-09 23:14:30,464 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-09 23:14:30,465 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:14:30,465 [1] DEBUG Debug -  hhhh============NetSvc Init Done. Debug 
+2020-04-09 23:14:30,465 [1] ERROR Debug - jafjj Debug 
+2020-04-09 23:16:08,262 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:16:08,275 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:16:08,276 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:16:08,277 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:16:08,278 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:16:08,278 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:16:08,280 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:16:08,285 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:16:08,286 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-09 23:16:08,286 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-09 23:16:08,287 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-09 23:16:08,287 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-09 23:16:08,287 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-09 23:16:08,288 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-09 23:16:08,288 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-09 23:16:08,289 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-09 23:16:08,290 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:16:08,290 [1] DEBUG Debug -  hhhh============NetSvc Init Done. Debug 
+2020-04-09 23:17:22,543 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:17:22,556 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:17:22,557 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:17:22,558 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:17:22,559 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:17:22,560 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:17:22,561 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:17:22,566 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:17:22,568 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-09 23:17:22,568 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-09 23:17:22,569 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-09 23:17:22,569 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-09 23:17:22,570 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-09 23:17:22,570 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-09 23:17:22,571 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-09 23:17:22,571 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-09 23:17:22,572 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:17:22,573 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-09 23:18:26,990 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:18:27,003 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:18:27,004 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:18:27,005 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:18:27,006 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:18:27,007 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:18:27,008 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:18:27,014 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:18:27,015 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-09 23:18:27,015 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-09 23:18:27,016 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-09 23:18:27,016 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-09 23:18:27,016 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-09 23:18:27,017 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-09 23:18:27,017 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-09 23:18:27,017 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-09 23:18:27,019 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:18:27,019 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-09 23:21:02,408 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:21:02,425 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:21:02,427 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:21:02,428 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:21:02,429 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:21:02,430 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:21:02,431 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:21:02,437 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:21:02,438 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-09 23:21:02,439 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-09 23:21:02,439 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-09 23:21:02,440 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-09 23:21:02,440 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-09 23:21:02,441 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-09 23:21:02,441 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-09 23:21:02,441 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-09 23:21:02,443 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:21:02,443 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-09 23:23:06,235 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:23:06,247 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:23:06,249 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:23:06,250 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:23:06,251 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:23:06,251 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:23:06,253 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:23:06,258 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:23:06,259 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-09 23:23:06,260 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-09 23:23:06,260 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-09 23:23:06,260 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-09 23:23:06,261 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-09 23:23:06,261 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-09 23:23:06,262 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-09 23:23:06,262 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-09 23:23:06,263 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:23:06,263 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-09 23:26:24,381 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-09 23:26:24,394 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-09 23:26:24,396 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-09 23:26:24,397 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-09 23:26:24,398 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-09 23:26:24,398 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-09 23:26:24,399 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-09 23:26:24,403 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-09 23:26:24,404 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-09 23:26:24,405 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-09 23:26:24,405 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-09 23:26:24,406 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-09 23:26:24,406 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-09 23:26:24,406 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-09 23:26:24,407 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-09 23:26:24,407 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-09 23:26:24,408 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-09 23:26:24,408 [1] DEBUG Debug - NetSvc Init Done. Debug 

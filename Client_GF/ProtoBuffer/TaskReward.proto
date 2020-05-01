@@ -1,0 +1,20 @@
+syntax = "proto3"; 
+package GameMessage;
+
+message ReqTakeTaskReward
+{
+	int32 rid=1;
+}
+
+message RspTakeTaskReward
+{
+	int32 coin=1;
+    int32 lv=2;
+    int32 exp=3;
+    repeated string taskArr=4;
+}
+
+message PshTaskPrgs
+{
+	repeated string taskArr=1;
+}

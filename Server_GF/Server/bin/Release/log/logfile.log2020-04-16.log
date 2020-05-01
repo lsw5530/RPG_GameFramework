@@ -1,0 +1,156 @@
+﻿2020-04-16 00:00:17,416 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-16 00:00:17,434 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-16 00:00:17,435 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-16 00:00:17,436 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-16 00:00:17,437 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-16 00:00:17,437 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-16 00:00:17,439 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-16 00:00:17,446 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-16 00:00:17,447 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-16 00:00:17,447 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-16 00:00:17,448 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-16 00:00:17,448 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-16 00:00:17,449 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-16 00:00:17,449 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-16 00:00:17,450 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-16 00:00:17,450 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-16 00:00:17,452 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-16 00:00:17,452 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-16 00:00:17,729 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-16 00:00:17,729 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:00:41,244 [1] ERROR Debug - 协议解密出错:System.Security.Cryptography.CryptographicException: 填充无效，无法被移除。
+   在 AES.AESDecrypt(Byte[] DecryptByte, String DecryptKey) 位置 E:\MindjetsManage\《暗黑战神》3D网游ARPG实战案例\SyncTuts\DarkGod\Server_GF\Server\Tool\AES.cs:行号 207
+   在 ProtoHelper.Decode(CMD protocol, Byte[] bytes, Int32 offset, Int32 count) 位置 E:\MindjetsManage\《暗黑战神》3D网游ARPG实战案例\SyncTuts\DarkGod\Server_GF\Server\Tool\ProtoHelper.cs:行号 98 Debug 
+2020-04-16 00:00:41,246 [1] ERROR Debug - <log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>{0}协议内容解析错误：ReqLogin</format><args>{}</args></log4net.Error> Debug 
+2020-04-16 00:00:41,258 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：0 Debug 
+2020-04-16 00:00:41,259 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-16 00:01:31,034 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-16 00:01:31,052 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-16 00:01:31,054 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-16 00:01:31,055 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-16 00:01:31,056 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-16 00:01:31,056 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-16 00:01:31,059 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-16 00:01:31,065 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-16 00:01:31,066 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-16 00:01:31,067 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-16 00:01:31,067 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-16 00:01:31,068 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-16 00:01:31,068 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-16 00:01:31,068 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-16 00:01:31,069 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-16 00:01:31,069 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-16 00:01:31,070 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-16 00:01:31,071 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-16 00:01:36,949 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-16 00:01:36,950 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:02:04,469 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：0 Debug 
+2020-04-16 00:02:04,470 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-16 00:02:55,965 [1] DEBUG Debug - SessionID:2 Client Connect Debug 
+2020-04-16 00:02:55,965 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:02:56,198 [1] DEBUG Debug - SessionID: 2   RcvPack CMD:ReqSecret Debug 
+2020-04-16 00:02:56,221 [1] ERROR Debug - OnReceiveData MsgBase.DecodeName  fail Debug 
+2020-04-16 00:02:56,221 [1] DEBUG Debug - SessionID:2 Client Offline，在线人数：0 Debug 
+2020-04-16 00:02:56,222 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-16 00:03:14,352 [1] DEBUG Debug - SessionID:3 Client Connect Debug 
+2020-04-16 00:03:14,352 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:03:14,489 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqSecret Debug 
+2020-04-16 00:03:14,492 [1] ERROR Debug - OnReceiveData MsgBase.DecodeName  fail Debug 
+2020-04-16 00:03:14,492 [1] DEBUG Debug - SessionID:3 Client Offline，在线人数：0 Debug 
+2020-04-16 00:03:14,493 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-16 00:06:18,090 [1] DEBUG Debug - SessionID:4 Client Connect Debug 
+2020-04-16 00:06:18,090 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:06:18,203 [1] DEBUG Debug - SessionID: 4   RcvPack CMD:ReqSecret Debug 
+2020-04-16 00:06:18,206 [1] ERROR Debug - OnReceiveData MsgBase.DecodeName  fail Debug 
+2020-04-16 00:06:18,207 [1] DEBUG Debug - SessionID:4 Client Offline，在线人数：0 Debug 
+2020-04-16 00:06:18,207 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-16 00:06:51,682 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-16 00:06:51,700 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-16 00:06:51,702 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-16 00:06:51,703 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-16 00:06:51,704 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-16 00:06:51,704 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-16 00:06:51,706 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-16 00:06:51,712 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-16 00:06:51,713 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-16 00:06:51,713 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-16 00:06:51,714 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-16 00:06:51,714 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-16 00:06:51,715 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-16 00:06:51,715 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-16 00:06:51,716 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-16 00:06:51,716 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-16 00:06:51,718 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-16 00:06:51,719 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-16 00:06:58,144 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-16 00:06:58,144 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:06:58,349 [1] DEBUG Debug - SessionID: 1   RcvPack CMD:ReqSecret Debug 
+2020-04-16 00:06:58,364 [1] ERROR Debug - =====OnReceiveData MsgBase.DecodeName  fail Debug 
+2020-04-16 00:06:58,365 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：0 Debug 
+2020-04-16 00:06:58,366 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-16 00:09:44,336 [1] DEBUG Debug - SessionID:2 Client Connect Debug 
+2020-04-16 00:09:44,336 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:09:44,426 [1] DEBUG Debug - SessionID: 2   RcvPack CMD:ReqSecret Debug 
+2020-04-16 00:09:44,428 [1] ERROR Debug - =====OnReceiveData MsgBase.DecodeName  fail Debug 
+2020-04-16 00:09:44,429 [1] DEBUG Debug - SessionID:2 Client Offline，在线人数：0 Debug 
+2020-04-16 00:09:44,430 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-16 00:10:58,485 [1] DEBUG Debug - SessionID:3 Client Connect Debug 
+2020-04-16 00:10:58,485 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:10:58,599 [1] DEBUG Debug - SessionID: 3   RcvPack CMD:ReqSecret Debug 
+2020-04-16 00:10:58,602 [1] ERROR Debug - =====OnReceiveData MsgBase.DecodeName  fail Debug 
+2020-04-16 00:10:58,603 [1] DEBUG Debug - SessionID:3 Client Offline，在线人数：0 Debug 
+2020-04-16 00:10:58,603 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-16 00:11:26,622 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-16 00:11:26,641 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-16 00:11:26,643 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-16 00:11:26,644 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-16 00:11:26,645 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-16 00:11:26,645 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-16 00:11:26,647 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-16 00:11:26,653 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-16 00:11:26,655 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-16 00:11:26,655 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-16 00:11:26,655 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-16 00:11:26,656 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-16 00:11:26,656 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-16 00:11:26,657 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-16 00:11:26,657 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-16 00:11:26,658 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-16 00:11:26,659 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-16 00:11:26,659 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-16 00:11:27,073 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-16 00:11:27,074 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:11:27,514 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqSecret Debug 
+2020-04-16 00:11:27,538 [1] ERROR Debug - =====OnReceiveData MsgBase.DecodeName  fail Debug 
+2020-04-16 00:11:27,539 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：0 Debug 
+2020-04-16 00:11:27,551 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-16 00:12:44,134 [1] DEBUG Debug - SessionID:2 Client Connect Debug 
+2020-04-16 00:12:44,134 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:12:44,251 [1] DEBUG Debug - SessionID: 2   ===RcvPack CMD:ReqSecret Debug 
+2020-04-16 00:12:44,254 [1] ERROR Debug - =====OnReceiveData MsgBase.DecodeName  fail Debug 
+2020-04-16 00:12:44,255 [1] DEBUG Debug - SessionID:2 Client Offline，在线人数：0 Debug 
+2020-04-16 00:12:44,255 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-16 00:12:56,489 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-16 00:12:56,510 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-16 00:12:56,513 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-16 00:12:56,514 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-16 00:12:56,516 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-16 00:12:56,516 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-16 00:12:56,518 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-16 00:12:56,536 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-16 00:12:56,538 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-16 00:12:56,538 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-16 00:12:56,538 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-16 00:12:56,539 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-16 00:12:56,539 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-16 00:12:56,540 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-16 00:12:56,540 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-16 00:12:56,541 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-16 00:12:56,542 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-16 00:12:56,543 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2020-04-16 00:13:04,390 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-16 00:13:04,390 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-16 00:13:04,610 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqSecret Debug 
+2020-04-16 00:13:04,626 [1] ERROR Debug - =====OnReceiveData MsgBase.DecodeName  fail Debug 
+2020-04-16 00:13:04,627 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：0 Debug 
+2020-04-16 00:13:04,628 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 

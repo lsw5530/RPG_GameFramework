@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1666476920
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 12da38e440e6b7e6afe4f25eb80cfbf8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 44912aa95bf28c03affddc6817be15fe
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Fonts/MainFont.ttf
+- Assets/GameMain/Fonts/fSimpleRound.ttf
+- Assets/GameMain/Fonts/fzcyt.ttf
+Dependencies: []

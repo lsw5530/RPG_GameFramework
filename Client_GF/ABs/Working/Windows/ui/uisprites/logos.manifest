@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1800234490
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 007b9d37956e8d29a0f425f3fb8d79c4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/UI/UISprites/Logos/unity-logo.png
+Dependencies: []

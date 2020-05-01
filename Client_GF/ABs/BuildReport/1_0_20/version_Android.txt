@@ -1,0 +1,1 @@
+{"ForceGameUpdate":false,"LatestGameVersion":"0.1.0","InternalGameVersion":1,"InternalResourceVersion":20,"GameUpdateUrl":"http://127.0.0.1:8080/1_0_20","VersionListLength":23268,"VersionListHashCode":-2089200170,"VersionListZipLength":5263,"VersionListZipHashCode":-281277620}

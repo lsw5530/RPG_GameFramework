@@ -1,0 +1,551 @@
+﻿2020-04-28 14:22:39,504 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-28 14:22:39,518 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-28 14:22:39,520 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-28 14:22:39,520 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-28 14:22:39,522 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-28 14:22:39,522 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-28 14:22:39,523 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-28 14:22:39,838 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-28 14:22:39,839 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-28 14:22:39,840 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-28 14:22:39,841 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-28 14:22:39,841 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-28 14:22:39,842 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-28 14:22:39,842 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-28 14:22:39,843 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-28 14:22:39,843 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-28 14:22:39,853 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-28 14:22:56,041 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-28 14:22:56,042 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 14:23:04,836 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-28 14:23:08,515 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2020-04-28 14:23:08,522 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2020-04-28 14:23:08,523 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 14:23:16,499 [1] DEBUG Debug - SessionID:2 Client Connect Debug 
+2020-04-28 14:23:16,500 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 14:23:22,236 [1] DEBUG Debug - SessionID:2 Client Offline，在线人数：0 Debug 
+2020-04-28 14:23:22,236 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 14:23:42,196 [1] DEBUG Debug - SessionID:3 Client Connect Debug 
+2020-04-28 14:23:42,197 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 14:24:12,548 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:24:12,562 [3] INFO  Debug - 心跳=1588055053 Debug 
+2020-04-28 14:24:43,563 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:24:43,574 [3] INFO  Debug - 心跳=1588055084 Debug 
+2020-04-28 14:24:50,396 [1] DEBUG Debug - SessionID:3 Client Offline，在线人数：0 Debug 
+2020-04-28 14:24:50,397 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 14:24:54,566 [1] DEBUG Debug - SessionID:4 Client Connect Debug 
+2020-04-28 14:24:54,566 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 14:34:50,518 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:34:50,537 [3] INFO  Debug - 心跳=1588055691 Debug 
+2020-04-28 14:35:26,496 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:35:26,501 [3] INFO  Debug - 心跳=1588055727 Debug 
+2020-04-28 14:35:56,540 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:35:56,547 [3] INFO  Debug - 心跳=1588055757 Debug 
+2020-04-28 14:36:22,123 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqLogin Debug 
+2020-04-28 14:36:27,565 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:36:27,577 [3] INFO  Debug - 心跳=1588055788 Debug 
+2020-04-28 14:36:34,339 [1] DEBUG Debug - SessionID:4 Client Offline，在线人数：1 Debug 
+2020-04-28 14:36:34,341 [1] DEBUG Debug - Offline Result: SessionID:4  True Debug 
+2020-04-28 14:36:34,341 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 14:36:37,939 [1] DEBUG Debug - SessionID:5 Client Connect Debug 
+2020-04-28 14:36:37,940 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 14:36:41,308 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqLogin Debug 
+2020-04-28 14:37:08,551 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:37:08,569 [3] INFO  Debug - 心跳=1588055829 Debug 
+2020-04-28 14:37:39,658 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:37:39,661 [3] INFO  Debug - 心跳=1588055860 Debug 
+2020-04-28 14:37:39,912 [3] DEBUG Debug - All Online Player Calc Power Incress.... Debug 
+2020-04-28 14:38:10,564 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:38:10,571 [3] INFO  Debug - 心跳=1588055891 Debug 
+2020-04-28 14:38:41,535 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:38:41,554 [3] INFO  Debug - 心跳=1588055922 Debug 
+2020-04-28 14:39:12,545 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:39:12,547 [3] INFO  Debug - 心跳=1588055953 Debug 
+2020-04-28 14:39:43,551 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:39:43,557 [3] INFO  Debug - 心跳=1588055984 Debug 
+2020-04-28 14:40:14,555 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:40:14,568 [3] INFO  Debug - 心跳=1588056015 Debug 
+2020-04-28 14:40:45,547 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:40:45,563 [3] INFO  Debug - 心跳=1588056046 Debug 
+2020-04-28 14:41:16,562 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:41:16,570 [3] INFO  Debug - 心跳=1588056077 Debug 
+2020-04-28 14:41:47,543 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:41:47,563 [3] INFO  Debug - 心跳=1588056108 Debug 
+2020-04-28 14:42:18,550 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:42:18,556 [3] INFO  Debug - 心跳=1588056139 Debug 
+2020-04-28 14:42:39,930 [3] DEBUG Debug - All Online Player Calc Power Incress.... Debug 
+2020-04-28 14:42:49,564 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:42:49,572 [3] INFO  Debug - 心跳=1588056170 Debug 
+2020-04-28 14:43:20,541 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:43:20,559 [3] INFO  Debug - 心跳=1588056201 Debug 
+2020-04-28 14:43:51,561 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:43:51,577 [3] INFO  Debug - 心跳=1588056232 Debug 
+2020-04-28 14:44:22,543 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:44:22,549 [3] INFO  Debug - 心跳=1588056263 Debug 
+2020-04-28 14:44:53,554 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:44:53,557 [3] INFO  Debug - 心跳=1588056294 Debug 
+2020-04-28 14:45:08,121 [1] DEBUG Debug - SessionID:5 Client Offline，在线人数：1 Debug 
+2020-04-28 14:45:08,122 [1] DEBUG Debug - Offline Result: SessionID:5  True Debug 
+2020-04-28 14:45:08,123 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 14:45:29,708 [1] DEBUG Debug - SessionID:6 Client Connect Debug 
+2020-04-28 14:45:29,708 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 14:45:49,990 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:45:49,999 [3] INFO  Debug - 心跳=1588056350 Debug 
+2020-04-28 14:45:52,130 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:45:52,148 [3] INFO  Debug - 心跳=1588056352 Debug 
+2020-04-28 14:45:52,665 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:45:52,668 [3] INFO  Debug - 心跳=1588056353 Debug 
+2020-04-28 14:45:52,867 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:45:52,878 [3] INFO  Debug - 心跳=1588056353 Debug 
+2020-04-28 14:45:53,034 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:45:53,044 [3] INFO  Debug - 心跳=1588056353 Debug 
+2020-04-28 14:45:53,201 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:45:53,211 [3] INFO  Debug - 心跳=1588056353 Debug 
+2020-04-28 14:45:53,401 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:45:53,420 [3] INFO  Debug - 心跳=1588056353 Debug 
+2020-04-28 14:45:53,603 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:45:53,607 [3] INFO  Debug - 心跳=1588056354 Debug 
+2020-04-28 14:45:53,771 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:45:53,775 [3] INFO  Debug - 心跳=1588056354 Debug 
+2020-04-28 14:45:58,681 [1] DEBUG Debug - SessionID:6 Client Offline，在线人数：0 Debug 
+2020-04-28 14:45:58,681 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 14:46:19,930 [1] DEBUG Debug - SessionID:7 Client Connect Debug 
+2020-04-28 14:46:19,931 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 14:46:21,784 [1] DEBUG Debug - SessionID:7 Client Offline，在线人数：0 Debug 
+2020-04-28 14:46:21,784 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 14:46:37,194 [1] DEBUG Debug - SessionID:8 Client Connect Debug 
+2020-04-28 14:46:37,195 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 14:46:43,516 [1] DEBUG Debug - SessionID:8 Client Offline，在线人数：0 Debug 
+2020-04-28 14:46:43,516 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 14:47:08,697 [1] DEBUG Debug - SessionID:9 Client Connect Debug 
+2020-04-28 14:47:08,698 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 14:48:31,349 [1] DEBUG Debug - SessionID: 9   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:48:31,364 [3] INFO  Debug - 心跳=1588056511 Debug 
+2020-04-28 14:49:01,551 [1] DEBUG Debug - SessionID: 9   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:49:01,566 [3] INFO  Debug - 心跳=1588056542 Debug 
+2020-04-28 14:49:32,546 [1] DEBUG Debug - SessionID: 9   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 14:49:32,551 [3] INFO  Debug - 心跳=1588056573 Debug 
+2020-04-28 14:49:36,381 [1] DEBUG Debug - SessionID:9 Client Offline，在线人数：0 Debug 
+2020-04-28 14:49:36,381 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 14:49:40,512 [1] DEBUG Debug - SessionID:10 Client Connect Debug 
+2020-04-28 14:49:40,513 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 15:08:05,103 [1] DEBUG Debug - SessionID: 10   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 15:08:05,110 [3] INFO  Debug - 心跳=1588057685 Debug 
+2020-04-28 15:19:16,327 [1] DEBUG Debug - SessionID: 10   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 15:19:16,337 [3] INFO  Debug - 心跳=1588058356 Debug 
+2020-04-28 16:33:53,141 [1] DEBUG Debug - SessionID: 10   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:33:53,150 [3] INFO  Debug - 心跳=1588062833 Debug 
+2020-04-28 16:34:00,362 [1] DEBUG Debug - SessionID:10 Client Offline，在线人数：0 Debug 
+2020-04-28 16:34:00,363 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 16:34:04,650 [1] DEBUG Debug - SessionID:11 Client Connect Debug 
+2020-04-28 16:34:04,651 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 16:34:21,520 [1] DEBUG Debug - SessionID:11 Client Offline，在线人数：0 Debug 
+2020-04-28 16:34:21,521 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 16:34:25,622 [1] DEBUG Debug - SessionID:12 Client Connect Debug 
+2020-04-28 16:34:25,624 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 16:34:56,567 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:34:56,589 [3] INFO  Debug - 心跳=1588062897 Debug 
+2020-04-28 16:35:27,567 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:35:27,589 [3] INFO  Debug - 心跳=1588062928 Debug 
+2020-04-28 16:35:58,567 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:35:58,570 [3] INFO  Debug - 心跳=1588062959 Debug 
+2020-04-28 16:36:29,557 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:36:29,574 [3] INFO  Debug - 心跳=1588062990 Debug 
+2020-04-28 16:37:00,540 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:37:00,547 [3] INFO  Debug - 心跳=1588063021 Debug 
+2020-04-28 16:37:31,547 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:37:31,564 [3] INFO  Debug - 心跳=1588063052 Debug 
+2020-04-28 16:38:02,558 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:38:02,560 [3] INFO  Debug - 心跳=1588063083 Debug 
+2020-04-28 16:38:33,542 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:38:33,560 [3] INFO  Debug - 心跳=1588063114 Debug 
+2020-04-28 16:39:04,536 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:39:04,546 [3] INFO  Debug - 心跳=1588063145 Debug 
+2020-04-28 16:39:35,562 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:39:35,584 [3] INFO  Debug - 心跳=1588063176 Debug 
+2020-04-28 16:40:06,563 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:40:06,570 [3] INFO  Debug - 心跳=1588063207 Debug 
+2020-04-28 16:40:37,542 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:40:37,562 [3] INFO  Debug - 心跳=1588063238 Debug 
+2020-04-28 16:41:08,552 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:41:08,567 [3] INFO  Debug - 心跳=1588063269 Debug 
+2020-04-28 16:41:39,558 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:41:39,576 [3] INFO  Debug - 心跳=1588063300 Debug 
+2020-04-28 16:41:59,329 [1] DEBUG Debug - SessionID:12 Client Offline，在线人数：0 Debug 
+2020-04-28 16:41:59,331 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 16:42:08,039 [1] DEBUG Debug - SessionID:13 Client Connect Debug 
+2020-04-28 16:42:08,040 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 16:42:38,566 [1] DEBUG Debug - SessionID: 13   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:42:38,578 [3] INFO  Debug - 心跳=1588063359 Debug 
+2020-04-28 16:43:09,539 [1] DEBUG Debug - SessionID: 13   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:43:09,561 [3] INFO  Debug - 心跳=1588063390 Debug 
+2020-04-28 16:43:40,556 [1] DEBUG Debug - SessionID: 13   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:43:40,560 [3] INFO  Debug - 心跳=1588063421 Debug 
+2020-04-28 16:44:11,553 [1] DEBUG Debug - SessionID: 13   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:44:11,569 [3] INFO  Debug - 心跳=1588063452 Debug 
+2020-04-28 16:44:42,561 [1] DEBUG Debug - SessionID: 13   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 16:44:42,573 [3] INFO  Debug - 心跳=1588063483 Debug 
+2020-04-28 16:45:05,709 [1] DEBUG Debug - SessionID:13 Client Offline，在线人数：0 Debug 
+2020-04-28 16:45:05,712 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 16:45:13,973 [1] DEBUG Debug - SessionID:14 Client Connect Debug 
+2020-04-28 16:45:13,975 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 16:45:16,686 [1] DEBUG Debug - SessionID: 14   ===RcvPack CMD:ReqLogin Debug 
+2020-04-28 16:45:20,780 [1] DEBUG Debug - SessionID:14 Client Offline，在线人数：1 Debug 
+2020-04-28 16:45:20,782 [1] DEBUG Debug - Offline Result: SessionID:14  True Debug 
+2020-04-28 16:45:20,783 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 17:12:39,012 [1] DEBUG Debug - SessionID:15 Client Connect Debug 
+2020-04-28 17:12:39,014 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 17:13:09,556 [1] DEBUG Debug - SessionID: 15   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:13:09,560 [3] INFO  Debug - 心跳=1588065190 Debug 
+2020-04-28 17:13:33,681 [1] DEBUG Debug - SessionID:15 Client Offline，在线人数：0 Debug 
+2020-04-28 17:13:33,683 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 17:13:56,709 [1] DEBUG Debug - SessionID:16 Client Connect Debug 
+2020-04-28 17:13:56,710 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 17:14:15,780 [1] DEBUG Debug - SessionID:16 Client Offline，在线人数：0 Debug 
+2020-04-28 17:14:15,781 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 17:19:24,618 [1] DEBUG Debug - SessionID:17 Client Connect Debug 
+2020-04-28 17:19:24,620 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 17:19:55,557 [1] DEBUG Debug - SessionID: 17   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:19:55,579 [3] INFO  Debug - 心跳=1588065596 Debug 
+2020-04-28 17:20:26,557 [1] DEBUG Debug - SessionID: 17   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:20:26,572 [3] INFO  Debug - 心跳=1588065627 Debug 
+2020-04-28 17:20:57,553 [1] DEBUG Debug - SessionID: 17   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:20:57,570 [3] INFO  Debug - 心跳=1588065658 Debug 
+2020-04-28 17:21:28,551 [1] DEBUG Debug - SessionID: 17   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:21:28,561 [3] INFO  Debug - 心跳=1588065689 Debug 
+2020-04-28 17:21:59,554 [1] DEBUG Debug - SessionID: 17   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:21:59,575 [3] INFO  Debug - 心跳=1588065720 Debug 
+2020-04-28 17:22:14,625 [1] DEBUG Debug - SessionID:17 Client Offline，在线人数：0 Debug 
+2020-04-28 17:22:14,625 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 17:23:14,439 [1] DEBUG Debug - SessionID:18 Client Connect Debug 
+2020-04-28 17:23:14,440 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 17:23:35,843 [1] DEBUG Debug - SessionID:18 Client Offline，在线人数：0 Debug 
+2020-04-28 17:23:35,845 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 17:24:57,142 [1] DEBUG Debug - SessionID:19 Client Connect Debug 
+2020-04-28 17:24:57,143 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 17:25:27,547 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:25:27,550 [3] INFO  Debug - 心跳=1588065928 Debug 
+2020-04-28 17:25:58,543 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:25:58,555 [3] INFO  Debug - 心跳=1588065959 Debug 
+2020-04-28 17:26:29,542 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:26:29,552 [3] INFO  Debug - 心跳=1588065990 Debug 
+2020-04-28 17:27:00,555 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:27:00,573 [3] INFO  Debug - 心跳=1588066021 Debug 
+2020-04-28 17:27:31,564 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:27:31,569 [3] INFO  Debug - 心跳=1588066052 Debug 
+2020-04-28 17:28:02,558 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:28:02,569 [3] INFO  Debug - 心跳=1588066083 Debug 
+2020-04-28 17:28:33,539 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:28:33,549 [3] INFO  Debug - 心跳=1588066114 Debug 
+2020-04-28 17:28:42,470 [1] DEBUG Debug - SessionID:19 Client Offline，在线人数：0 Debug 
+2020-04-28 17:28:42,471 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 17:29:09,754 [1] DEBUG Debug - SessionID:20 Client Connect Debug 
+2020-04-28 17:29:09,755 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 17:29:21,726 [1] DEBUG Debug - SessionID: 20   ===RcvPack CMD:ReqLogin Debug 
+2020-04-28 17:29:25,330 [1] DEBUG Debug - SessionID:20 Client Offline，在线人数：1 Debug 
+2020-04-28 17:29:25,332 [1] DEBUG Debug - Offline Result: SessionID:20  True Debug 
+2020-04-28 17:29:25,333 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 17:32:29,533 [1] DEBUG Debug - SessionID:21 Client Connect Debug 
+2020-04-28 17:32:29,534 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 17:33:00,567 [1] DEBUG Debug - SessionID: 21   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:33:00,585 [3] INFO  Debug - 心跳=1588066381 Debug 
+2020-04-28 17:33:29,684 [1] DEBUG Debug - SessionID:21 Client Offline，在线人数：0 Debug 
+2020-04-28 17:33:29,685 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 17:33:32,790 [1] DEBUG Debug - SessionID:22 Client Connect Debug 
+2020-04-28 17:33:32,791 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 17:34:03,555 [1] DEBUG Debug - SessionID: 22   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:34:03,570 [3] INFO  Debug - 心跳=1588066444 Debug 
+2020-04-28 17:34:18,520 [1] DEBUG Debug - SessionID:22 Client Offline，在线人数：0 Debug 
+2020-04-28 17:34:18,521 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 17:34:32,959 [1] DEBUG Debug - SessionID:23 Client Connect Debug 
+2020-04-28 17:34:32,960 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 17:35:03,566 [1] DEBUG Debug - SessionID: 23   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 17:35:03,575 [3] INFO  Debug - 心跳=1588066504 Debug 
+2020-04-28 17:35:07,489 [1] DEBUG Debug - SessionID: 23   ===RcvPack CMD:ReqLogin Debug 
+2020-04-28 17:35:24,685 [1] DEBUG Debug - SessionID:23 Client Offline，在线人数：1 Debug 
+2020-04-28 17:35:24,687 [1] DEBUG Debug - Offline Result: SessionID:23  True Debug 
+2020-04-28 17:35:24,687 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 17:48:38,009 [1] DEBUG Debug - SessionID:24 Client Connect Debug 
+2020-04-28 17:48:38,010 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 17:48:57,126 [1] DEBUG Debug - SessionID:24 Client Offline，在线人数：0 Debug 
+2020-04-28 17:48:57,127 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 18:40:01,558 [1] DEBUG Debug - SessionID:25 Client Connect Debug 
+2020-04-28 18:40:01,559 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 18:40:32,555 [1] DEBUG Debug - SessionID: 25   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 18:40:32,574 [3] INFO  Debug - 心跳=1588070433 Debug 
+2020-04-28 18:41:03,567 [1] DEBUG Debug - SessionID: 25   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 18:41:03,586 [3] INFO  Debug - 心跳=1588070464 Debug 
+2020-04-28 18:41:34,539 [1] DEBUG Debug - SessionID: 25   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 18:41:34,542 [3] INFO  Debug - 心跳=1588070495 Debug 
+2020-04-28 18:42:04,087 [1] DEBUG Debug - SessionID:25 Client Offline，在线人数：0 Debug 
+2020-04-28 18:42:04,088 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 18:50:28,378 [1] DEBUG Debug - SessionID:26 Client Connect Debug 
+2020-04-28 18:50:28,379 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 18:50:35,847 [1] DEBUG Debug - SessionID:26 Client Offline，在线人数：0 Debug 
+2020-04-28 18:50:35,848 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 18:51:52,660 [1] DEBUG Debug - SessionID:27 Client Connect Debug 
+2020-04-28 18:51:52,661 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 18:52:23,567 [1] DEBUG Debug - SessionID: 27   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 18:52:23,584 [3] INFO  Debug - 心跳=1588071144 Debug 
+2020-04-28 18:52:30,461 [1] DEBUG Debug - SessionID:27 Client Offline，在线人数：0 Debug 
+2020-04-28 18:52:30,463 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 18:52:37,876 [1] DEBUG Debug - SessionID:28 Client Connect Debug 
+2020-04-28 18:52:37,877 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 18:52:43,597 [1] DEBUG Debug - SessionID:28 Client Offline，在线人数：0 Debug 
+2020-04-28 18:52:43,598 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 19:23:01,136 [1] DEBUG Debug - SessionID:29 Client Connect Debug 
+2020-04-28 19:23:01,137 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 19:23:07,727 [1] DEBUG Debug - SessionID:29 Client Offline，在线人数：0 Debug 
+2020-04-28 19:23:07,728 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 19:23:40,489 [1] DEBUG Debug - SessionID:30 Client Connect Debug 
+2020-04-28 19:23:40,490 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 19:23:54,298 [1] DEBUG Debug - SessionID:30 Client Offline，在线人数：0 Debug 
+2020-04-28 19:23:54,299 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 19:28:42,132 [1] DEBUG Debug - SessionID:31 Client Connect Debug 
+2020-04-28 19:28:42,133 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 19:29:10,712 [1] DEBUG Debug - SessionID:31 Client Offline，在线人数：0 Debug 
+2020-04-28 19:29:10,713 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 19:29:14,934 [1] DEBUG Debug - SessionID:32 Client Connect Debug 
+2020-04-28 19:29:14,935 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 19:29:19,326 [1] DEBUG Debug - SessionID:32 Client Offline，在线人数：0 Debug 
+2020-04-28 19:29:19,327 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 19:30:57,171 [1] DEBUG Debug - SessionID:33 Client Connect Debug 
+2020-04-28 19:30:57,172 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 19:31:27,542 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:31:27,562 [3] INFO  Debug - 心跳=1588073488 Debug 
+2020-04-28 19:31:58,543 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:31:58,552 [3] INFO  Debug - 心跳=1588073519 Debug 
+2020-04-28 19:32:29,537 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:32:29,543 [3] INFO  Debug - 心跳=1588073550 Debug 
+2020-04-28 19:33:00,543 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:33:00,552 [3] INFO  Debug - 心跳=1588073581 Debug 
+2020-04-28 19:33:31,543 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:33:31,547 [3] INFO  Debug - 心跳=1588073612 Debug 
+2020-04-28 19:34:02,541 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:34:02,547 [3] INFO  Debug - 心跳=1588073643 Debug 
+2020-04-28 19:34:33,540 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:34:33,546 [3] INFO  Debug - 心跳=1588073674 Debug 
+2020-04-28 19:35:04,564 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:35:04,581 [3] INFO  Debug - 心跳=1588073705 Debug 
+2020-04-28 19:35:35,557 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:35:35,567 [3] INFO  Debug - 心跳=1588073736 Debug 
+2020-04-28 19:36:06,536 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:36:06,543 [3] INFO  Debug - 心跳=1588073767 Debug 
+2020-04-28 19:36:37,539 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:36:37,553 [3] INFO  Debug - 心跳=1588073798 Debug 
+2020-04-28 19:37:08,533 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:37:08,548 [3] INFO  Debug - 心跳=1588073829 Debug 
+2020-04-28 19:37:39,564 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:37:39,571 [3] INFO  Debug - 心跳=1588073860 Debug 
+2020-04-28 19:38:10,551 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:38:10,555 [3] INFO  Debug - 心跳=1588073891 Debug 
+2020-04-28 19:38:41,557 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:38:41,567 [3] INFO  Debug - 心跳=1588073922 Debug 
+2020-04-28 19:39:12,556 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:39:12,564 [3] INFO  Debug - 心跳=1588073953 Debug 
+2020-04-28 19:39:43,552 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:39:43,572 [3] INFO  Debug - 心跳=1588073984 Debug 
+2020-04-28 19:40:14,563 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:40:14,571 [3] INFO  Debug - 心跳=1588074015 Debug 
+2020-04-28 19:40:45,562 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:40:45,580 [3] INFO  Debug - 心跳=1588074046 Debug 
+2020-04-28 19:41:16,540 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:41:16,557 [3] INFO  Debug - 心跳=1588074077 Debug 
+2020-04-28 19:41:47,562 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:41:47,578 [3] INFO  Debug - 心跳=1588074108 Debug 
+2020-04-28 19:42:18,542 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:42:18,561 [3] INFO  Debug - 心跳=1588074139 Debug 
+2020-04-28 19:42:49,543 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:42:49,561 [3] INFO  Debug - 心跳=1588074170 Debug 
+2020-04-28 19:43:20,553 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:43:20,573 [3] INFO  Debug - 心跳=1588074201 Debug 
+2020-04-28 19:43:51,543 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:43:51,561 [3] INFO  Debug - 心跳=1588074232 Debug 
+2020-04-28 19:44:22,556 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:44:22,565 [3] INFO  Debug - 心跳=1588074263 Debug 
+2020-04-28 19:44:53,543 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:44:53,549 [3] INFO  Debug - 心跳=1588074294 Debug 
+2020-04-28 19:45:24,533 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:45:24,543 [3] INFO  Debug - 心跳=1588074325 Debug 
+2020-04-28 19:45:55,558 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:45:55,572 [3] INFO  Debug - 心跳=1588074356 Debug 
+2020-04-28 19:46:26,538 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:46:26,543 [3] INFO  Debug - 心跳=1588074387 Debug 
+2020-04-28 19:46:57,541 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:46:57,561 [3] INFO  Debug - 心跳=1588074418 Debug 
+2020-04-28 19:47:28,560 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:47:28,581 [3] INFO  Debug - 心跳=1588074449 Debug 
+2020-04-28 19:47:59,548 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:47:59,570 [3] INFO  Debug - 心跳=1588074480 Debug 
+2020-04-28 19:48:30,564 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:48:30,572 [3] INFO  Debug - 心跳=1588074511 Debug 
+2020-04-28 19:49:01,553 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:49:01,556 [3] INFO  Debug - 心跳=1588074542 Debug 
+2020-04-28 19:49:32,539 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:49:32,555 [3] INFO  Debug - 心跳=1588074573 Debug 
+2020-04-28 19:50:03,542 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:50:03,559 [3] INFO  Debug - 心跳=1588074604 Debug 
+2020-04-28 19:50:34,542 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:50:34,562 [3] INFO  Debug - 心跳=1588074635 Debug 
+2020-04-28 19:51:05,553 [1] DEBUG Debug - SessionID: 33   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:51:05,574 [3] INFO  Debug - 心跳=1588074666 Debug 
+2020-04-28 19:51:34,259 [1] DEBUG Debug - SessionID:33 Client Offline，在线人数：0 Debug 
+2020-04-28 19:51:34,260 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 19:51:58,562 [1] DEBUG Debug - SessionID:34 Client Connect Debug 
+2020-04-28 19:51:58,563 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 19:52:29,540 [1] DEBUG Debug - SessionID: 34   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:52:29,545 [3] INFO  Debug - 心跳=1588074750 Debug 
+2020-04-28 19:53:00,542 [1] DEBUG Debug - SessionID: 34   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:53:00,548 [3] INFO  Debug - 心跳=1588074781 Debug 
+2020-04-28 19:53:31,567 [1] DEBUG Debug - SessionID: 34   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:53:31,580 [3] INFO  Debug - 心跳=1588074812 Debug 
+2020-04-28 19:54:02,561 [1] DEBUG Debug - SessionID: 34   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:54:02,567 [3] INFO  Debug - 心跳=1588074843 Debug 
+2020-04-28 19:54:33,560 [1] DEBUG Debug - SessionID: 34   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:54:33,570 [3] INFO  Debug - 心跳=1588074874 Debug 
+2020-04-28 19:56:47,672 [1] DEBUG Debug - SessionID: 34   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:56:47,674 [3] INFO  Debug - 心跳=1588075008 Debug 
+2020-04-28 19:56:49,276 [1] DEBUG Debug - SessionID: 34   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:56:49,281 [3] INFO  Debug - 心跳=1588075009 Debug 
+2020-04-28 19:56:51,488 [1] DEBUG Debug - SessionID:34 Client Offline，在线人数：0 Debug 
+2020-04-28 19:56:51,489 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 19:56:57,405 [1] DEBUG Debug - SessionID:35 Client Connect Debug 
+2020-04-28 19:56:57,406 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 19:57:27,554 [1] DEBUG Debug - SessionID: 35   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:57:27,558 [3] INFO  Debug - 心跳=1588075048 Debug 
+2020-04-28 19:57:30,915 [1] DEBUG Debug - SessionID:35 Client Offline，在线人数：0 Debug 
+2020-04-28 19:57:30,916 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 19:58:27,212 [1] DEBUG Debug - SessionID:36 Client Connect Debug 
+2020-04-28 19:58:27,214 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 19:58:30,726 [1] DEBUG Debug - SessionID:36 Client Offline，在线人数：0 Debug 
+2020-04-28 19:58:30,727 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 19:58:35,937 [1] DEBUG Debug - SessionID:37 Client Connect Debug 
+2020-04-28 19:58:35,938 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 19:58:43,254 [1] DEBUG Debug - SessionID:37 Client Offline，在线人数：0 Debug 
+2020-04-28 19:58:43,255 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 19:58:50,075 [1] DEBUG Debug - SessionID:38 Client Connect Debug 
+2020-04-28 19:58:50,076 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 19:59:20,547 [1] DEBUG Debug - SessionID: 38   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:59:20,557 [3] INFO  Debug - 心跳=1588075161 Debug 
+2020-04-28 19:59:51,558 [1] DEBUG Debug - SessionID: 38   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 19:59:51,580 [3] INFO  Debug - 心跳=1588075192 Debug 
+2020-04-28 20:00:22,539 [1] DEBUG Debug - SessionID: 38   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:00:22,547 [3] INFO  Debug - 心跳=1588075223 Debug 
+2020-04-28 20:00:27,282 [1] DEBUG Debug - SessionID:38 Client Offline，在线人数：0 Debug 
+2020-04-28 20:00:27,283 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:01:44,474 [1] DEBUG Debug - SessionID:39 Client Connect Debug 
+2020-04-28 20:01:44,475 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:02:10,888 [1] DEBUG Debug - SessionID:39 Client Offline，在线人数：0 Debug 
+2020-04-28 20:02:10,890 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:02:19,466 [1] DEBUG Debug - SessionID:40 Client Connect Debug 
+2020-04-28 20:02:19,467 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:02:49,541 [1] DEBUG Debug - SessionID: 40   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:02:49,547 [3] INFO  Debug - 心跳=1588075370 Debug 
+2020-04-28 20:03:14,604 [1] DEBUG Debug - SessionID:40 Client Offline，在线人数：0 Debug 
+2020-04-28 20:03:14,605 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:05:40,393 [1] DEBUG Debug - SessionID:41 Client Connect Debug 
+2020-04-28 20:05:40,394 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:05:53,581 [1] DEBUG Debug - SessionID:41 Client Offline，在线人数：0 Debug 
+2020-04-28 20:05:53,582 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:05:59,152 [1] DEBUG Debug - SessionID:42 Client Connect Debug 
+2020-04-28 20:05:59,153 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:06:05,088 [1] DEBUG Debug - SessionID:42 Client Offline，在线人数：0 Debug 
+2020-04-28 20:06:05,090 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:06:12,705 [1] DEBUG Debug - SessionID:43 Client Connect Debug 
+2020-04-28 20:06:12,706 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:06:24,594 [1] DEBUG Debug - SessionID:43 Client Offline，在线人数：0 Debug 
+2020-04-28 20:06:24,595 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:08:15,047 [1] DEBUG Debug - SessionID:44 Client Connect Debug 
+2020-04-28 20:08:15,048 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:08:20,626 [1] DEBUG Debug - SessionID:44 Client Offline，在线人数：0 Debug 
+2020-04-28 20:08:20,627 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:32:23,288 [1] DEBUG Debug - SessionID:45 Client Connect Debug 
+2020-04-28 20:32:23,290 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:32:53,541 [1] DEBUG Debug - SessionID: 45   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:32:53,556 [3] INFO  Debug - 心跳=1588077174 Debug 
+2020-04-28 20:33:24,566 [1] DEBUG Debug - SessionID: 45   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:33:24,573 [3] INFO  Debug - 心跳=1588077205 Debug 
+2020-04-28 20:33:27,040 [1] DEBUG Debug - SessionID:45 Client Offline，在线人数：0 Debug 
+2020-04-28 20:33:27,042 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:33:34,722 [1] DEBUG Debug - SessionID:46 Client Connect Debug 
+2020-04-28 20:33:34,724 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:34:05,564 [1] DEBUG Debug - SessionID: 46   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:34:05,571 [3] INFO  Debug - 心跳=1588077246 Debug 
+2020-04-28 20:34:36,547 [1] DEBUG Debug - SessionID: 46   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:34:36,553 [3] INFO  Debug - 心跳=1588077277 Debug 
+2020-04-28 20:35:07,534 [1] DEBUG Debug - SessionID: 46   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:35:07,543 [3] INFO  Debug - 心跳=1588077308 Debug 
+2020-04-28 20:35:38,560 [1] DEBUG Debug - SessionID: 46   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:35:38,579 [3] INFO  Debug - 心跳=1588077339 Debug 
+2020-04-28 20:36:09,557 [1] DEBUG Debug - SessionID: 46   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:36:09,577 [3] INFO  Debug - 心跳=1588077370 Debug 
+2020-04-28 20:36:40,534 [1] DEBUG Debug - SessionID: 46   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:36:40,541 [3] INFO  Debug - 心跳=1588077401 Debug 
+2020-04-28 20:37:11,557 [1] DEBUG Debug - SessionID: 46   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:37:11,579 [3] INFO  Debug - 心跳=1588077432 Debug 
+2020-04-28 20:37:42,560 [1] DEBUG Debug - SessionID: 46   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:37:42,569 [3] INFO  Debug - 心跳=1588077463 Debug 
+2020-04-28 20:38:09,011 [1] DEBUG Debug - SessionID:46 Client Offline，在线人数：0 Debug 
+2020-04-28 20:38:09,013 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:38:12,182 [1] DEBUG Debug - SessionID:47 Client Connect Debug 
+2020-04-28 20:38:12,183 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:38:42,540 [1] DEBUG Debug - SessionID: 47   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:38:42,556 [3] INFO  Debug - 心跳=1588077523 Debug 
+2020-04-28 20:39:13,558 [1] DEBUG Debug - SessionID: 47   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:39:13,577 [3] INFO  Debug - 心跳=1588077554 Debug 
+2020-04-28 20:39:44,566 [1] DEBUG Debug - SessionID: 47   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:39:44,586 [3] INFO  Debug - 心跳=1588077585 Debug 
+2020-04-28 20:40:15,553 [1] DEBUG Debug - SessionID: 47   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:40:15,564 [3] INFO  Debug - 心跳=1588077616 Debug 
+2020-04-28 20:40:46,539 [1] DEBUG Debug - SessionID: 47   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:40:46,554 [3] INFO  Debug - 心跳=1588077647 Debug 
+2020-04-28 20:41:19,233 [1] DEBUG Debug - SessionID: 47   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:41:19,252 [3] INFO  Debug - 心跳=1588077679 Debug 
+2020-04-28 20:41:49,533 [1] DEBUG Debug - SessionID: 47   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:41:49,537 [3] INFO  Debug - 心跳=1588077710 Debug 
+2020-04-28 20:42:20,562 [1] DEBUG Debug - SessionID: 47   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:42:20,581 [3] INFO  Debug - 心跳=1588077741 Debug 
+2020-04-28 20:42:51,533 [1] DEBUG Debug - SessionID: 47   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:42:51,541 [3] INFO  Debug - 心跳=1588077772 Debug 
+2020-04-28 20:43:22,553 [1] DEBUG Debug - SessionID: 47   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:43:22,572 [3] INFO  Debug - 心跳=1588077803 Debug 
+2020-04-28 20:43:23,569 [1] DEBUG Debug - SessionID:47 Client Offline，在线人数：0 Debug 
+2020-04-28 20:43:23,571 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:43:27,261 [1] DEBUG Debug - SessionID:48 Client Connect Debug 
+2020-04-28 20:43:27,262 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:43:57,541 [1] DEBUG Debug - SessionID: 48   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:43:57,561 [3] INFO  Debug - 心跳=1588077838 Debug 
+2020-04-28 20:44:28,558 [1] DEBUG Debug - SessionID: 48   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:44:28,578 [3] INFO  Debug - 心跳=1588077869 Debug 
+2020-04-28 20:44:59,560 [1] DEBUG Debug - SessionID: 48   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:44:59,574 [3] INFO  Debug - 心跳=1588077900 Debug 
+2020-04-28 20:45:30,556 [1] DEBUG Debug - SessionID: 48   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:45:30,569 [3] INFO  Debug - 心跳=1588077931 Debug 
+2020-04-28 20:46:01,555 [1] DEBUG Debug - SessionID: 48   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:46:01,576 [3] INFO  Debug - 心跳=1588077962 Debug 
+2020-04-28 20:46:25,509 [1] DEBUG Debug - SessionID:48 Client Offline，在线人数：0 Debug 
+2020-04-28 20:46:25,511 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:46:28,025 [1] DEBUG Debug - SessionID:49 Client Connect Debug 
+2020-04-28 20:46:28,025 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:46:58,554 [1] DEBUG Debug - SessionID: 49   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:46:58,567 [3] INFO  Debug - 心跳=1588078019 Debug 
+2020-04-28 20:47:29,547 [1] DEBUG Debug - SessionID: 49   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:47:29,557 [3] INFO  Debug - 心跳=1588078050 Debug 
+2020-04-28 20:48:00,535 [1] DEBUG Debug - SessionID: 49   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:48:00,546 [3] INFO  Debug - 心跳=1588078081 Debug 
+2020-04-28 20:48:31,551 [1] DEBUG Debug - SessionID: 49   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-28 20:48:31,570 [3] INFO  Debug - 心跳=1588078112 Debug 
+2020-04-28 20:48:52,310 [1] DEBUG Debug - SessionID:49 Client Offline，在线人数：0 Debug 
+2020-04-28 20:48:52,311 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:48:54,952 [1] DEBUG Debug - SessionID:50 Client Connect Debug 
+2020-04-28 20:48:54,953 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:49:24,601 [1] DEBUG Debug - SessionID:50 Client Offline，在线人数：0 Debug 
+2020-04-28 20:49:24,603 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:49:27,081 [1] DEBUG Debug - SessionID:51 Client Connect Debug 
+2020-04-28 20:49:27,082 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:49:34,349 [1] DEBUG Debug - SessionID:51 Client Offline，在线人数：0 Debug 
+2020-04-28 20:49:34,350 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-28 20:55:24,450 [1] DEBUG Debug - SessionID:52 Client Connect Debug 
+2020-04-28 20:55:24,451 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-28 20:55:41,199 [1] DEBUG Debug - SessionID:52 Client Offline，在线人数：0 Debug 
+2020-04-28 20:55:41,200 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 

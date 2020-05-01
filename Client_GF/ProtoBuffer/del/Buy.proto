@@ -1,0 +1,21 @@
+syntax = "proto3"; 
+package GameMessage;
+
+message ReqBuy
+{
+	int32 type=1;
+    int32 cost=2;
+}
+
+message RspBuy
+{
+	int32 type=1;
+    int32 dimond=2;
+    int32 coin=3;
+    int32 power=4;
+}
+
+message PshPower
+{
+	int32 power=1;
+}

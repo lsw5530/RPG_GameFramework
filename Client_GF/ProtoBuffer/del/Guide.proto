@@ -1,0 +1,16 @@
+syntax = "proto3"; 
+package GameMessage;
+
+message ReqGuide
+{
+	int32 guideid=1; 
+}
+
+message RspGuide
+{
+	 int32 guideid=1;
+	 int32 coin=2;
+	 int32 lv=3;
+	 int32 exp=4;
+}
+

@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>DarkGod</ProductName>
+      <CompanyName>lsw</CompanyName>
+      <GameIdentifier>com.lsw.DarkGod</GameIdentifier>
+      <ApplicableGameVersion>1.0</ApplicableGameVersion>
+      <InternalResourceVersion>16</InternalResourceVersion>
+      <UnityVersion>2019.3.4f1</UnityVersion>
+      <Platforms>Windows, Android</Platforms>
+      <ZipSelected>True</ZipSelected>
+      <BuildAssetBundleOptions>272</BuildAssetBundleOptions>
+    </Summary>
+    <AssetBundles Count="19">
+      <AssetBundle Name="configs" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="0805d41e07d0e354f8244d490accf239" Name="Assets/GameMain/Configs/DefaultConfig.bytes" Length="45" HashCode="698598607" />
+          <Asset Guid="212265e04fd9d6547aa02858913277e8" Name="Assets/GameMain/Configs/DefaultConfig.txt" Length="162" HashCode="1970827408" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="datatables" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="24">
+          <Asset Guid="134bea3a47cb3d644bf8e8a89e48622c" Name="Assets/GameMain/DataTables/Test.txt" Length="1858" HashCode="-1128442099" />
+          <Asset Guid="239366f83979ffa48a45dac2f0f1e8cb" Name="Assets/GameMain/DataTables/Armor.bytes" Length="16" HashCode="2104363235" />
+          <Asset Guid="2630c0a31d19991438f440dcf91ac8ee" Name="Assets/GameMain/DataTables/Test.bytes" Length="174" HashCode="-192494952" />
+          <Asset Guid="315e8ed2db27c254cb3366ff0793cd90" Name="Assets/GameMain/DataTables/Music.txt" Length="326" HashCode="212872500" />
+          <Asset Guid="352da872791696c48af3b21132e3e3c3" Name="Assets/GameMain/DataTables/UIForm.txt" Length="1710" HashCode="-962562711" />
+          <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" Name="Assets/GameMain/DataTables/Sound.txt" Length="952" HashCode="-1922305514" />
+          <Asset Guid="4a17d2c656f5c6b44a31e3ee547a76b0" Name="Assets/GameMain/DataTables/Aircraft.bytes" Length="88" HashCode="1304820566" />
+          <Asset Guid="4db6a299939bfe94893585eb387f577a" Name="Assets/GameMain/DataTables/Thruster.bytes" Length="12" HashCode="79989063" />
+          <Asset Guid="64f3bb52c6a54854688fcc656af2b1c9" Name="Assets/GameMain/DataTables/Aircraft.txt" Length="666" HashCode="-2090882756" />
+          <Asset Guid="8b1acacd22538f34cb85287a0781ea5e" Name="Assets/GameMain/DataTables/Weapon.bytes" Length="28" HashCode="-762214441" />
+          <Asset Guid="8e114ded6a865324588170636872943c" Name="Assets/GameMain/DataTables/UISound.bytes" Length="45" HashCode="-494364942" />
+          <Asset Guid="97d117308cf86924289e81e7e71dd5dd" Name="Assets/GameMain/DataTables/Entity.bytes" Length="91" HashCode="667183452" />
+          <Asset Guid="9b433f0bb7fef6f4085c316a0d88c307" Name="Assets/GameMain/DataTables/Music.bytes" Length="98" HashCode="-26793923" />
+          <Asset Guid="9c3961f379234354e813d7b38146424d" Name="Assets/GameMain/DataTables/Thruster.txt" Length="144" HashCode="891006938" />
+          <Asset Guid="9c3faac13c8ced84a9f3018303b7bb98" Name="Assets/GameMain/DataTables/Sound.bytes" Length="242" HashCode="1311755948" />
+          <Asset Guid="a33e23ae848110243820cda82120b105" Name="Assets/GameMain/DataTables/UIForm.bytes" Length="505" HashCode="1726140995" />
+          <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" Name="Assets/GameMain/DataTables/Scene.txt" Length="302" HashCode="493447663" />
+          <Asset Guid="ab4774faf71b57a40a29a9e902403fe3" Name="Assets/GameMain/DataTables/Weapon.txt" Length="370" HashCode="1232484129" />
+          <Asset Guid="ad56aae2bb0f2ce4a86711287e14e223" Name="Assets/GameMain/DataTables/Asteroid.txt" Length="548" HashCode="2096169771" />
+          <Asset Guid="b2cebe04343227945bab3729ca9a3493" Name="Assets/GameMain/DataTables/Armor.txt" Length="184" HashCode="-819325575" />
+          <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" Name="Assets/GameMain/DataTables/Entity.txt" Length="346" HashCode="-1834100993" />
+          <Asset Guid="e0792649e7774a24d8e7cceba0231c61" Name="Assets/GameMain/DataTables/Asteroid.bytes" Length="96" HashCode="-1395075120" />
+          <Asset Guid="f2f97a713beae744181ba934f9c4113a" Name="Assets/GameMain/DataTables/UISound.txt" Length="334" HashCode="1201326981" />
+          <Asset Guid="fdb5edd099d06b045af609ba3172400a" Name="Assets/GameMain/DataTables/Scene.bytes" Length="66" HashCode="-2068135675" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="entities" LoadType="0" Packed="True">
+        <Assets Count="4">
+          <Asset Guid="ba26e03b723d2b54391d01cbbe3dcbc1" Name="Assets/GameMain/Entities/AssassinCity.prefab" Length="8749304" HashCode="1990544951" />
+          <Asset Guid="bb97dfbc76c0cbd43a9e76f4dcc64f72" Name="Assets/GameMain/Entities/AssassinBattle.prefab" Length="8752486" HashCode="1111828359" />
+          <Asset Guid="cd1ef09d47382ec4396d4961ae359f3d" Name="Assets/GameMain/Entities/MonsterBoss_1.prefab" Length="33030" HashCode="875034231" />
+          <Asset Guid="dd75dbba84a835a449ac9f4332610bea" Name="Assets/GameMain/Entities/MonsterSoldier_1.prefab" Length="29457" HashCode="-617958973" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="fonts" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="3">
+          <Asset Guid="77cbb7c5404c10242ab59953e0746314" Name="Assets/GameMain/Fonts/MainFont.ttf" Length="7070444" HashCode="-915020890" />
+          <Asset Guid="983119db6b32cfe4980ca59cf312e3f6" Name="Assets/GameMain/Fonts/fzcyt.ttf" Length="2667848" HashCode="647902194" />
+          <Asset Guid="b6fdb6d8bb574964790ee1cf1268961f" Name="Assets/GameMain/Fonts/fSimpleRound.ttf" Length="2567220" HashCode="1831373420" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="localization/dictionaries" Variant="en-us" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="14869ac0d4433f04db1704e39d03412e" Name="Assets/GameMain/Localization/English/Dictionaries/Default.xml" Length="1968" HashCode="1220526152" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="localization/dictionaries" Variant="ko-kr" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="5dcd89912e222bf4c87f76db4044bc5e" Name="Assets/GameMain/Localization/Korean/Dictionaries/Default.xml" Length="2160" HashCode="1818788146" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="localization/dictionaries" Variant="zh-cn" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="9be2e1e45f4edd74c8764538ad306b78" Name="Assets/GameMain/Localization/ChineseSimplified/Dictionaries/Default.xml" Length="1899" HashCode="621818811" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="localization/dictionaries" Variant="zh-tw" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="1053b0070685be347ab58587156842dc" Name="Assets/GameMain/Localization/ChineseTraditional/Dictionaries/Default.xml" Length="1900" HashCode="-1978000964" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="music" LoadType="0" Packed="True" ResourceGroups="Music">
+        <Assets Count="6">
+          <Asset Guid="093f8873cfe371d41b854ed9fb6bff69" Name="Assets/GameMain/Music/music_about.mp3" Length="5188156" HashCode="-1448743119" />
+          <Asset Guid="638ff8ae4a0d15047839cd265d3bc296" Name="Assets/GameMain/Music/music_background.mp3" Length="2336432" HashCode="588648626" />
+          <Asset Guid="6ccd130fcc3111446a956651785bf5f0" Name="Assets/GameMain/Music/bgMainCity.mp3" Length="264768" HashCode="-984873880" />
+          <Asset Guid="a1490607eff4d3446a5f42231ea3a552" Name="Assets/GameMain/Music/bgHuangYe.mp3" Length="278208" HashCode="-1056576881" />
+          <Asset Guid="caa829ab2ffc71340a69253afdf58365" Name="Assets/GameMain/Music/music_menu.mp3" Length="1866065" HashCode="306016124" />
+          <Asset Guid="e8c806e8f2dd0164b9346f2aa2c19025" Name="Assets/GameMain/Music/bgLogin.mp3" Length="220224" HashCode="-2043722705" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="scenes" LoadType="0" Packed="False">
+        <Assets Count="3">
+          <Asset Guid="56545be9a9a913f4f816be3d5969371d" Name="Assets/GameMain/Scenes/Login.unity" Length="7837" HashCode="-106945781" />
+          <Asset Guid="daa32a8523ae85649af76b4b75010941" Name="Assets/GameMain/Scenes/SceneMainCity.unity" Length="68426" HashCode="1389950331">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charShow.renderTexture" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ec5f525701b798a45973d3fc667cee5c" Name="Assets/GameMain/Scenes/SceneOrge.unity" Length="10907" HashCode="1740531588" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="sounds" LoadType="0" Packed="True">
+        <Assets Count="6">
+          <Asset Guid="1be4472894949437694aead55c6da60f" Name="Assets/GameMain/Sounds/weapon_enemy.wav" Length="51004" HashCode="-1155291960" />
+          <Asset Guid="3dc7455402dfa462b89a4bbd513955e9" Name="Assets/GameMain/Sounds/explosion_asteroid.wav" Length="149216" HashCode="305962817" />
+          <Asset Guid="72e76810224064300b7d32e8322a5d12" Name="Assets/GameMain/Sounds/explosion_enemy.wav" Length="174116" HashCode="-984961901" />
+          <Asset Guid="94c2798d947f9ae4fa69a4a3ae3dfab7" Name="Assets/GameMain/Sounds/assassin_Hit.wav" Length="4381" HashCode="577126544" />
+          <Asset Guid="a019ae3af8e864616b85773c509f5285" Name="Assets/GameMain/Sounds/explosion_player.wav" Length="326536" HashCode="2022881377" />
+          <Asset Guid="bf75b984df8a84987bcf3a8bf6e2862d" Name="Assets/GameMain/Sounds/weapon_player.wav" Length="65792" HashCode="1405407806" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms" LoadType="0" Packed="True">
+        <Assets Count="18">
+          <Asset Guid="04d7dde7615d71b4db1a0c8d67a62e95" Name="Assets/GameMain/UI/UIForms/DialogForm.prefab" Length="56987" HashCode="-646401918">
+            <DependencyAssets Count="4">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/button-outline.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/dialog-background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/dialog-title-background.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="09966b19e546cc94aa84d0743cb2a83d" Name="Assets/GameMain/UI/UIForms/Del/MenuForm.prefab" Length="37133" HashCode="-1976018068">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/button-outline.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="3a41843fd5397ea44820458e90cf20b5" Name="Assets/GameMain/UI/UIForms/BuyWnd.prefab" Length="23492" HashCode="-471372959">
+            <DependencyAssets Count="9">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fSimpleRound.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgc_3.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgframe.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btncm1a.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btncm1b.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charbg5.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="3aa539b1e46111d4299a83c73ebe762c" Name="Assets/GameMain/UI/UIForms/Del/AboutForm.prefab" Length="21384" HashCode="752796115">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Logos/unity-logo.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="427a595255a465145986f247debdbfcb" Name="Assets/GameMain/UI/UIForms/InfoWnd.prefab" Length="160501" HashCode="1000899741">
+            <DependencyAssets Count="18">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fSimpleRound.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bg_1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgc_3.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgline.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgTai.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btncm1a.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charadorn1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charadorn2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charbg3.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charbg4.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charbg5.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charShow.renderTexture" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgBlue.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgGreen.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/pt.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="445d1226faca51a4baf1de485ac154f2" Name="Assets/GameMain/UI/UIForms/GuideWnd.prefab" Length="19743" HashCode="-369151084">
+            <DependencyAssets Count="7">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fSimpleRound.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgc_3.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgline.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/nextbtn1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/nextbtn2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/npcguide.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="54fdf621cae4ebf4ea113d5bddfe8d96" Name="Assets/GameMain/UI/UIForms/DynamicWnd.prefab" Length="10584" HashCode="99150671">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/miss.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="5c1384626c4c62e44b46918aa9dc42cf" Name="Assets/GameMain/UI/UIForms/PlayerCtrlWnd.prefab" Length="145072" HashCode="-936545088">
+            <DependencyAssets Count="29">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fSimpleRound.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/adorn1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/adorn2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/adorn3.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/adorn4.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bg_1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgDir.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgEnergy.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgLevel.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgMonsterKing.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgNor.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgPoint.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgSkill.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/cd.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/exp.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgBlue.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgEnergy.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgGray.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgRed.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgYellow.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/headAssassin.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/headBoss.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/light.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/lock.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/skill0.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/skill1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/skill2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/skill3.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="5c30027615442514890e2b6cc14d7eef" Name="Assets/GameMain/UI/UIForms/BattleEndWnd.prefab" Length="51844" HashCode="534549245">
+            <DependencyAssets Count="15">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fSimpleRound.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgline.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btncm1a.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btncm1b.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/c_btn1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/c_btn2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/costtime.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fb_jx.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fb-ds.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fbline.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/resthp.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/reward.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="7391835fd96f02647a7183f8c67dc326" Name="Assets/GameMain/UI/UIForms/LoadingWnd.prefab" Length="15741" HashCode="-396984423">
+            <DependencyAssets Count="5">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/loading.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/loadingbarbg.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/loadingbarfg.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/loadingpoint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="94ae3ffce0c80204f8c94020674ed4b2" Name="Assets/GameMain/UI/UIForms/CreateWnd.prefab" Length="42732" HashCode="520785033">
+            <DependencyAssets Count="13">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fSimpleRound.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/adornconer.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/adornyl.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/assassin.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgcreate.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgline.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgname.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgTai.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btncm1a.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btncm1b.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnsazi1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnsazi2.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="9a0a831cc824f214e890f0f961e706ea" Name="Assets/GameMain/UI/UIForms/ChatWnd.prefab" Length="49508" HashCode="-1022044450">
+            <DependencyAssets Count="8">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fSimpleRound.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgframe.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btntype1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btntype2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/c_btn1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charbg5.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ac75139813a830840969c5ae2f0a0fc2" Name="Assets/GameMain/UI/UIForms/FubenWnd.prefab" Length="110905" HashCode="506458966">
+            <DependencyAssets Count="13">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgc_3.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgline.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/box1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/box2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/cd.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fb_dt.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/task.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/tipsShow.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/titlbebgred.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/titlebgblue.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="bbfd75fe6fe00e1448fe988173ede7f9" Name="Assets/GameMain/UI/UIForms/SettingForm.prefab" Length="153081" HashCode="1142651042">
+            <DependencyAssets Count="15">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/box.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/button-outline.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/checked.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/circle.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/dialog-background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/dialog-title-background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/info.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/line.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/progressbar.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/progressbar-background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/progress-conner.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Icons/music.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Icons/sound.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Icons/world.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="c59c57ea7a84fd149950850c3cd622d4" Name="Assets/GameMain/UI/UIForms/TaskWnd.prefab" Length="32085" HashCode="-1761501251">
+            <DependencyAssets Count="6">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charadorn1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charadorn2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charbg4.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ca9b8efc7512b30408a31ccb86530a49" Name="Assets/GameMain/UI/UIForms/StrongWnd.prefab" Length="174579" HashCode="1974419368">
+            <DependencyAssets Count="26">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/adornyl.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/arrow.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/body.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnclose2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btncm1a.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btncm1b.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnstrong.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charadorn1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charadorn2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charbg1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charbg3.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charbg4.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charbg5.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/coin.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/crystal.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/foot.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/hand.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/leg.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/pt.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/star1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/star2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/strongbg.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/toukui.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/yaobu.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="cf1e8d5982499fa48941d3c6208cfcd5" Name="Assets/GameMain/UI/UIForms/MainCityWnd.prefab" Length="142775" HashCode="-1071804366">
+            <DependencyAssets Count="24">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fSimpleRound.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/add2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/arena.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bg_1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgDir.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgLevel.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/bgPoint.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/c_btn1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/charge.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/chat1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/chat2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/chatbg.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/dailytask.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/exp.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgBlue.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgGreen.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/headAssassin.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/mkcoin.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/strong.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/task.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/vipbg.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/vipicon.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/zhanli.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ec0d7bae5c3558a48919ef28a461b2d7" Name="Assets/GameMain/UI/UIForms/LoginWnd.prefab" Length="34819" HashCode="981001378">
+            <DependencyAssets Count="7">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/btnPop.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/c_bg1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/login1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/login2.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/logobg.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/logofg.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiitems" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="84d2297de0b59a04bafa07ac351feb4c" Name="Assets/GameMain/UI/UIItems/ItemEntityHp.prefab" Length="16514" HashCode="-1867750940">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fSimpleRound.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgGray.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ae48eb206e5f54d4b89a624faa7ff462" Name="Assets/GameMain/UI/UIItems/ItemTask.prefab" Length="28062" HashCode="-415076723">
+            <DependencyAssets Count="8">
+              <DependencyAsset Name="Assets/GameMain/Fonts/fzcyt.ttf" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/box1.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/coin.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/dailytask.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/fgYellow.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/itemexp.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/taked.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Sprites/taskitem.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uisounds" LoadType="0" Packed="True">
+        <Assets Count="10">
+          <Asset Guid="29080eb2cd5eb3545b6da0719ae6e28e" Name="Assets/GameMain/UI/UISounds/uiClickBtn.wav" Length="1462" HashCode="1469926935" />
+          <Asset Guid="6ace6f156aed51b418f7536fe7f3b302" Name="Assets/GameMain/UI/UISounds/fbwin.wav" Length="72616" HashCode="1587546165" />
+          <Asset Guid="6df3160e5e2d0af4a9cf63a6ca923a40" Name="Assets/GameMain/UI/UISounds/fblose.wav" Length="33227" HashCode="-587617897" />
+          <Asset Guid="8b933d3098e99b244bbfdbb322179983" Name="Assets/GameMain/UI/UISounds/uiLoginBtn.wav" Length="12538" HashCode="2070397571" />
+          <Asset Guid="9a8f160f9510b884da43e4c7d2201a25" Name="Assets/GameMain/UI/UISounds/uiCloseBtn.wav" Length="4388" HashCode="-2027376276" />
+          <Asset Guid="b40b83d44225c38439a5be5336263422" Name="Assets/GameMain/UI/UISounds/uiExtenBtn.wav" Length="4388" HashCode="1047767643" />
+          <Asset Guid="ba79d6e79ab35204b854a4ba2843e9ba" Name="Assets/GameMain/UI/UISounds/fbitem.wav" Length="23162" HashCode="636116426" />
+          <Asset Guid="c6460a1d2a989bd4ab8c83f60f4f450c" Name="Assets/GameMain/UI/UISounds/uiOpenPage.wav" Length="5015" HashCode="-114691359" />
+          <Asset Guid="c7d1e11dd37634b48a9dd4012b8e4306" Name="Assets/GameMain/UI/UISounds/click.wav" Length="41568" HashCode="-1547829698" />
+          <Asset Guid="e830964cdb85ff3429bca484c16bab44" Name="Assets/GameMain/UI/UISounds/select.wav" Length="41568" HashCode="-1920478215" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uisprites/common" LoadType="0" Packed="True">
+        <Assets Count="17">
+          <Asset Guid="0179316b5fc7c2946a67c5877c02fc30" Name="Assets/GameMain/UI/UISprites/Common/info.png" Length="1869" HashCode="1439065304" />
+          <Asset Guid="0a65a68c01a76ea4b8b574827a6467aa" Name="Assets/GameMain/UI/UISprites/Common/dialog-title-background.png" Length="1614" HashCode="-248782138" />
+          <Asset Guid="156d241f796508c4da4fc354a7fbf5a8" Name="Assets/GameMain/UI/UISprites/Common/progressbar-background.png" Length="784" HashCode="-1146856258" />
+          <Asset Guid="236433a27ce40a7429b87d14d8fa3035" Name="Assets/GameMain/UI/UISprites/Common/progress-conner.png" Length="576" HashCode="-1226923544" />
+          <Asset Guid="24ca310f92a6796408f1db7647ec4e55" Name="Assets/GameMain/UI/UISprites/Common/circle.png" Length="1365" HashCode="1330959776" />
+          <Asset Guid="3be3fac3611f4584695662c4889f722d" Name="Assets/GameMain/UI/UISprites/Common/circle-outline.png" Length="20881" HashCode="-260484534" />
+          <Asset Guid="3f54fcfdac53aec42ae18a6a1c6d8cb1" Name="Assets/GameMain/UI/UISprites/Common/checked.png" Length="15921" HashCode="-1098762055" />
+          <Asset Guid="56b8df63bbad60749a69e38bc687fadf" Name="Assets/GameMain/UI/UISprites/Common/circle-filled.png" Length="16998" HashCode="964408779" />
+          <Asset Guid="62af9e5c8f39cfa49af9e10ccf42f1da" Name="Assets/GameMain/UI/UISprites/Common/round-button-outline.png" Length="3345" HashCode="451796798" />
+          <Asset Guid="6cbc2c323b77f804fb958fa4eca33998" Name="Assets/GameMain/UI/UISprites/Common/line.png" Length="797" HashCode="1722275133" />
+          <Asset Guid="9f847ec5e66e03e4ead1d3c5f7b510e8" Name="Assets/GameMain/UI/UISprites/Common/button-filled.png" Length="1467" HashCode="1095020050" />
+          <Asset Guid="a8c07bbe04fdaf04b80e27f651a8edd6" Name="Assets/GameMain/UI/UISprites/Common/button-outline.png" Length="1683" HashCode="-837309841" />
+          <Asset Guid="ab45c3f613f388d43bbf43ec05eb92e2" Name="Assets/GameMain/UI/UISprites/Common/dialog-background.png" Length="7706" HashCode="1348455424" />
+          <Asset Guid="cadd0764941c8b646ae79b51d0ea8285" Name="Assets/GameMain/UI/UISprites/Common/background.png" Length="5175294" HashCode="1806783389" />
+          <Asset Guid="e82837c9099f69a48b48fc44eb8d119d" Name="Assets/GameMain/UI/UISprites/Common/progressbar.png" Length="24724" HashCode="706154886" />
+          <Asset Guid="e85864330b68dde498dcb6e8711815d3" Name="Assets/GameMain/UI/UISprites/Common/round-button-filled.png" Length="2690" HashCode="-105002164" />
+          <Asset Guid="f2f4df0b7211e4c42a5638273525d8ee" Name="Assets/GameMain/UI/UISprites/Common/box.png" Length="1058" HashCode="-2109500730" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uisprites/icons" LoadType="0" Packed="True">
+        <Assets Count="3">
+          <Asset Guid="db58965402f12ed47b4dad61a9e48c9d" Name="Assets/GameMain/UI/UISprites/Icons/world.png" Length="18113" HashCode="220145781" />
+          <Asset Guid="e5ca26c53b6ab8a46b52817008d7c7fa" Name="Assets/GameMain/UI/UISprites/Icons/sound.png" Length="16337" HashCode="-2031218235" />
+          <Asset Guid="f438a72a91e1c3c4a9ced40888ffec96" Name="Assets/GameMain/UI/UISprites/Icons/music.png" Length="16152" HashCode="-1208903891" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uisprites/logos" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="7f5aee8da226edf4991598327cb32ce0" Name="Assets/GameMain/UI/UISprites/Logos/unity-logo.png" Length="39531" HashCode="1403969223" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uisprites/sprites" LoadType="0" Packed="True">
+        <Assets Count="132">
+          <Asset Guid="01e14ef060984e74880135c3bc13c306" Name="Assets/GameMain/UI/UISprites/Sprites/skill0.png" Length="45171" HashCode="-402048266" />
+          <Asset Guid="04e6664054cb7ea4fb8ada807b68cefe" Name="Assets/GameMain/UI/UISprites/Sprites/chat2.png" Length="6828" HashCode="-982985663" />
+          <Asset Guid="04f647305d8fbd64288b5345ecc211bf" Name="Assets/GameMain/UI/UISprites/Sprites/btncm1a.png" Length="13684" HashCode="804331743" />
+          <Asset Guid="088f2c89397c5234f9f61c2c4845ded1" Name="Assets/GameMain/UI/UISprites/Sprites/charadorn2.png" Length="39337" HashCode="2143174739" />
+          <Asset Guid="08da14c7bc6a11f4ea5e77d4530b5084" Name="Assets/GameMain/UI/UISprites/Sprites/fgYellow.png" Length="1232" HashCode="-1675489972" />
+          <Asset Guid="0a62cecca2eea5e45bc3747bc2cd3efe" Name="Assets/GameMain/UI/UISprites/Sprites/light.png" Length="4416" HashCode="455973368" />
+          <Asset Guid="0ab8b61ac82bfad4187ec3b70dc9670e" Name="Assets/GameMain/UI/UISprites/Sprites/bgcreate.png" Length="19607" HashCode="1301636553" />
+          <Asset Guid="0f30949cbbbc3de4eb54e2112fbcd5b2" Name="Assets/GameMain/UI/UISprites/Sprites/logobg.png" Length="95100" HashCode="2060183994" />
+          <Asset Guid="110522d57c90b0844adedb26bebbc69c" Name="Assets/GameMain/UI/UISprites/Sprites/coin.png" Length="10417" HashCode="1096643335" />
+          <Asset Guid="113fa2ab54f0a6645869740d2bd54bd5" Name="Assets/GameMain/UI/UISprites/Sprites/nextbtn1.png" Length="5331" HashCode="-2011735965" />
+          <Asset Guid="139e72819b96e30458bbddc955852531" Name="Assets/GameMain/UI/UISprites/Sprites/general.png" Length="25319" HashCode="-1825880935" />
+          <Asset Guid="14cb98a62704eeb4cba6ab8c498e76a4" Name="Assets/GameMain/UI/UISprites/Sprites/charbg4.png" Length="3235" HashCode="-571198522" />
+          <Asset Guid="15676837aeb5cbc4fb8c0567a207a9cb" Name="Assets/GameMain/UI/UISprites/Sprites/add1.png" Length="20776" HashCode="-1670583694" />
+          <Asset Guid="17edffeb77f8b264c984bbddea3348c2" Name="Assets/GameMain/UI/UISprites/Sprites/btnPop.png" Length="7415" HashCode="361580173" />
+          <Asset Guid="187474ae44f6b724daca40d30ccb74e0" Name="Assets/GameMain/UI/UISprites/Sprites/cd.png" Length="1838" HashCode="1581289430" />
+          <Asset Guid="1ab6cba58bc5e824babedeadd5260485" Name="Assets/GameMain/UI/UISprites/Sprites/npcguide.png" Length="217196" HashCode="-860934738" />
+          <Asset Guid="1ba145fc873da7840a5e5fe429e57de7" Name="Assets/GameMain/UI/UISprites/Sprites/bgEnergy.png" Length="6454" HashCode="88844296" />
+          <Asset Guid="1ec8bddacbc0dca4a97d70959da1241c" Name="Assets/GameMain/UI/UISprites/Sprites/beibao.png" Length="25359" HashCode="1008181978" />
+          <Asset Guid="23deaf5035d7656419070031b11de4e2" Name="Assets/GameMain/UI/UISprites/Sprites/diamond.png" Length="8554" HashCode="2136881244" />
+          <Asset Guid="2687e1281ffbf98499b46884a7df4ff5" Name="Assets/GameMain/UI/UISprites/Sprites/btnclose2.png" Length="9285" HashCode="-855642764" />
+          <Asset Guid="2a5c7af9bc1cde74e931b92a681a8ad8" Name="Assets/GameMain/UI/UISprites/Sprites/arena.png" Length="25339" HashCode="1824076140" />
+          <Asset Guid="2c3b86345d1ac3f458f6786b1fe14bea" Name="Assets/GameMain/UI/UISprites/Sprites/reward.png" Length="8425" HashCode="876416514" />
+          <Asset Guid="2c4d583bd2de5874a9e3d34b32dca272" Name="Assets/GameMain/UI/UISprites/Sprites/fgPurple.png" Length="1133" HashCode="416200624" />
+          <Asset Guid="2ec31d99413a18d4e886a4e803ff2782" Name="Assets/GameMain/UI/UISprites/Sprites/c_btn1.png" Length="15367" HashCode="-773589784" />
+          <Asset Guid="352161e3e7262e448ac0adeed68e407c" Name="Assets/GameMain/UI/UISprites/Sprites/adornconer.png" Length="3346" HashCode="1738989129" />
+          <Asset Guid="36aa7e3b15e8bd2438a861fbaa953517" Name="Assets/GameMain/UI/UISprites/Sprites/headAssassin.png" Length="44792" HashCode="69064070" />
+          <Asset Guid="36d1fc5329187d0418b88c29ba8a945d" Name="Assets/GameMain/UI/UISprites/Sprites/foot.png" Length="10398" HashCode="1341973633" />
+          <Asset Guid="38e9114da0dd7f147a4001ae78495eac" Name="Assets/GameMain/UI/UISprites/Sprites/mkcoin.png" Length="25841" HashCode="629724310" />
+          <Asset Guid="3d3a391439728a448943db3fd4fc2c69" Name="Assets/GameMain/UI/UISprites/Sprites/skill3.png" Length="32604" HashCode="-1566742795" />
+          <Asset Guid="42ed08db76c666f4f8a9e328dbbf976f" Name="Assets/GameMain/UI/UISprites/Sprites/npc3.png" Length="167590" HashCode="1472923657" />
+          <Asset Guid="468d90b2dacad174386730dd4934e4d3" Name="Assets/GameMain/UI/UISprites/Sprites/loadingbarbg.png" Length="2136" HashCode="-1639299126" />
+          <Asset Guid="4bb1165f8a8d7d74cb9156e16d8ae5ef" Name="Assets/GameMain/UI/UISprites/Sprites/btnsazi1.png" Length="6268" HashCode="1933782482" />
+          <Asset Guid="4be09855a522bf24fadf5baeb5f9ae00" Name="Assets/GameMain/UI/UISprites/Sprites/arrow.png" Length="5332" HashCode="-1462359472" />
+          <Asset Guid="4ddafe881b346524d94e29856ddd07a1" Name="Assets/GameMain/UI/UISprites/Sprites/artisan.png" Length="26590" HashCode="-1433210860" />
+          <Asset Guid="4f7543e65378e23468c86c711a5b435b" Name="Assets/GameMain/UI/UISprites/Sprites/task.png" Length="14922" HashCode="-1775655370" />
+          <Asset Guid="513e92b3021b2954b96c65eb52d43d9b" Name="Assets/GameMain/UI/UISprites/Sprites/pt.png" Length="1185" HashCode="1150037207" />
+          <Asset Guid="5435b19507b57fc45bc6a7041751fff4" Name="Assets/GameMain/UI/UISprites/Sprites/itemexp.png" Length="15770" HashCode="251871725" />
+          <Asset Guid="54a3f0e08c79c644389ddfee782f411d" Name="Assets/GameMain/UI/UISprites/Sprites/adorn2.png" Length="3047" HashCode="-651818933" />
+          <Asset Guid="5740cec66be0b024abae64b17f6475d9" Name="Assets/GameMain/UI/UISprites/Sprites/npc2.png" Length="171153" HashCode="-704193803" />
+          <Asset Guid="57938e68c9392d042a78de682007b138" Name="Assets/GameMain/UI/UISprites/Sprites/fb_jx.png" Length="86743" HashCode="1764680950" />
+          <Asset Guid="5b0ad6beec62543429652f9c5986e430" Name="Assets/GameMain/UI/UISprites/Sprites/bgc_3.png" Length="1844" HashCode="-2059163893" />
+          <Asset Guid="5bdc3be3fc51492449cab3ce97fbbf03" Name="Assets/GameMain/UI/UISprites/Sprites/adorn3.png" Length="4536" HashCode="-2049587521" />
+          <Asset Guid="5e8bd615dfc8a0e4ebf2e99300bb7964" Name="Assets/GameMain/UI/UISprites/Sprites/fgGreen.png" Length="1300" HashCode="1102966663" />
+          <Asset Guid="60bdd8d1df3704c4eb8db2afbe0b3438" Name="Assets/GameMain/UI/UISprites/Sprites/hand.png" Length="10616" HashCode="1955548982" />
+          <Asset Guid="62c351e8d95fe254e80c3c4797e433a0" Name="Assets/GameMain/UI/UISprites/Sprites/btntype2.png" Length="1733" HashCode="1602782599" />
+          <Asset Guid="6359513a12eb6724f9815e0ec006afc4" Name="Assets/GameMain/UI/UISprites/Sprites/store.png" Length="49627" HashCode="-1308289942" />
+          <Asset Guid="64d5418dece2f504e824aa4c8abcb9dc" Name="Assets/GameMain/UI/UISprites/Sprites/chat1.png" Length="21593" HashCode="583085080" />
+          <Asset Guid="64fd4850ab1ee91438ac6b8b409cf341" Name="Assets/GameMain/UI/UISprites/Sprites/autotask.png" Length="44133" HashCode="1454757962" />
+          <Asset Guid="6524d3a794281254aa01ad4298f2659e" Name="Assets/GameMain/UI/UISprites/Sprites/loading.png" Length="1412967" HashCode="502099575" />
+          <Asset Guid="66dc1b51a77f6d349a71fce3d281c368" Name="Assets/GameMain/UI/UISprites/Sprites/fb_dt.png" Length="1151310" HashCode="-1036829655" />
+          <Asset Guid="676ce9aa270496a40ae54e4508bedf3a" Name="Assets/GameMain/UI/UISprites/Sprites/btntype1.png" Length="4546" HashCode="367126049" />
+          <Asset Guid="68c07b7c3675aa942a256238c0470080" Name="Assets/GameMain/UI/UISprites/Sprites/bgname.png" Length="3350" HashCode="-1441981091" />
+          <Asset Guid="69502efed3e319a479f66789411d5d7f" Name="Assets/GameMain/UI/UISprites/Sprites/charShow.renderTexture" Length="680" HashCode="-1544520405" />
+          <Asset Guid="6a2ead1e56b383f488106d195a7508bf" Name="Assets/GameMain/UI/UISprites/Sprites/fb-db.png" Length="49486" HashCode="-1707914399" />
+          <Asset Guid="6dccb71d9aa7be9498035d7554cce797" Name="Assets/GameMain/UI/UISprites/Sprites/wiseman.png" Length="27404" HashCode="800782812" />
+          <Asset Guid="7257001f6a34d644b9a3b9c3f8110f17" Name="Assets/GameMain/UI/UISprites/Sprites/bgframe.png" Length="2475" HashCode="1498848103" />
+          <Asset Guid="7316b96f23c7c40468c9c71c5190cacd" Name="Assets/GameMain/UI/UISprites/Sprites/bgTai.png" Length="323460" HashCode="301926132" />
+          <Asset Guid="7761952d9108d494fbdddb3615dd860a" Name="Assets/GameMain/UI/UISprites/Sprites/wings.png" Length="24874" HashCode="-464163626" />
+          <Asset Guid="78cf76faf2a619e4f8d3083334ee2b6b" Name="Assets/GameMain/UI/UISprites/Sprites/fb-dc.png" Length="49607" HashCode="-986893031" />
+          <Asset Guid="78ff464f71701b4428d71bb796254d49" Name="Assets/GameMain/UI/UISprites/Sprites/headBoss.png" Length="14994" HashCode="1585668402" />
+          <Asset Guid="7e7369882515d994db46188e6ef8de5e" Name="Assets/GameMain/UI/UISprites/Sprites/fgRed.png" Length="1245" HashCode="-582464003" />
+          <Asset Guid="7e8cf7fcc857da842931eacae893cf20" Name="Assets/GameMain/UI/UISprites/Sprites/fgGray.png" Length="15382" HashCode="-2109652016" />
+          <Asset Guid="7fbc5f8cc069a1b4683de9476c9711ab" Name="Assets/GameMain/UI/UISprites/Sprites/fb-ds.png" Length="55120" HashCode="1697673799" />
+          <Asset Guid="80356f7aba544fe47b896914ebc3972d" Name="Assets/GameMain/UI/UISprites/Sprites/charbg2.png" Length="2475" HashCode="547306932" />
+          <Asset Guid="813d59bc3dc9bdf4c9d7840066b5fc25" Name="Assets/GameMain/UI/UISprites/Sprites/star2.png" Length="3536" HashCode="1940137452" />
+          <Asset Guid="83042e820499b014a8caa890428d910b" Name="Assets/GameMain/UI/UISprites/Sprites/charadorn1.png" Length="13945" HashCode="-230743347" />
+          <Asset Guid="8610c2bca945af8418d56ff04534ef68" Name="Assets/GameMain/UI/UISprites/Sprites/c_btn2.png" Length="15605" HashCode="-593637982" />
+          <Asset Guid="86d6d85d1b9461842b797ef12f95ecdd" Name="Assets/GameMain/UI/UISprites/Sprites/titlebgblue.png" Length="23794" HashCode="-1858835123" />
+          <Asset Guid="87deaf545401054428bd12ccb41cb2e2" Name="Assets/GameMain/UI/UISprites/Sprites/npc1.png" Length="214964" HashCode="-1798203869" />
+          <Asset Guid="8aa97b3715d6b5c4a82d438bc235b41e" Name="Assets/GameMain/UI/UISprites/Sprites/fbline.png" Length="1851" HashCode="974170688" />
+          <Asset Guid="91571992dd4669444a7294c30ddc661b" Name="Assets/GameMain/UI/UISprites/Sprites/leg.png" Length="9924" HashCode="-1316472743" />
+          <Asset Guid="92b7a7059053e8f46b8c644d90151225" Name="Assets/GameMain/UI/UISprites/Sprites/fb-da.png" Length="52212" HashCode="1349331863" />
+          <Asset Guid="92e2e43667bae714ebd738dfdeb7728a" Name="Assets/GameMain/UI/UISprites/Sprites/box1.png" Length="41873" HashCode="-516383108" />
+          <Asset Guid="93fb41fdc80e45c4caa6f4a438547374" Name="Assets/GameMain/UI/UISprites/Sprites/trader.png" Length="26353" HashCode="-762261100" />
+          <Asset Guid="942442a5741351f4588b6a58b2ba64de" Name="Assets/GameMain/UI/UISprites/Sprites/vipicon.png" Length="11904" HashCode="-1949975957" />
+          <Asset Guid="94bc89f0b228b4840b316d8d47f8e8e9" Name="Assets/GameMain/UI/UISprites/Sprites/vipbg.png" Length="4879" HashCode="-508987955" />
+          <Asset Guid="952dec80439e9c64f9bcead5367b775c" Name="Assets/GameMain/UI/UISprites/Sprites/zhanli.png" Length="4368" HashCode="1799377244" />
+          <Asset Guid="972b4acc49defe64194f85d600f93f69" Name="Assets/GameMain/UI/UISprites/Sprites/btnclose1.png" Length="8144" HashCode="-825763896" />
+          <Asset Guid="9798afe90de90894d9aa189745a30d50" Name="Assets/GameMain/UI/UISprites/Sprites/resthp.png" Length="7575" HashCode="1494730564" />
+          <Asset Guid="99730df7df8c6b24b87aa746a9c5a6e8" Name="Assets/GameMain/UI/UISprites/Sprites/titlbebgred.png" Length="22399" HashCode="-1493807585" />
+          <Asset Guid="9af7d5b0763412e4d8bfddd05692ad1c" Name="Assets/GameMain/UI/UISprites/Sprites/btnsazi2.png" Length="8061" HashCode="1573107604" />
+          <Asset Guid="9c8c3ac6ef82dbc4a846724875dc0ff9" Name="Assets/GameMain/UI/UISprites/Sprites/exp.png" Length="3184" HashCode="-1992606919" />
+          <Asset Guid="9c99e69786f3b294ebd4d2c07bbe2a34" Name="Assets/GameMain/UI/UISprites/Sprites/assassin.png" Length="189194" HashCode="-1571680140" />
+          <Asset Guid="9db7392943e4a224ca5352510369087c" Name="Assets/GameMain/UI/UISprites/Sprites/bgNor.png" Length="28648" HashCode="1291598742" />
+          <Asset Guid="9ec1b98280b2ee74ca1653ccfb2eac50" Name="Assets/GameMain/UI/UISprites/Sprites/logofg.png" Length="56861" HashCode="768676003" />
+          <Asset Guid="a133407494ba0704a8d7727b7fd270e7" Name="Assets/GameMain/UI/UISprites/Sprites/btnclose.png" Length="2871" HashCode="-1095161894" />
+          <Asset Guid="a25a1aa37b0edf34b82f2bbd631a9b55" Name="Assets/GameMain/UI/UISprites/Sprites/c_bg1.png" Length="2296" HashCode="1111068149" />
+          <Asset Guid="a690b7a55d0e63549b6c91b4d3a49e65" Name="Assets/GameMain/UI/UISprites/Sprites/adornyl.png" Length="1476" HashCode="-1883652870" />
+          <Asset Guid="a6ef7ad454f44654899909f206d13e86" Name="Assets/GameMain/UI/UISprites/Sprites/bgLevel.png" Length="3324" HashCode="-1258502928" />
+          <Asset Guid="ab62c1c9df558fd4a8662da5359aad6b" Name="Assets/GameMain/UI/UISprites/Sprites/login1.png" Length="21528" HashCode="-1882491380" />
+          <Asset Guid="b10260826d75cf144aae031074701c1f" Name="Assets/GameMain/UI/UISprites/Sprites/yaobu.png" Length="10210" HashCode="-2057142007" />
+          <Asset Guid="b4f8c6f13e83eca438832ad3dd5eb810" Name="Assets/GameMain/UI/UISprites/Sprites/login2.png" Length="16637" HashCode="400182671" />
+          <Asset Guid="b76deb3a13b6efa45b27f6433ea3c27b" Name="Assets/GameMain/UI/UISprites/Sprites/bg_1.png" Length="1845" HashCode="-1242172682" />
+          <Asset Guid="b8c4ee5aa1b9552459e4b177524aab00" Name="Assets/GameMain/UI/UISprites/Sprites/taked.png" Length="6655" HashCode="2078476540" />
+          <Asset Guid="b933fa5a8115de142874693809a3a1a1" Name="Assets/GameMain/UI/UISprites/Sprites/body.png" Length="10092" HashCode="1561984231" />
+          <Asset Guid="bab607984bc8ccc4dbfe4c7c98df60d2" Name="Assets/GameMain/UI/UISprites/Sprites/adorn4.png" Length="5992" HashCode="1012563088" />
+          <Asset Guid="c4a1be8d8c56eff4bb1eb4245e88c35a" Name="Assets/GameMain/UI/UISprites/Sprites/skill2.png" Length="29401" HashCode="1101900518" />
+          <Asset Guid="c6719ca4811edfe42a5b564a73a4ffac" Name="Assets/GameMain/UI/UISprites/Sprites/bgSkill.png" Length="10171" HashCode="-1685755819" />
+          <Asset Guid="c76f13838c791b84ba13a4d1bcd808fd" Name="Assets/GameMain/UI/UISprites/Sprites/add2.png" Length="17819" HashCode="2075124818" />
+          <Asset Guid="c9b7b629bb0f2f74691a18c6d76684be" Name="Assets/GameMain/UI/UISprites/Sprites/strong.png" Length="23440" HashCode="-1698393304" />
+          <Asset Guid="caba38e3218c7484999d78333680094b" Name="Assets/GameMain/UI/UISprites/Sprites/lock.png" Length="5165" HashCode="-1281081898" />
+          <Asset Guid="cb54f22a32ba76049bebbbb509d7a7af" Name="Assets/GameMain/UI/UISprites/Sprites/chatbg.png" Length="1947" HashCode="1983354353" />
+          <Asset Guid="cb987a1ec25d9074e8b6963c77eced68" Name="Assets/GameMain/UI/UISprites/Sprites/loadingbarfg.png" Length="1141" HashCode="-1408512029" />
+          <Asset Guid="cbc544cb67f3f1d47822e969713ee0ab" Name="Assets/GameMain/UI/UISprites/Sprites/toukui.png" Length="10619" HashCode="1400006394" />
+          <Asset Guid="cde6bcc2a14905e429570fb50fedc486" Name="Assets/GameMain/UI/UISprites/Sprites/bgMonsterKing.png" Length="40498" HashCode="-156779939" />
+          <Asset Guid="d2af54972935d3845823d47dd008f93a" Name="Assets/GameMain/UI/UISprites/Sprites/bgPoint.png" Length="6111" HashCode="185606945" />
+          <Asset Guid="d34a800e8cdb80f43ae4a753d05f873c" Name="Assets/GameMain/UI/UISprites/Sprites/btncm1b.png" Length="13855" HashCode="-1033232727" />
+          <Asset Guid="d38fc8c36d1676b41861022b64388c88" Name="Assets/GameMain/UI/UISprites/Sprites/skill1.png" Length="33289" HashCode="-252565766" />
+          <Asset Guid="d3c089df649ff284486e040bb27d5521" Name="Assets/GameMain/UI/UISprites/Sprites/charbg3.png" Length="1912" HashCode="45112988" />
+          <Asset Guid="d58bf26f72916234cb69b2248f489c35" Name="Assets/GameMain/UI/UISprites/Sprites/miss.png" Length="25223" HashCode="1763826106" />
+          <Asset Guid="d69b4355d88e5744e8250f28b0113e6a" Name="Assets/GameMain/UI/UISprites/Sprites/star1.png" Length="3470" HashCode="-578010076" />
+          <Asset Guid="d7ff1ad55dbf9a4479d2e814d88eea38" Name="Assets/GameMain/UI/UISprites/Sprites/bgline.png" Length="3464" HashCode="-590324124" />
+          <Asset Guid="d98bae32e212877478c27ce566049758" Name="Assets/GameMain/UI/UISprites/Sprites/charge.png" Length="26779" HashCode="-1039327403" />
+          <Asset Guid="dddef34c82c548340bee0c8620d88479" Name="Assets/GameMain/UI/UISprites/Sprites/costtime.png" Length="7495" HashCode="1948194858" />
+          <Asset Guid="e0292418390cedb4bbb8b36a28125760" Name="Assets/GameMain/UI/UISprites/Sprites/adorn1.png" Length="4260" HashCode="-1781040087" />
+          <Asset Guid="e169132a7ccd87949ac59aaf11fe0826" Name="Assets/GameMain/UI/UISprites/Sprites/taskitem.png" Length="1825" HashCode="-1210938087" />
+          <Asset Guid="e28b53b65ab930a4083a9fb5fb95a00d" Name="Assets/GameMain/UI/UISprites/Sprites/loadingpoint.png" Length="10980" HashCode="539349797" />
+          <Asset Guid="e3cd7d975d1657d4aa43766e7630d8b4" Name="Assets/GameMain/UI/UISprites/Sprites/fgBlue.png" Length="1268" HashCode="-957025184" />
+          <Asset Guid="e46f6a9fd02763443a1cf521f0ce6297" Name="Assets/GameMain/UI/UISprites/Sprites/nextbtn2.png" Length="5370" HashCode="-1945150417" />
+          <Asset Guid="e505f8dec0b4efa4d9e87044f4116032" Name="Assets/GameMain/UI/UISprites/Sprites/charbg5.png" Length="1237" HashCode="-1883671532" />
+          <Asset Guid="e645ddae248f07940a0cf3a995193eca" Name="Assets/GameMain/UI/UISprites/Sprites/strongbg.png" Length="22110" HashCode="1825579103" />
+          <Asset Guid="e6cc56a401d8ae94cb987345748b055f" Name="Assets/GameMain/UI/UISprites/Sprites/crystal.png" Length="20273" HashCode="1072807087" />
+          <Asset Guid="e9b6a30c3f5e8324ea6e293f4edd07f0" Name="Assets/GameMain/UI/UISprites/Sprites/box2.png" Length="57303" HashCode="-577421380" />
+          <Asset Guid="e9f78805d1be7c54a83aa8675fefa48c" Name="Assets/GameMain/UI/UISprites/Sprites/btnstrong.png" Length="8554" HashCode="-293169607" />
+          <Asset Guid="ea7c8617b456a6f41a0a6af50b4fdae2" Name="Assets/GameMain/UI/UISprites/Sprites/bgDir.png" Length="28832" HashCode="-1569171894" />
+          <Asset Guid="eaa2bf0cbb86b9f43b7d0e5ed50ef1a2" Name="Assets/GameMain/UI/UISprites/Sprites/tipsShow.png" Length="7775" HashCode="-1680876456" />
+          <Asset Guid="eba14b55ac415e849977a5bbd420b08a" Name="Assets/GameMain/UI/UISprites/Sprites/charbg1.png" Length="2125" HashCode="1398776361" />
+          <Asset Guid="f0a169df41a482d4eaf2664f5c489b67" Name="Assets/GameMain/UI/UISprites/Sprites/npc0.png" Length="211197" HashCode="-1328097340" />
+          <Asset Guid="f296d16f8354fd544a716bd7e5992270" Name="Assets/GameMain/UI/UISprites/Sprites/rdbg.png" Length="11539" HashCode="-616949971" />
+          <Asset Guid="f6b73d885208ace4b80724bbf1d346df" Name="Assets/GameMain/UI/UISprites/Sprites/adornline.png" Length="1082" HashCode="1261450039" />
+          <Asset Guid="f8488a455972ff3458458a78f3fbc0d3" Name="Assets/GameMain/UI/UISprites/Sprites/dailytask.png" Length="25131" HashCode="-1674100485" />
+          <Asset Guid="ff2996ce19b321140967f834b8a98607" Name="Assets/GameMain/UI/UISprites/Sprites/fgEnergy.png" Length="6449" HashCode="-1761167946" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="xmlcfgs" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="9">
+          <Asset Guid="03f225bf590664944a4440f4de47e678" Name="Assets/GameMain/XmlCfgs/skill.xml" Length="4190" HashCode="1552127093" />
+          <Asset Guid="1b230b5a30abc4b48b3588ffd4b9a448" Name="Assets/GameMain/XmlCfgs/guide.xml" Length="2742" HashCode="36493607" />
+          <Asset Guid="3e121e06a4104dd49b74580e1879656e" Name="Assets/GameMain/XmlCfgs/rdname.xml" Length="12669" HashCode="1904744927" />
+          <Asset Guid="9a1f5bad0a299514b94b3ac684160fe6" Name="Assets/GameMain/XmlCfgs/skillaction.xml" Length="1239" HashCode="-1965319527" />
+          <Asset Guid="a936f20989c4eb44dad14c8498acf771" Name="Assets/GameMain/XmlCfgs/strong.xml" Length="12092" HashCode="-1117407352" />
+          <Asset Guid="b54f15b2dd78e6b4c8f5714de9bd2ba0" Name="Assets/GameMain/XmlCfgs/taskreward.xml" Length="864" HashCode="1564239588" />
+          <Asset Guid="c99baeb60d2bbd74f8b0b34913deccc0" Name="Assets/GameMain/XmlCfgs/monster.xml" Length="966" HashCode="-1722472172" />
+          <Asset Guid="de1dfb1dfc6b913438bcb1b63a4efe05" Name="Assets/GameMain/XmlCfgs/skillmove.xml" Length="788" HashCode="-580060509" />
+          <Asset Guid="f3ae364f22e726f4bb9d7f5291c74e0c" Name="Assets/GameMain/XmlCfgs/map.xml" Length="4887" HashCode="1361445839" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+    </AssetBundles>
+  </BuildReport>
+</UnityGameFramework>

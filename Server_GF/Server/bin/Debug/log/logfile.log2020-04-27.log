@@ -1,0 +1,156 @@
+﻿2020-04-27 22:58:48,706 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-27 22:58:48,719 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-27 22:58:48,721 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-27 22:58:48,722 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-27 22:58:48,723 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-27 22:58:48,723 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-27 22:58:48,725 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-27 22:58:48,745 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-27 22:58:48,746 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-27 22:58:48,747 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-27 22:58:48,748 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-27 22:58:48,748 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-27 22:58:48,748 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-27 22:58:48,749 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-27 22:58:48,749 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-27 22:58:48,750 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-27 22:58:48,759 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-27 22:58:52,815 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-27 22:58:52,815 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-27 22:58:55,872 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 22:58:55,919 [3] INFO  Debug - 发送消息长度：131 Debug 
+2020-04-27 22:59:23,525 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-27 22:59:23,527 [3] INFO  Debug - 心跳=1587999564 Debug 
+2020-04-27 22:59:23,528 [3] INFO  Debug - 发送消息长度：14 Debug 
+2020-04-27 22:59:54,511 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-27 22:59:54,517 [3] INFO  Debug - 心跳=1587999595 Debug 
+2020-04-27 22:59:54,517 [3] INFO  Debug - 发送消息长度：14 Debug 
+2020-04-27 23:00:25,502 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-27 23:00:25,517 [3] INFO  Debug - 心跳=1587999626 Debug 
+2020-04-27 23:00:25,517 [3] INFO  Debug - 发送消息长度：14 Debug 
+2020-04-27 23:00:56,530 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-27 23:00:56,535 [3] INFO  Debug - 心跳=1587999657 Debug 
+2020-04-27 23:00:56,535 [3] INFO  Debug - 发送消息长度：14 Debug 
+2020-04-27 23:00:57,885 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2020-04-27 23:00:57,887 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2020-04-27 23:00:57,888 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-27 23:01:05,881 [1] DEBUG Debug - SessionID:2 Client Connect Debug 
+2020-04-27 23:01:05,882 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-27 23:01:08,624 [1] DEBUG Debug - SessionID: 2   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:01:08,626 [3] INFO  Debug - 发送消息长度：131 Debug 
+2020-04-27 23:01:36,518 [1] DEBUG Debug - SessionID: 2   ===RcvPack CMD:ReqHeartbeat Debug 
+2020-04-27 23:01:36,525 [3] INFO  Debug - 心跳=1587999697 Debug 
+2020-04-27 23:01:36,525 [3] INFO  Debug - 发送消息长度：14 Debug 
+2020-04-27 23:01:50,617 [1] DEBUG Debug - SessionID:2 Client Offline，在线人数：1 Debug 
+2020-04-27 23:01:50,619 [1] DEBUG Debug - Offline Result: SessionID:2  True Debug 
+2020-04-27 23:01:50,619 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-27 23:01:59,601 [1] DEBUG Debug - SessionID:3 Client Connect Debug 
+2020-04-27 23:01:59,602 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-27 23:02:02,106 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:02:02,128 [3] INFO  Debug - 发送消息长度：131 Debug 
+2020-04-27 23:02:04,792 [1] DEBUG Debug - SessionID:3 Client Offline，在线人数：1 Debug 
+2020-04-27 23:02:04,794 [1] DEBUG Debug - Offline Result: SessionID:3  True Debug 
+2020-04-27 23:02:04,794 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-27 23:02:51,074 [1] DEBUG Debug - SessionID:4 Client Connect Debug 
+2020-04-27 23:02:51,074 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-27 23:02:53,557 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:02:53,565 [3] INFO  Debug - 发送消息长度：131 Debug 
+2020-04-27 23:02:56,440 [1] DEBUG Debug - SessionID:4 Client Offline，在线人数：1 Debug 
+2020-04-27 23:02:56,441 [1] DEBUG Debug - Offline Result: SessionID:4  True Debug 
+2020-04-27 23:02:56,442 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-27 23:03:04,741 [1] DEBUG Debug - SessionID:5 Client Connect Debug 
+2020-04-27 23:03:04,741 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-27 23:03:07,938 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:03:07,950 [3] INFO  Debug - 发送消息长度：131 Debug 
+2020-04-27 23:03:14,054 [1] DEBUG Debug - SessionID:5 Client Offline，在线人数：1 Debug 
+2020-04-27 23:03:14,055 [1] DEBUG Debug - Offline Result: SessionID:5  True Debug 
+2020-04-27 23:03:14,056 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-27 23:03:35,764 [1] DEBUG Debug - SessionID:6 Client Connect Debug 
+2020-04-27 23:03:35,765 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-27 23:03:40,029 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:03:40,038 [3] INFO  Debug - 发送消息长度：131 Debug 
+2020-04-27 23:03:48,861 [3] DEBUG Debug - All Online Player Calc Power Incress.... Debug 
+2020-04-27 23:04:00,067 [1] DEBUG Debug - SessionID:6 Client Offline，在线人数：1 Debug 
+2020-04-27 23:04:00,069 [1] DEBUG Debug - Offline Result: SessionID:6  True Debug 
+2020-04-27 23:04:00,069 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-27 23:41:06,782 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-27 23:41:06,795 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-27 23:41:06,796 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-27 23:41:06,797 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-27 23:41:06,797 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-27 23:41:06,798 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-27 23:41:06,799 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-27 23:41:06,804 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-27 23:41:06,805 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-27 23:41:06,806 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-27 23:41:06,806 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-27 23:41:06,807 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-27 23:41:06,807 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-27 23:41:06,808 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-27 23:41:06,808 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-27 23:41:06,809 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-27 23:41:06,818 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-27 23:41:10,817 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-27 23:41:10,818 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-27 23:41:13,424 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:41:17,739 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:41:18,815 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:41:19,585 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:41:20,293 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:41:21,970 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:41:22,772 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:41:34,258 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2020-04-27 23:41:34,262 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2020-04-27 23:41:34,262 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-27 23:41:40,290 [1] DEBUG Debug - SessionID:2 Client Connect Debug 
+2020-04-27 23:41:40,292 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-27 23:41:43,964 [1] DEBUG Debug - SessionID: 2   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:41:50,165 [1] DEBUG Debug - SessionID:2 Client Offline，在线人数：1 Debug 
+2020-04-27 23:41:50,167 [1] DEBUG Debug - Offline Result: SessionID:2  True Debug 
+2020-04-27 23:41:50,168 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-27 23:42:12,018 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-27 23:42:12,031 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-27 23:42:12,033 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-27 23:42:12,034 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-27 23:42:12,035 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-27 23:42:12,035 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-27 23:42:12,037 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-27 23:42:12,043 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-27 23:42:12,044 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-27 23:42:12,044 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-27 23:42:12,044 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-27 23:42:12,045 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-27 23:42:12,045 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-27 23:42:12,045 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-27 23:42:12,046 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-27 23:42:12,046 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-27 23:42:12,055 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-27 23:42:14,410 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-27 23:42:14,410 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-27 23:42:16,972 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:42:21,841 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2020-04-27 23:42:21,844 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2020-04-27 23:42:21,844 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2020-04-27 23:43:19,608 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2020-04-27 23:43:19,621 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2020-04-27 23:43:19,623 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2020-04-27 23:43:19,624 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2020-04-27 23:43:19,624 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2020-04-27 23:43:19,625 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2020-04-27 23:43:19,626 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2020-04-27 23:43:19,632 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2020-04-27 23:43:19,633 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2020-04-27 23:43:19,634 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2020-04-27 23:43:19,634 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2020-04-27 23:43:19,635 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2020-04-27 23:43:19,635 [1] DEBUG Debug - BuySys Init Done. Debug 
+2020-04-27 23:43:19,636 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2020-04-27 23:43:19,636 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2020-04-27 23:43:19,637 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2020-04-27 23:43:19,646 [1] DEBUG Debug - 服务器启动监听192.168.31.32:17666成功 Debug 
+2020-04-27 23:43:22,243 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2020-04-27 23:43:22,244 [1] DEBUG Debug - 一个客户端链接：192.168.31.32:17666,当前1个客户端在线！ Debug 
+2020-04-27 23:43:25,348 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2020-04-27 23:43:28,703 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2020-04-27 23:43:28,707 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2020-04-27 23:43:28,707 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 

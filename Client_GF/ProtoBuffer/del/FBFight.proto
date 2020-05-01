@@ -1,0 +1,35 @@
+syntax = "proto3"; 
+package GameMessage;
+
+message ReqFBFight
+{
+	 int32 fbid=1;
+}
+
+message RspFBFight
+{
+	 int32 fbid=1;
+     int32 power=2;
+}
+
+message ReqFBFightEnd
+{
+	 bool win=1;
+     int32 fbid=2;
+     int32 resthp=3;
+     int32 costtime=4;
+}
+
+message RspFBFightEnd
+{
+	 bool win=1;
+     int32 fbid=2;
+     int32 resthp=3;
+     int32 costtime=4;
+ 
+     int32 coin=5;
+     int32 lv=6;
+     int32 exp=7;
+     int32 crystal=8;
+     int32 fuben=9;
+}
