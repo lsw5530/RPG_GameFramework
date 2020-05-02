@@ -13,6 +13,7 @@ RPG_GameFramework是本人疫情期间做的练手项目，耗时2周多。Unity
 5.也可以提前下载apk在安卓手机测试运行。下载地址：http://129.28.170.32/04apps/ZhanShen_2020.apk
 
 - **项目亮点：**
+
 1.整合Xlua热更模块，Lua代码打入AB包，随同资源一起更新；Lua模块包含Unity中常用的数据结构和函数，比如Vector3，Corotain等，努力减少对C#的调用。
 
 2.一键生成Proto3协议，用于客户端和服务器间通信，协议解析部分参考了ET的部分代码。
