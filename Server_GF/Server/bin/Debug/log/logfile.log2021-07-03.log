@@ -1,0 +1,618 @@
+﻿2021-07-03 14:33:12,053 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2021-07-03 14:33:12,064 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2021-07-03 14:33:12,065 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2021-07-03 14:33:12,066 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2021-07-03 14:33:12,066 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2021-07-03 14:33:12,067 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2021-07-03 14:33:12,068 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2021-07-03 14:33:12,073 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2021-07-03 14:33:12,073 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2021-07-03 14:33:12,074 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2021-07-03 14:33:12,075 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2021-07-03 14:33:12,075 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2021-07-03 14:33:12,075 [1] DEBUG Debug - BuySys Init Done. Debug 
+2021-07-03 14:33:12,075 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2021-07-03 14:33:12,076 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2021-07-03 14:33:12,076 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2021-07-03 14:33:32,225 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2021-07-03 14:33:32,235 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2021-07-03 14:33:32,236 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2021-07-03 14:33:32,237 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2021-07-03 14:33:32,238 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2021-07-03 14:33:32,238 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2021-07-03 14:33:32,239 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2021-07-03 14:33:32,245 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2021-07-03 14:33:32,246 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2021-07-03 14:33:32,246 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2021-07-03 14:33:32,246 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2021-07-03 14:33:32,247 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2021-07-03 14:33:32,247 [1] DEBUG Debug - BuySys Init Done. Debug 
+2021-07-03 14:33:32,247 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2021-07-03 14:33:32,247 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2021-07-03 14:33:32,248 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2021-07-03 14:33:32,255 [1] DEBUG Debug - 服务器启动监听192.168.1.104:17666成功 Debug 
+2021-07-03 14:33:32,256 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2021-07-03 14:36:04,351 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2021-07-03 14:36:04,361 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2021-07-03 14:36:04,362 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2021-07-03 14:36:04,363 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2021-07-03 14:36:04,364 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2021-07-03 14:36:04,364 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2021-07-03 14:36:04,365 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2021-07-03 14:36:04,371 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2021-07-03 14:36:04,372 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2021-07-03 14:36:04,372 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2021-07-03 14:36:04,373 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2021-07-03 14:36:04,373 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2021-07-03 14:36:04,374 [1] DEBUG Debug - BuySys Init Done. Debug 
+2021-07-03 14:36:04,374 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2021-07-03 14:36:04,375 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2021-07-03 14:36:04,375 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2021-07-03 14:36:04,384 [1] DEBUG Debug - 服务器启动监听192.168.1.104:17666成功 Debug 
+2021-07-03 14:36:04,384 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2021-07-03 14:53:14,407 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2021-07-03 14:53:14,408 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 14:53:18,794 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2021-07-03 14:53:18,875 [1] INFO  Debug - send=RspLogin Debug 
+2021-07-03 14:53:19,589 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 14:53:19,591 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 14:53:21,896 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqRename Debug 
+2021-07-03 14:53:21,952 [1] INFO  Debug - send=RspRename Debug 
+2021-07-03 14:53:25,580 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 14:53:25,580 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 14:53:31,492 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqFBFight Debug 
+2021-07-03 14:53:31,601 [1] INFO  Debug - send=RspFBFight Debug 
+2021-07-03 14:53:31,665 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 14:53:31,665 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 14:53:37,597 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 14:53:37,597 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 14:53:43,603 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 14:53:43,604 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 14:53:49,579 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 14:53:49,581 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 14:53:55,590 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 14:53:55,591 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 14:54:01,529 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2021-07-03 14:54:01,600 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2021-07-03 14:54:01,601 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 14:59:39,697 [1] DEBUG Debug - SessionID:2 Client Connect Debug 
+2021-07-03 14:59:39,698 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 14:59:45,588 [1] DEBUG Debug - SessionID: 2   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 14:59:45,589 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 14:59:47,476 [1] DEBUG Debug - SessionID: 2   ===RcvPack CMD:ReqLogin Debug 
+2021-07-03 14:59:47,511 [1] INFO  Debug - send=RspLogin Debug 
+2021-07-03 14:59:51,607 [1] DEBUG Debug - SessionID: 2   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 14:59:51,608 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 14:59:57,588 [1] DEBUG Debug - SessionID: 2   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 14:59:57,588 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 14:59:59,683 [1] DEBUG Debug - SessionID:2 Client Offline，在线人数：1 Debug 
+2021-07-03 14:59:59,719 [1] DEBUG Debug - Offline Result: SessionID:2  True Debug 
+2021-07-03 14:59:59,720 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 15:39:53,403 [1] DEBUG Debug - SessionID:3 Client Connect Debug 
+2021-07-03 15:39:53,404 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 15:39:59,068 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:39:59,069 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:40:05,071 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:40:05,073 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:40:11,064 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:40:11,065 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:40:17,099 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:40:17,099 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:40:23,084 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:40:23,085 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:40:29,074 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:40:29,078 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:40:35,082 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:40:35,085 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:40:41,074 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:40:41,075 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:40:47,059 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:40:47,063 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:40:53,093 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:40:53,094 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:40:59,091 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:40:59,093 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:41:05,080 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:41:05,083 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 15:41:11,092 [1] DEBUG Debug - SessionID: 3   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 15:41:11,093 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:06:35,385 [1] DEBUG Debug - SessionID:3 Client Offline，在线人数：0 Debug 
+2021-07-03 16:06:35,386 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 16:10:46,060 [1] DEBUG Debug - SessionID:4 Client Connect Debug 
+2021-07-03 16:10:46,065 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 16:10:52,121 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:10:52,121 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:10:58,070 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:10:58,072 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:11:04,109 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:11:04,109 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:11:05,430 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqLogin Debug 
+2021-07-03 16:11:05,489 [1] INFO  Debug - send=RspLogin Debug 
+2021-07-03 16:11:07,532 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqRename Debug 
+2021-07-03 16:11:07,580 [1] INFO  Debug - send=RspRename Debug 
+2021-07-03 16:11:10,118 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:11:10,118 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:11:12,046 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqFBFight Debug 
+2021-07-03 16:11:12,088 [1] INFO  Debug - send=RspFBFight Debug 
+2021-07-03 16:11:16,080 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:11:16,082 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:11:22,092 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:11:22,095 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:11:28,080 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:11:28,082 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:11:34,114 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:11:34,115 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:11:40,113 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:11:40,113 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:11:46,103 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:11:46,104 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:11:52,097 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:11:52,099 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:11:58,104 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:11:58,107 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:12:04,102 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:12:04,103 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:12:04,586 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqFBFightEnd Debug 
+2021-07-03 16:12:04,589 [1] INFO  Debug - send=PshTaskPrgs Debug 
+2021-07-03 16:12:04,621 [1] INFO  Debug - send=RspFBFightEnd Debug 
+2021-07-03 16:12:09,359 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqFBFight Debug 
+2021-07-03 16:12:09,419 [1] INFO  Debug - send=RspFBFight Debug 
+2021-07-03 16:12:10,093 [1] DEBUG Debug - SessionID: 4   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 16:12:10,096 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 16:12:18,326 [1] DEBUG Debug - SessionID:4 Client Offline，在线人数：1 Debug 
+2021-07-03 16:12:18,352 [1] DEBUG Debug - Offline Result: SessionID:4  True Debug 
+2021-07-03 16:12:18,352 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:08:12,698 [1] DEBUG Debug - SessionID:5 Client Connect Debug 
+2021-07-03 17:08:12,699 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:08:18,618 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:08:18,620 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:08:24,577 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:08:24,578 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:08:30,588 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:08:30,589 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:08:36,607 [1] DEBUG Debug - SessionID: 5   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:08:36,608 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:08:37,673 [1] DEBUG Debug - SessionID:5 Client Offline，在线人数：0 Debug 
+2021-07-03 17:08:37,673 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:08:40,457 [1] DEBUG Debug - SessionID:6 Client Connect Debug 
+2021-07-03 17:08:40,458 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:08:45,583 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:08:45,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:08:51,602 [1] DEBUG Debug - SessionID: 6   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:08:51,603 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:08:56,923 [1] DEBUG Debug - SessionID:6 Client Offline，在线人数：0 Debug 
+2021-07-03 17:08:56,924 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:10:00,197 [1] DEBUG Debug - SessionID:7 Client Connect Debug 
+2021-07-03 17:10:00,197 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:10:05,572 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:05,572 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:10,458 [1] DEBUG Debug - SessionID:8 Client Connect Debug 
+2021-07-03 17:10:10,459 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前2个客户端在线！ Debug 
+2021-07-03 17:10:11,613 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:11,613 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:16,182 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:16,182 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:17,607 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:17,608 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:21,565 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:21,566 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:23,594 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:23,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:27,560 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:27,561 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:29,601 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:29,603 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:33,557 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:33,557 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:35,599 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:35,600 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:39,565 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:39,566 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:41,598 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:41,600 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:45,540 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:45,542 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:47,615 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:47,615 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:51,540 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:51,540 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:53,596 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:53,597 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:57,534 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:57,538 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:10:59,604 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:10:59,605 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:03,569 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:03,569 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:05,580 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:05,580 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:09,573 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:09,574 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:11,600 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:11,601 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:15,557 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:15,560 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:17,585 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:17,586 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:21,580 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:21,581 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:23,575 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:23,576 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:27,562 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:27,563 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:29,590 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:29,591 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:33,548 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:33,549 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:35,582 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:35,582 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:39,555 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:39,556 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:41,603 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:41,604 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:45,570 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:45,571 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:47,599 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:47,603 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:51,553 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:51,554 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:53,589 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:53,590 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:57,554 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:57,555 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:11:59,590 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:11:59,593 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:03,549 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:03,549 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:05,577 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:05,578 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:09,566 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:09,567 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:11,592 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:11,592 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:15,551 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:15,552 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:17,574 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:17,575 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:21,533 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:21,534 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:23,574 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:23,575 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:27,533 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:27,534 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:29,608 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:29,609 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:33,561 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:33,562 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:35,590 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:35,591 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:39,549 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:39,550 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:41,582 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:41,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:45,574 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:45,574 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:47,604 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:47,605 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:51,566 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:51,567 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:53,573 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:53,574 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:57,578 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:57,579 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:12:59,564 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:12:59,565 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:03,566 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:03,567 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:05,606 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:05,607 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:09,530 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:09,531 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:11,601 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:11,604 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:15,556 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:15,557 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:17,583 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:17,587 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:21,556 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:21,559 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:23,584 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:23,585 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:27,584 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:27,586 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:29,576 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:29,579 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:33,576 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:33,576 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:35,604 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:35,605 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:39,561 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:39,562 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:41,594 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:41,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:42,747 [1] DEBUG Debug - SessionID:9 Client Connect Debug 
+2021-07-03 17:13:42,749 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前3个客户端在线！ Debug 
+2021-07-03 17:13:45,534 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:45,536 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:47,561 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:47,562 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:48,140 [1] DEBUG Debug - SessionID: 9   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:48,141 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:48,341 [1] DEBUG Debug - SessionID: 9   ===RcvPack CMD:ReqLogin Debug 
+2021-07-03 17:13:48,418 [1] INFO  Debug - send=RspLogin Debug 
+2021-07-03 17:13:51,542 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:51,543 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:53,245 [1] DEBUG Debug - SessionID: 9   ===RcvPack CMD:ReqFBFight Debug 
+2021-07-03 17:13:53,292 [1] INFO  Debug - send=RspFBFight Debug 
+2021-07-03 17:13:53,589 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:53,592 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:54,138 [1] DEBUG Debug - SessionID: 9   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:54,139 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:57,577 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:57,578 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:59,621 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:13:59,622 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:13:59,979 [1] DEBUG Debug - SessionID:9 Client Offline，在线人数：1 Debug 
+2021-07-03 17:14:00,017 [1] DEBUG Debug - Offline Result: SessionID:9  True Debug 
+2021-07-03 17:14:00,018 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：2 Debug 
+2021-07-03 17:14:03,581 [1] DEBUG Debug - SessionID: 8   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:03,582 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:05,257 [1] DEBUG Debug - SessionID:8 Client Offline，在线人数：0 Debug 
+2021-07-03 17:14:05,257 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：1 Debug 
+2021-07-03 17:14:05,607 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:05,607 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:07,727 [1] DEBUG Debug - SessionID:10 Client Connect Debug 
+2021-07-03 17:14:07,728 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前2个客户端在线！ Debug 
+2021-07-03 17:14:11,626 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:11,630 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:14,081 [1] DEBUG Debug - SessionID: 10   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:14,082 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:17,616 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:17,616 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:19,567 [1] DEBUG Debug - SessionID: 10   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:19,568 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:23,615 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:23,616 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:25,553 [1] DEBUG Debug - SessionID: 10   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:25,556 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:27,227 [1] DEBUG Debug - SessionID:10 Client Offline，在线人数：0 Debug 
+2021-07-03 17:14:27,227 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：1 Debug 
+2021-07-03 17:14:29,593 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:29,596 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:35,613 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:35,614 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:41,586 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:41,586 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:47,606 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:47,606 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:53,574 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:53,575 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:14:59,593 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:14:59,594 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:05,615 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:05,616 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:11,583 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:11,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:17,614 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:17,615 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:23,602 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:23,604 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:29,566 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:29,567 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:34,143 [1] DEBUG Debug - SessionID:11 Client Connect Debug 
+2021-07-03 17:15:34,143 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前2个客户端在线！ Debug 
+2021-07-03 17:15:35,590 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:35,591 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:39,550 [1] DEBUG Debug - SessionID: 11   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:39,551 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:41,581 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:41,584 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:45,546 [1] DEBUG Debug - SessionID: 11   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:45,549 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:47,581 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:47,581 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:51,535 [1] DEBUG Debug - SessionID: 11   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:51,536 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:53,614 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:53,617 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:15:57,446 [1] DEBUG Debug - SessionID:11 Client Offline，在线人数：0 Debug 
+2021-07-03 17:15:57,447 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：1 Debug 
+2021-07-03 17:15:59,568 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:15:59,568 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:02,023 [1] DEBUG Debug - SessionID:12 Client Connect Debug 
+2021-07-03 17:16:02,024 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前2个客户端在线！ Debug 
+2021-07-03 17:16:05,580 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:05,581 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:07,573 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:07,574 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:11,566 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:11,567 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:13,552 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:13,552 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:17,612 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:17,613 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:19,553 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:19,554 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:23,599 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:23,599 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:25,539 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:25,540 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:29,594 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:29,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:31,549 [1] DEBUG Debug - SessionID: 12   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:31,553 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:31,769 [1] DEBUG Debug - SessionID:12 Client Offline，在线人数：0 Debug 
+2021-07-03 17:16:31,769 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：1 Debug 
+2021-07-03 17:16:35,595 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:35,596 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:41,607 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:41,608 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:47,586 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:47,587 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:52,013 [1] DEBUG Debug - SessionID:13 Client Connect Debug 
+2021-07-03 17:16:52,014 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前2个客户端在线！ Debug 
+2021-07-03 17:16:53,582 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:53,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:57,584 [1] DEBUG Debug - SessionID: 13   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:57,585 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:16:59,605 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:16:59,608 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:17:02,393 [1] DEBUG Debug - SessionID:13 Client Offline，在线人数：0 Debug 
+2021-07-03 17:17:02,394 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：1 Debug 
+2021-07-03 17:17:05,601 [1] DEBUG Debug - SessionID: 7   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:17:05,603 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:17:06,381 [1] DEBUG Debug - SessionID:7 Client Offline，在线人数：0 Debug 
+2021-07-03 17:17:06,382 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:17:09,059 [1] DEBUG Debug - SessionID:14 Client Connect Debug 
+2021-07-03 17:17:09,060 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:17:14,628 [1] DEBUG Debug - SessionID: 14   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:17:14,629 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:17:20,592 [1] DEBUG Debug - SessionID: 14   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:17:20,593 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:17:26,576 [1] DEBUG Debug - SessionID: 14   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:17:26,579 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:17:32,596 [1] DEBUG Debug - SessionID: 14   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:17:32,596 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:17:36,348 [1] DEBUG Debug - SessionID:14 Client Offline，在线人数：0 Debug 
+2021-07-03 17:17:36,349 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:17:38,698 [1] DEBUG Debug - SessionID:15 Client Connect Debug 
+2021-07-03 17:17:38,699 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:17:44,593 [1] DEBUG Debug - SessionID: 15   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:17:44,593 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:17:45,841 [1] DEBUG Debug - SessionID:15 Client Offline，在线人数：0 Debug 
+2021-07-03 17:17:45,842 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:27:43,373 [1] DEBUG Debug - SessionID:16 Client Connect Debug 
+2021-07-03 17:27:43,373 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:27:48,591 [1] DEBUG Debug - SessionID: 16   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:27:48,591 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:27:50,876 [1] DEBUG Debug - SessionID:16 Client Offline，在线人数：0 Debug 
+2021-07-03 17:27:50,877 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:37:17,473 [1] DEBUG Debug - SessionID:17 Client Connect Debug 
+2021-07-03 17:37:17,474 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:37:21,933 [1] DEBUG Debug - SessionID:17 Client Offline，在线人数：0 Debug 
+2021-07-03 17:37:21,934 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:38:05,216 [1] DEBUG Debug - SessionID:18 Client Connect Debug 
+2021-07-03 17:38:05,217 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:38:10,574 [1] DEBUG Debug - SessionID: 18   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:38:10,578 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:38:17,074 [1] DEBUG Debug - SessionID: 18   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:38:17,075 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:38:22,600 [1] DEBUG Debug - SessionID: 18   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:38:22,601 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:38:27,876 [1] DEBUG Debug - SessionID:18 Client Offline，在线人数：0 Debug 
+2021-07-03 17:38:27,877 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:38:49,616 [1] DEBUG Debug - SessionID:19 Client Connect Debug 
+2021-07-03 17:38:49,616 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:38:55,548 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:38:55,549 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:39:01,565 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:39:01,566 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:39:07,573 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:39:07,574 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:39:13,576 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:39:13,577 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:39:19,539 [1] DEBUG Debug - SessionID: 19   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:39:19,542 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:39:20,787 [1] DEBUG Debug - SessionID:19 Client Offline，在线人数：0 Debug 
+2021-07-03 17:39:20,788 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:39:36,028 [1] DEBUG Debug - SessionID:20 Client Connect Debug 
+2021-07-03 17:39:36,029 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:39:41,582 [1] DEBUG Debug - SessionID: 20   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:39:41,582 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:39:44,796 [1] DEBUG Debug - SessionID:20 Client Offline，在线人数：0 Debug 
+2021-07-03 17:39:44,797 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:40:54,514 [1] DEBUG Debug - SessionID:21 Client Connect Debug 
+2021-07-03 17:40:54,515 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:40:59,064 [1] DEBUG Debug - SessionID:21 Client Offline，在线人数：0 Debug 
+2021-07-03 17:40:59,065 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:41:41,559 [1] DEBUG Debug - SessionID:22 Client Connect Debug 
+2021-07-03 17:41:41,561 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:41:45,368 [1] DEBUG Debug - SessionID: 22   ===RcvPack CMD:ReqLogin Debug 
+2021-07-03 17:41:45,426 [1] INFO  Debug - send=RspLogin Debug 
+2021-07-03 17:41:47,225 [1] DEBUG Debug - SessionID: 22   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:41:47,228 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:41:52,859 [1] DEBUG Debug - SessionID:22 Client Offline，在线人数：1 Debug 
+2021-07-03 17:41:52,915 [1] DEBUG Debug - Offline Result: SessionID:22  True Debug 
+2021-07-03 17:41:52,917 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:42:05,979 [1] DEBUG Debug - SessionID:23 Client Connect Debug 
+2021-07-03 17:42:05,980 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:42:11,572 [1] DEBUG Debug - SessionID: 23   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:42:11,573 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:42:17,587 [1] DEBUG Debug - SessionID: 23   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:42:17,590 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:42:18,886 [1] DEBUG Debug - SessionID:23 Client Offline，在线人数：0 Debug 
+2021-07-03 17:42:18,888 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:42:21,430 [1] DEBUG Debug - SessionID:24 Client Connect Debug 
+2021-07-03 17:42:21,431 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:42:26,613 [1] DEBUG Debug - SessionID: 24   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:42:26,613 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:42:31,523 [1] DEBUG Debug - SessionID:24 Client Offline，在线人数：0 Debug 
+2021-07-03 17:42:31,524 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:42:53,023 [1] DEBUG Debug - SessionID:25 Client Connect Debug 
+2021-07-03 17:42:53,024 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:42:59,161 [1] DEBUG Debug - SessionID: 25   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:42:59,162 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:43:05,167 [1] DEBUG Debug - SessionID: 25   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:43:05,170 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:43:11,153 [1] DEBUG Debug - SessionID: 25   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:43:11,154 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:43:46,675 [1] DEBUG Debug - SessionID:26 Client Connect Debug 
+2021-07-03 17:43:46,675 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前2个客户端在线！ Debug 
+2021-07-03 17:43:50,300 [1] DEBUG Debug - SessionID:26 Client Offline，在线人数：0 Debug 
+2021-07-03 17:43:50,300 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：1 Debug 
+2021-07-03 17:43:55,431 [1] DEBUG Debug - SessionID:27 Client Connect Debug 
+2021-07-03 17:43:55,432 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前2个客户端在线！ Debug 
+2021-07-03 17:43:59,452 [1] DEBUG Debug - SessionID:27 Client Offline，在线人数：0 Debug 
+2021-07-03 17:43:59,453 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：1 Debug 
+2021-07-03 17:44:17,756 [1] DEBUG Debug - SessionID:25 Client Offline，在线人数：0 Debug 
+2021-07-03 17:44:17,757 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 17:46:43,835 [1] DEBUG Debug - SessionID:28 Client Connect Debug 
+2021-07-03 17:46:43,837 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 17:46:49,579 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:46:49,579 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:46:55,599 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:46:55,600 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:47:01,604 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:47:01,605 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:47:07,593 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:47:07,594 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:47:13,603 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:47:13,605 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:47:19,608 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:47:19,608 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:47:25,565 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:47:25,567 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:47:31,626 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:47:31,627 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:47:37,589 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:47:37,590 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:47:43,597 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:47:43,597 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:47:49,608 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:47:49,608 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:47:55,619 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:47:55,619 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:48:01,582 [1] DEBUG Debug - SessionID: 28   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 17:48:01,584 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 17:48:04,765 [1] DEBUG Debug - SessionID:28 Client Offline，在线人数：0 Debug 
+2021-07-03 17:48:04,767 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 18:39:15,898 [1] DEBUG Debug - SessionID:29 Client Connect Debug 
+2021-07-03 18:39:15,898 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 18:39:21,586 [1] DEBUG Debug - SessionID: 29   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 18:39:21,586 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 18:39:27,559 [1] DEBUG Debug - SessionID: 29   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 18:39:27,559 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 18:39:28,214 [1] DEBUG Debug - SessionID:29 Client Offline，在线人数：0 Debug 
+2021-07-03 18:39:28,215 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 18:39:32,916 [1] DEBUG Debug - SessionID:30 Client Connect Debug 
+2021-07-03 18:39:32,917 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 18:39:38,574 [1] DEBUG Debug - SessionID: 30   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 18:39:38,575 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 18:39:42,510 [1] DEBUG Debug - SessionID:30 Client Offline，在线人数：0 Debug 
+2021-07-03 18:39:42,511 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2021-07-03 18:47:35,559 [1] DEBUG Debug - SessionID:31 Client Connect Debug 
+2021-07-03 18:47:35,561 [1] DEBUG Debug - 一个客户端链接：192.168.1.104:17666,当前1个客户端在线！ Debug 
+2021-07-03 18:47:41,594 [1] DEBUG Debug - SessionID: 31   ===RcvPack CMD:ReqHeartbeat Debug 
+2021-07-03 18:47:41,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2021-07-03 18:47:42,473 [1] DEBUG Debug - SessionID:31 Client Offline，在线人数：0 Debug 
+2021-07-03 18:47:42,474 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 

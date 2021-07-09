@@ -33,6 +33,12 @@ public class FubenSys {
 
         SCPacketBase msg = new RspFBFight(); 
         PlayerData pd = cacheSvc.GetPlayerDataBySession(pack.session);
+        if (pd == null)
+        {
+            Debug.LogError("pd is null!");
+            return;
+        }
+
         int power = cfgSvc.GetMapCfg(data.Fbid).power;
 
         if (pd.Fuben < data.Fbid) {

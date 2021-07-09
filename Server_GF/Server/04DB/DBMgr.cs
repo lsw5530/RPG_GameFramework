@@ -25,7 +25,7 @@ public class DBMgr {
 
     public void Init() {
 #if true
-        conn = new MySqlConnection("server=localhost;User Id = root;pwd=root;Database=darkgod;Charset = utf8");
+        conn = new MySqlConnection("server=localhost;User Id = root;pwd=123456;Database=darkgod;Charset = utf8");
 #else
         conn = new MySqlConnection("server=localhost;User Id = root;pwd=;Database=darkgod;Charset = utf8");
 #endif

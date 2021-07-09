@@ -34,7 +34,7 @@ public class NetSvc {
 
     public void Init() {
 #if true
-        ServerSocket.Instance.StartAsServer("192.168.31.32", SrvCfg.srvPort);
+        ServerSocket.Instance.StartAsServer("192.168.1.104", SrvCfg.srvPort);
 #else
         ServerSocket.Instance.StartAsServer("172.30.0.7", SrvCfg.srvPort);
 #endif

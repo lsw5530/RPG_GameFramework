@@ -198,26 +198,26 @@ public class ServerSocket : Singleton<ServerSocket> {
 
     }
 
-    private void ReceiveAsync(ClientSocket clientSocket) {
-        Socket socket = clientSocket.Socket;
-        if (!socket.Connected) return;
-        ReceiveState readBuff = clientSocket.ReceiveState;
-        try {
-            int count = socket.Receive(readBuff.Stream.GetBuffer(), (int)readBuff.Stream.Position,
-                  (int)(readBuff.Stream.Length - readBuff.Stream.Position), SocketFlags.None);
-            readBuff.Stream.Position += count;
-            if (count <= 0) {
-                CloseClient(clientSocket);
-                return;
-            }
-            OnReceiveData(clientSocket);
-        }
-        catch (Exception exception) {
-            Debug.LogError("客户端连接问题：" + exception);
-            CloseClient(clientSocket);
-            //throw;
-        }
-    }
+    //private void ReceiveAsync(ClientSocket clientSocket) {
+    //    Socket socket = clientSocket.Socket;
+    //    if (!socket.Connected) return;
+    //    ReceiveState readBuff = clientSocket.ReceiveState;
+    //    try {
+    //        int count = socket.Receive(readBuff.Stream.GetBuffer(), (int)readBuff.Stream.Position,
+    //              (int)(readBuff.Stream.Length - readBuff.Stream.Position), SocketFlags.None);
+    //        readBuff.Stream.Position += count;
+    //        if (count <= 0) {
+    //            CloseClient(clientSocket);
+    //            return;
+    //        }
+    //        OnReceiveData(clientSocket);
+    //    }
+    //    catch (Exception exception) {
+    //        Debug.LogError("客户端连接问题：" + exception);
+    //        CloseClient(clientSocket);
+    //        //throw;
+    //    }
+    //}
 
     /// <summary>
     /// 发送数据
@@ -267,30 +267,30 @@ public class ServerSocket : Singleton<ServerSocket> {
             throw;
         }
     }
-    private void SendCallback(IAsyncResult ar) {
-        ClientSocket clientSocket = (ClientSocket)ar.AsyncState;
-        Socket socket = clientSocket.Socket;
-        if (!socket.Connected) {
-            return;
-        }
+    //private void SendCallback(IAsyncResult ar) {
+    //    ClientSocket clientSocket = (ClientSocket)ar.AsyncState;
+    //    Socket socket = clientSocket.Socket;
+    //    if (!socket.Connected) {
+    //        return;
+    //    }
 
-        int bytesSent;
-        try {
-            bytesSent = socket.EndSend(ar);
-        }
-        catch (Exception exception) {
-            Debug.LogError("发送失败：" + exception.ToString());
-            throw;
-        }
+    //    int bytesSent;
+    //    try {
+    //        bytesSent = socket.EndSend(ar);
+    //    }
+    //    catch (Exception exception) {
+    //        Debug.LogError("发送失败：" + exception.ToString());
+    //        throw;
+    //    }
 
-        clientSocket.SendState.Stream.Position += bytesSent;
-        if (clientSocket.SendState.Stream.Position < clientSocket.SendState.Stream.Length) {
-            SendAsync(clientSocket);
-            Debug.LogError("继续发送");
-            return;
-        }
-        clientSocket.SendState.Reset();
-    }
+    //    clientSocket.SendState.Stream.Position += bytesSent;
+    //    if (clientSocket.SendState.Stream.Position < clientSocket.SendState.Stream.Length) {
+    //        SendAsync(clientSocket);
+    //        Debug.LogError("继续发送");
+    //        return;
+    //    }
+    //    clientSocket.SendState.Reset();
+    //}
 
     public void CloseClient(ClientSocket client) {
         if (!m_ClientDic.ContainsKey(client.Socket)) return;

@@ -1,0 +1,18 @@
+﻿2021-07-09 22:46:57,849 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2021-07-09 22:46:57,866 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2021-07-09 22:46:57,868 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2021-07-09 22:46:57,869 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2021-07-09 22:46:57,870 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2021-07-09 22:46:57,870 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2021-07-09 22:46:57,872 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2021-07-09 22:46:57,894 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2021-07-09 22:46:57,895 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2021-07-09 22:46:57,895 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2021-07-09 22:46:57,896 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2021-07-09 22:46:57,896 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2021-07-09 22:46:57,896 [1] DEBUG Debug - BuySys Init Done. Debug 
+2021-07-09 22:46:57,897 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2021-07-09 22:46:57,897 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2021-07-09 22:46:57,897 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2021-07-09 22:46:57,907 [1] DEBUG Debug - 服务器启动监听192.168.1.104:17666成功 Debug 
+2021-07-09 22:46:57,907 [1] DEBUG Debug - NetSvc Init Done. Debug 
